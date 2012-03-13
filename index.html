@@ -1,11 +1,3 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>jQuery Parallax Plugin Demo</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-</head>-->
-
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -15,13 +7,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title></title>
-	<meta name="description" content="">
-	
+	<meta name="description" content="">	
 	<meta name="viewport" content="width=device-width">
 	<link href="_styles/style.css" rel="stylesheet" type="text/css" />
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
 </head>
-
 <body>
 	<nav>
 		<ul id="nav">
@@ -84,21 +74,17 @@
 	        <!--<p class="center">P.S - You've scrolled <span id="pixels">0</span> Pixels. Oh Yeah!</p>-->
 	    </div> <!--.story-->
 	</div> <!--#fifth-->
-
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	<script type="text/javascript" src="_js/jquery.parallax-1.1.js"></script>
 	<script type="text/javascript" src="_js/_libs/jquery.localscroll-1.2.7-min.js"></script>
 	<script type="text/javascript" src="_js/_libs/jquery.scrollTo-1.4.2-min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('#nav').localScroll(800);
-			
-			RepositionNav();
-			
+			$('#nav').localScroll(800);	
+			RepositionNav();		
 			$(window).resize(function(){
 				RepositionNav();
-			});	
-			
+			});			
 			//.parallax(xPosition, adjuster, inertia, outerHeight) options:
 			//xPosition - Horizontal position of the element
 			//adjuster - y position to start from
