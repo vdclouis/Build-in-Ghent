@@ -177,13 +177,13 @@ nav ul#nav {
 }
 
 #intro{
-	background:url(images/light_wool.png) repeat fixed;
+	background:url(_images/light_wool.png) repeat fixed;
 	color: black;
 	height: 768px;
 }
 
 #second{
-	background: url(images/bg1.png) no-repeat;
+	background: url(_images/bg1.png) no-repeat;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -193,7 +193,7 @@ nav ul#nav {
 }
 
 #second .bg{
-	background: url(images/test.png) 50% 0 no-repeat fixed;
+	background: url(_images/test.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -203,14 +203,14 @@ nav ul#nav {
 }
 
 #third{
-	background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
+	background: url(_images/thirdBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
 
 #fourth{
-	background: url(images/secondBG.jpg) repeat fixed;
+	background: url(_images/secondBG.jpg) repeat fixed;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -219,7 +219,7 @@ nav ul#nav {
 }
 
 #fourth .bg{
-	background: url(images/trainers.png) 50% 0 no-repeat fixed;
+	background: url(_images/trainers.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
