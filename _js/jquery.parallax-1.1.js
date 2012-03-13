@@ -16,7 +16,7 @@ function RepositionNav(){
 	var navHeight = $('#nav').height() / 2;
 	var windowCenter = (windowHeight / 2); 
 	var newtop = windowCenter - navHeight;
-	$('#nav').css({"top": newtop}); //set the new top position of the navigation list
+	//$('#nav').css({"top": newtop}); //set the new top position of the navigation list
 }
 
 
