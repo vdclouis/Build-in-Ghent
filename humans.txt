@@ -1,43 +1,37 @@
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
-
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+
+  Graphic design: An Van Houte
+  Site: 
+  Twitter: 
+  Location:   
+
+  Graphic design: David Spiessens
+  Site: 
+  Twitter: 
+  Location:  
+
+  Web developer: Louis Van de Calseyde
+  Site: http://www.integralstudios.be
+  Twitter: https://twitter.com/peecken
+  Location: Ghent, Belgium
+
+  Web developer: Pierre Van der Eecken
+  Site: http://www.integralstudios.be
+  Twitter: https://twitter.com/peecken
+  Location: Ghent, Belgium
+
 
 /* THANKS */
   Names (& URL):
 
+
+
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: 
 
 
-
-                               -o/-
-                               +oo//-
-                              :ooo+//:
-                             -ooooo///-
-                             /oooooo//:
-                            :ooooooo+//-
-                           -+oooooooo///-
-           -://////////////+oooooooooo++////////////::
-            :+ooooooooooooooooooooooooooooooooooooo+:::-
-              -/+ooooooooooooooooooooooooooooooo+/::////:-
-                -:+oooooooooooooooooooooooooooo/::///////:-
-                  --/+ooooooooooooooooooooo+::://////:-
-                     -:+ooooooooooooooooo+:://////:--
-                       /ooooooooooooooooo+//////:-
-                      -ooooooooooooooooooo////-
-                      /ooooooooo+oooooooooo//:
-                     :ooooooo+/::/+oooooooo+//-
-                    -oooooo/::///////+oooooo///-
-                    /ooo+::://////:---:/+oooo//:
-                   -o+/::///////:-      -:/+o+//-
-                   :-:///////:-            -:/://
-                     -////:-                 --//:
-                       --                       -:
