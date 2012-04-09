@@ -25,14 +25,14 @@ function parseTexts(xml){
 	
     var htmlContent = "";
 		
-		var textlang = localStorage.getItem('stonesfromghent-language');
-	    $(xml).find(textlang).each(function () {
-
-        title = $(this).find('title').text();
-        text = $(this).find('text').text();
-
-        // Add matched items to an array         
-        htmlContent += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
+	var textlang = localStorage.getItem('stonesfromghent-language');
+    $(xml).find(textlang).each(function () {
+		$(this).find('main').each(function () {
+	        title = $(this).find('title').text();
+	        text = $(this).find('text').text();
+		});
+    // Add matched items to an array         
+    htmlContent += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
        
     }); // end each loop  
 
