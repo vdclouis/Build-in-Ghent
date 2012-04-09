@@ -1,38 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <texts>
+
 	<nl>
-		<text>
-			<main>
+		<main>
+			<title>De Stenen van Gent</title>
+			<text>
 				Het nieuwe gerechtsgebouw Gent gelegen de wijk Rabot aan de Opgeeïstenlaan. Dit complex, ook wel Groot Gerechtsgebouw Gent (GGG) genoemd, werd geopend in 2007 om een einde te maken aan het plaatsgebrek en versnippering van de gerechtelijke diensten. De buitenkant van het gebouw bestaat voor een groot deel uit glas en is daarom bekend als het glazen huis in de volksmond.
 				
-				Het hoofdgebouw bestaat uit drie grote, glazen torens van vijf verdiepingen hoog. Er bevinden zich twee vijvers in de binnenplaats van dit gebouw die zich op zijn beurt op niveau -1 bevind. 
-			</main>
-			<sub>
-			</sub>
-		</text>
+				Het hoofdgebouw bestaat uit drie grote, glazen torens van vijf verdiepingen hoog. Er bevinden zich twee vijvers in de binnenplaats van dit gebouw die zich op zijn beurt op niveau -1 bevind.
+			</text>
+		</main>
+		<sub>
+			<title></title>
+			<text></text>
+		</sub>
 	</nl>
 	
 	<fr>
-		<text>
-			<main>
+		<main>
+			<title>Les Pierres de Gand</title>
+			<text>
 				Le nouveau palais de justice de Gand est situé dans le quartier du Rabot dans l'avenue Opgeeïsten. Ce complexe, autrement nommée Grand palais de justice de Gand, a été inauguré en 2007 pour mètre fin au manque d'espace et fragmentation des services juridique. L'extérieure du bâtiment est couvert de verre et a donc été rebaptiser par les riverains: la maison de verre.
 				
 				Le bâtiment principale se compose de trois toures en verre de chaque cinq étage de haut. Dans la cour ce trouve deux étangs qui ce situe au niveau -1.
-			</main>
-			<sub>
-			</sub>
-		</text>
+			</text>
+		</main>
+		<sub>
+			<title></title>
+			<text></text>
+		</sub>
 	</fr>
 	
 	<en>
-		<text>
-			<main>
+		<main>
+			<title>Build in Ghent</title>
+			<text>
 				The new courthouse of Ghent is situated in the Rabot district in the Opgeeïsten Avenue.  This complex, also called Great Courthouse Ghent, was opened for the first time in 2007 to end the lack of space and fragmentation of the legal services. Most of the outside of the building is covered with glass and is therefore popularly called the glass house.
 				
 				The main building consists of three towers each of them five stories high. The re are two ponds in the courtyard witch is located at the minus one level.
-			</main>
-			<sub>
-			</sub>
-		</text>
+			</text>
+		</main>
+		<sub>
+			<title></title>
+			<text></text>
+		</sub>
 	</en>
+	
 </texts>
