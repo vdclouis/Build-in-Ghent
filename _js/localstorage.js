@@ -1,4 +1,9 @@
 /* GLOBAL VARIABLES */
+
+if(localStorage.getItem('stonesfromghent-language') != null) {
+	window.location.href = "index.html";
+}
+
 var selectedLanguage = "nl";
 
 function setLanguageFromLink(languageLink){
@@ -20,9 +25,13 @@ function setLanguage(language){
 	/* LOAD SPECIFIED CONTENT IN LANGUAGE */
 	$("#language-indicator").html('<h1>' + language + '</h1>');
 	
-	
-	/* SET THE NEW LANGUAGE TO THE GLOBAL VARIABLE */
-	selectedLanguage = language;
+	if (language == "nl") {
+		$("#nl a").css({'color':'lightblue'});
+	}else if (language == "en") {
+		$("#en a").css({'color':'lightblue'});
+	}else{
+		$("#fr a").css({'color':'lightblue'});
+	}
 	
 }
 function getLanguageFromStorage(){
