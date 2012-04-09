@@ -194,53 +194,59 @@ ul#nav li a:hover {
 }
 
 #gebouw{
-	/*gradient mofo*/
-	background: url(../../_images/bg02c.png);
+	background: url(../../_images/bg02c.png); /*gradient*/
 	background-repeat: repeat-x;
-	background-position-x: 0; 
-	background-position-y: 0;
+/*	background-position-x: 0; 
+	background-position-y: 0;*/
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
-	border: 1px solid red;
 	color: black;
 }
 
 #gebouw .story{
-	border: 1px solid green;
 	width: 100%;
 }
 
-#gebouw .story .bg{
-	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed;
+#gebouw .story section#gerechtsgebouw .pagebouw{
+	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
 	width: 100%;
 	z-index: 200;
-	border: 1px solid blue;
 }
 
-#gebouw .story .float-right{
+#gebouw .story section#gerechtsgebouw .float-right{
 	background-color: yellow;
 }
 
-#gebouw .story .float-right	h2{
+#gebouw .story section#gerechtsgebouw .float-right	h2{
 	text-transform: uppercase;
 	border-top: 1px solid #333;
 	text-align: right;
 }
 
 #fotos{
-	background: url(../../_images/bg03.png) 50% 0 repeat fixed;
+	background: url(../../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
 	color: white;
-	height: 650px;
+	height: 1300px;
 	padding: 100px 0 0 0;	
 }
 
-#fourth{
+#fotos .story .pafotos{
+	background: url(../../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 80%;
+	z-index: 600;
+}
+
+#praktisch{
 	background: url(../../_images/bg04.png) repeat fixed;
 	color: white;
 	height: 1300px;
@@ -248,11 +254,10 @@ ul#nav li a:hover {
 	overflow: hidden;
 	padding: 0;
 	color: black;
-	
 }
 
-#fourth .bg{
-	background: url(../_images/trainers.png) 50% 0 no-repeat fixed;
+#praktisch .papraktisch{
+	background: url(../../_images/pa04.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -261,14 +266,24 @@ ul#nav li a:hover {
 	z-index: 200;
 }
 
-#fifth{
+#video{
 	background: #ccc;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
 }
 
-#sixth{
+/*#video .pavideo{
+	background: url(../_images/trainers.png) 50% 0 no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 200;
+}*/
+
+#nieuws{
 	background: url(../../_images/bg06.png);
 	color: white;
 	height: 1300px;
@@ -277,7 +292,18 @@ ul#nav li a:hover {
 	padding: 0;
 }
 
-#sixth .bg{
+#nieuws .panieuws{
+	background: url(../../_images/pa06.png) 50% 0 fixed;
+	background-repeat: no-repeat;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 200;
+}
+
+#nieuws .bg{
 /*	background: url(../_images/test.png) 50% 0 fixed;*/
 	height: 1300px;
 	margin: 0 auto;
