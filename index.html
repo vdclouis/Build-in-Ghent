@@ -18,9 +18,9 @@
 				<li><a href="#home" title="Next Section">home</a></li>
 			    <li><a href="#gebouw" title="Next Section">gebouw</a></li>
 			    <li><a href="#fotos" title="Next Section">foto's</a></li>
-<!--			   	<li><a href="#fourth" title="Next Section">praktisch</a></li>
+			   	<li><a href="#fourth" title="Next Section">praktisch</a></li>
 			    <li><a href="#fifth" title="Next Section">video</a></li>
-			    <li><a href="#sixth" title="Next Section">nieuws</a></li>-->
+			    <li><a href="#sixth" title="Next Section">nieuws</a></li>
 			</ul>
 		</nav>
 		<div id="home">
@@ -51,7 +51,7 @@
 		        </div>
 		    </div> <!--.story-->
 		</div> <!--#third-->
-<!--		<div id="fourth">
+		<div id="fourth">
 			<div class="story">
 				<div class="bg"></div>
 		    	<div class="float-right">
@@ -59,8 +59,8 @@
 		            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
 		            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
 		        </div>
-		    </div> <!--.story--*>
-		</div> <!--#fourth--*>
+		    </div> <!--.story-->
+		</div> <!--#fourth-->
 		<div id="fifth">
 			<div class="story">
 		        <p>This demo is based on the <a href="http://www.nikebetterworld.com" title="Nike Better World">Nikebetterworld.com</a> website.</p>
@@ -74,9 +74,9 @@
 		            <li><a href="http://www.sxc.hu/photo/1015485" title="Basketball Image">Basketball Image</a></li>
 		            <li><a href="http://www.sxc.hu/photo/563767" title="Bottles Image">Bottles Image</a></li>
 		        </ul>
-		        <!--<p class="center">P.S - You've scrolled <span id="pixels">0</span> Pixels. Oh Yeah!</p>--*>
-		    </div> <!--.story--*>
-		</div> <!--#fifth--*>
+		        <!--<p class="center">P.S - You've scrolled <span id="pixels">0</span> Pixels. Oh Yeah!</p>-->
+		    </div> <!--.story-->
+		</div> <!--#fifth-->
 		<div id="sixth">
 			<div class="story">
 				<div class="bg"></div>
@@ -85,13 +85,20 @@
 		            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
 		            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
 		        </div>
+<<<<<<< HEAD
 		    </div> <!--.story--*>
 		</div> <!--#sixth--*>-->
 		<script type="text/javascript" src="_js/_libs/jquery-1.7.2.min.js"></script>
 		<script src="_js/script.js" type="text/javascript"></script>
 		<script type="text/javascript" src="_js/jquery.parallax-1.1.js"></script>
+=======
+		    </div> <!--.story-->
+		</div> <!--#sixth-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+>>>>>>> noconflict plz
 		<script type="text/javascript" src="_js/_libs/jquery.localscroll-1.2.7-min.js"></script>
 		<script type="text/javascript" src="_js/_libs/jquery.scrollTo-1.4.2-min.js"></script>
+		<script type="text/javascript" src="_js/jquery.parallax-1.1.js"></script>
 		<script src="_js/jquery.nav.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -108,13 +115,12 @@
 				//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
 				//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 				$('#home').parallax("50%", 0, 0.1, true);
-				$('#gebouw').parallax("50%", 0, 0.1, true);
+				$('#gebouw').parallax("50%", 1800, 0.2, true);
 				$('.bg').parallax("1px", 2500, 0.4, true);
 				$('#fotos').parallax("50%", 2750, 0.3, true);
-//				$('#fourth').parallax("50%", 2750, 0.3, true);
-//				$('#fifth').parallax("50%", 2750, 0.3, true);
-//				$('#sixth').parallax("50%", 2750, 0.3, true);
-
+				$('#fourth').parallax("50%", 2750, 0.3, true);
+				$('#fifth').parallax("50%", 2750, 0.3, true);
+				$('#sixth').parallax("50%", 2750, 0.3, true);
 			})
 		</script>
 	</body>

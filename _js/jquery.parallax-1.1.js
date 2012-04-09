@@ -11,7 +11,6 @@ http://www.gnu.org/licenses/gpl.html
 */
 
 //function that places the navigation in the center of the window
-
 //function RepositionNav(){
 //	var windowHeight = $(window).height(); //get the height of the window
 //	var navHeight = $('#nav').height() / 2;

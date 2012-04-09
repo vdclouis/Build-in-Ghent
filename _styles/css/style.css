@@ -80,6 +80,7 @@ body{
 	margin: 0;
 	min-width: 980px;
 	padding: 0;
+	background-color: #ececed;
 }
 
 p{
@@ -138,7 +139,6 @@ h2{
 	float: right;
 }*/
 
-
 nav {
 	left: 0;
 	list-style: none;
@@ -183,10 +183,6 @@ ul#nav li a:hover {
 	color: orange;
 }
 
-.current {
-	
-}
-
 #header, #intro, #second{
 	width: 100%;
 }
@@ -199,9 +195,10 @@ ul#nav li a:hover {
 
 #gebouw{
 	/*gradient mofo*/
-/*	background: url() no-repeat;*/
-	background-position-x: 0 !important; 
-	background-position-y: 0 !important;
+	background: url(../../_images/bg02c.png);
+	background-repeat: repeat-x;
+	background-position-x: 0; 
+	background-position-y: 0;
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -250,6 +247,8 @@ ul#nav li a:hover {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
+	color: black;
+	
 }
 
 #fourth .bg{
