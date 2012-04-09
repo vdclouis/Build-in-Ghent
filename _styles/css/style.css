@@ -176,26 +176,30 @@ ul#nav li a:hover {
 }
 
 #nav .current a {
-	background: #fff;
 	color: red;
-	background-color: red;
 }
+
+#nav .current a:hover {
+	color: orange;
+}
+
 .current {
-	background-color: red;
+	
 }
 
 #header, #intro, #second{
 	width: 100%;
 }
 
-#intro{
+#home{
 	background:url(../../_images/bg01.png) repeat fixed;
 	color: black;
 	height: 768px;
 }
 
-#second{
-	background: url(../../_images/bg02a.png) no-repeat;
+#gebouw{
+	/*gradient mofo*/
+/*	background: url() no-repeat;*/
 	background-position-x: 0 !important; 
 	background-position-y: 0 !important;
 	height: 1300px;
@@ -206,12 +210,12 @@ ul#nav li a:hover {
 	color: black;
 }
 
-#second .story{
+#gebouw .story{
 	border: 1px solid green;
 	width: 100%;
 }
 
-#second .story .bg{
+#gebouw .story .bg{
 	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
@@ -222,25 +226,25 @@ ul#nav li a:hover {
 	border: 1px solid blue;
 }
 
-#second .story .float-right{
+#gebouw .story .float-right{
 	background-color: yellow;
 }
 
-#second .story .float-right	h2{
+#gebouw .story .float-right	h2{
 	text-transform: uppercase;
 	border-top: 1px solid #333;
 	text-align: right;
 }
 
-#third{
-	background: url(../_images/thirdBG.jpg) 50% 0 no-repeat fixed;
+#fotos{
+	background: url(../../_images/bg03.png) 50% 0 repeat fixed;
 	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
 
 #fourth{
-	background: url(../_images/secondBG.jpg) repeat fixed;
+	background: url(../../_images/bg04.png) repeat fixed;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -266,7 +270,7 @@ ul#nav li a:hover {
 }
 
 #sixth{
-	background: url(../_images/bg1.png) no-repeat;
+	background: url(../../_images/bg06.png);
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -275,7 +279,7 @@ ul#nav li a:hover {
 }
 
 #sixth .bg{
-	background: url(../_images/test.png) 50% 0 no-repeat fixed;
+/*	background: url(../_images/test.png) 50% 0 fixed;*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
