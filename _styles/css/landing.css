@@ -29,10 +29,13 @@ nav {
 	background: url('../../_images/diagonal-noise.png');
 	text-transform: uppercase;
 	font: 1.3em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: orange;
 	margin-bottom: 10px;
 }
-.button:hover {
+.button a {
+	text-decoration: none;
+	color: orange;
+}
+.button a:hover {
 	color: lightblue;
 	cursor: pointer;
 }
