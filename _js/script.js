@@ -44,5 +44,5 @@ $(function () {
 	});
 	
 	/* LOAD PRODUCTS */
-	loadProducts("./data/xml/data.xml");
+	loadProducts("_resources/_xml/texts.xml");
 })
