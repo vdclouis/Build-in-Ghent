@@ -138,39 +138,54 @@ h2{
 	float: right;
 }*/
 
-nav ul#nav {
-	background: #EEE;
+
+nav {
+/*	background: #EEE;*/
 	left: 0;
 	list-style: none;
 	overflow: hidden;
 	position: fixed;
 	right: 0;
-	text-align: center;
 	top: 0;
-	height: 30px;
+	height: 85px;
 	z-index: 9999;
-	border-bottom: 1px solid #888;
+/*	border-bottom: 1px solid #888;*/
+	text-align: right;
+	
+	ul#nav{
+	
+		padding: 30px 50px;
+		
+		li {
+		
+			display: inline-block;
+			border-top: 1px solid black;	
+			margin: 0 5px;
+
+			
+			a {
+				color: #888;
+				display: block;
+				font-size: 18px;
+				padding: 5px 20px 5px 0;
+				text-decoration: none;
+				text-transform: lowercase;
+			}
+
+			a:hover {
+				color: #000;
+			}
+		}
+	}
 }
-#nav li {
-	display: inline-block;
-}
-#nav a {
-	color: #888;
-	display: block;
-	font-size: 11px;
-	padding: 5px 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-#nav a:hover {
-	color: #000;
-}
+
 #nav .current a {
 	background: #fff;
-	color: #000;
+	color: red;
+	background-color: red;
 }
 .current {
-	background: red;
+	background-color: red;
 }
 
 #header, #intro, #second{
@@ -178,62 +193,100 @@ nav ul#nav {
 }
 
 #intro{
-	background:url(_images/light_wool.png) repeat fixed;
+	background:url(../_images/light_wool.png) repeat fixed;
 	color: black;
 	height: 768px;
 }
 
 #second{
-	background: url(_images/bg1.png) no-repeat;
-	color: white;
+	background: url(../../_images/bg02a.png) no-repeat;
+	background-position-x: 0 !important; 
+	background-position-y: 0 !important;
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
-	border: 10px solid pink;
+	border: 1px solid red;
+	color: black;
+	
+	.story{
+		border: 1px solid green;
+		width: 100%;
+		
+		.bg{
+			background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed;
+			height: 1300px;
+			margin: 0 auto;
+			padding: 0;
+			position: absolute;
+			width: 100%;
+			z-index: 200;
+			border: 1px solid blue;
+			
+		}
+		.float-right{
+			background-color: yellow;
+		}
+		
+		h2{
+			text-transform: uppercase;
+			border-top: 1px solid #333;
+			text-align: right;
+		}
+	}
 }
 
-#second .bg{
-	background: url(_images/test.png) 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
-}
 
 #third{
-	background: url(_images/thirdBG.jpg) 50% 0 no-repeat fixed;
+	background: url(../_images/thirdBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
 
 #fourth{
-	background: url(_images/secondBG.jpg) repeat fixed;
+	background: url(../_images/secondBG.jpg) repeat fixed;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
-}
-
-#fourth .bg{
-	background: url(_images/trainers.png) 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
+	
+	.bg{
+		background: url(../_images/trainers.png) 50% 0 no-repeat fixed;
+		height: 1300px;
+		margin: 0 auto;
+		padding: 0;
+		position: absolute;
+		width: 960px;
+		z-index: 200;
+	}
 }
 
 #fifth{
 	background: #ccc;
-	height: 400px;
+	height: 1300px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
+}
+
+#sixth{
+	background: url(../_images/bg1.png) no-repeat;
+	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	
+	.bg{
+		background: url(../_images/test.png) 50% 0 no-repeat fixed;
+		height: 1300px;
+		margin: 0 auto;
+		padding: 0;
+		position: absolute;
+		width: 960px;
+		z-index: 200;
+	}
 }
 
 .story{
