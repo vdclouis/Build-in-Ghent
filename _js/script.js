@@ -23,21 +23,36 @@ function parseTexts(xml){
 	var title;
 	var text;
 	
-    var htmlContent = "";
+    var htmlMain = "";
+    var htmlSub = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
+	
+	//main gebouw
     $(xml).find(textlang).each(function () {
 		$(this).find('main').each(function () {
 	        title = $(this).find('title').text();
 	        text = $(this).find('text').text();
 		});
     // Add matched items to an array         
-    htmlContent += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
+    htmlMain += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
        
     }); // end each loop  
+    
+    //sub gebouw
+    $(xml).find(textlang).each(function () {
+    	$(this).find('sub').each(function () {
+            title = $(this).find('title').text();
+            text = $(this).find('text').text();
+    	});
+    // Add matched items to an array         
+    htmlSub += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
+       
+    }); // end each loop
 
     //Write to container
-    $(".text").html(htmlContent);
+    $(".main").html(htmlMain);
+    $(".sub").html(htmlSub);
 }
 
 /* document ready */
