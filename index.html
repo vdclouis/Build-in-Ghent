@@ -35,7 +35,7 @@
 		<div id="gebouw">
 			<div class="story">
 				<section id="gerechtsgebouw">
-					<div class="pagebouw"></div>
+					<div class="pagerechtsgebouw"></div>
 					<img src="_images/bg02a.png" alt="" />
 			    	<div class="float-right">
 			            <h2>Gerecthsgebouw</h2>
@@ -86,7 +86,6 @@
 		            <li><a href="http://www.sxc.hu/photo/1015485" title="Basketball Image">Basketball Image</a></li>
 		            <li><a href="http://www.sxc.hu/photo/563767" title="Bottles Image">Bottles Image</a></li>
 		        </ul>
-		        <!--<p class="center">P.S - You've scrolled <span id="pixels">0</span> Pixels. Oh Yeah!</p>-->
 		    </div> <!--.story-->
 		</div> <!--#fifth-->
 		<div id="nieuws">
@@ -108,7 +107,7 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('#nav').onePageNav();
-//				$('#nav').localScroll(800);	
+//				$('#nav').localScroll(800);
 				//.parallax(xPosition, adjuster, inertia, outerHeight) options:
 				//xPosition - Horizontal position of the element
 				//adjuster - y position to start from
@@ -116,15 +115,15 @@
 				//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 				$('#home').parallax("50%", 0, 0.1, true);
 				$('#gebouw').parallax("50%", 1600, 0.2, true);
-				$('.pagebouw').parallax("1px", 2500, 0.4, true);
-				$('#fotos').parallax("50%", 2750, 0.3, true);
-				$('.pafotos').parallax("1px", 3000, 0.4, true);
-				$('#praktisch').parallax("50%", 2750, 0.3, true);
-				$('.papraktisch').parallax("1px", 3000, 0.4, true);
-				$('#video').parallax("50%", 2750, 0.3, true);
+				$('.pagerechtsgebouw').parallax("50%", 2200, 0.4, true);
+				$('#fotos').parallax("50%", 0, 0.3, true);
+				$('.pafotos').parallax("50%", 3400, 0.4, true);
+				$('#praktisch').parallax("50%", 0, 0.3, true);
+				$('.papraktisch').parallax("50%", 5000, 0.4, true);
+				$('#video').parallax("50%", 0, 0.3, true);
 				$('.pavideo').parallax("1px", 3000, 0.4, true);
 				$('#nieuws').parallax("50%", 2750, 0.3, true);
-				$('.panieuws').parallax("1px", 3000, 0.4, true);
+				$('.panieuws').parallax("50%", 7500, 0.4, true);
 			})
 		</script>
 	</body>
