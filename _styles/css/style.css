@@ -208,6 +208,14 @@ ul#nav li a:hover {
 	width: 100%;
 }
 
+#gebouw .story #gerechtsgebouw{
+
+}
+
+#gebouw .story #parkeergebouw{
+
+}
+
 #gebouw .story section#gerechtsgebouw .pagerechtsgebouw{
 	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
 	background-position-x: 0;
@@ -216,9 +224,10 @@ ul#nav li a:hover {
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 100%;
+	width: 1024px;
 	z-index: 200;
-/*	border: 1px solid red;*/
+	border: 1px solid red;
+	pointer-events: none;
 }
 
 #gebouw .story section#gerechtsgebouw img{
@@ -238,6 +247,14 @@ ul#nav li a:hover {
 	text-align: right;
 }
 
+.bullet{
+	background-color: #2096d3;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
 #fotos{
 	background: url(../../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
 	color: white;
@@ -249,7 +266,6 @@ ul#nav li a:hover {
 
 }
 
-
 #fotos .story .pafotos{
 	background: url(../../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
 	height: 1300px;
@@ -258,7 +274,8 @@ ul#nav li a:hover {
 	position: absolute;
 	width: 1024px;
 	z-index: 600;
-/*	border: 5px solid red;*/
+	border: 5px solid blue;
+	pointer-events: none;
 }
 
 #praktisch{
