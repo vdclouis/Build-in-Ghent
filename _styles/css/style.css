@@ -192,6 +192,38 @@ ul#nav li a:hover {
 	height: 768px;
 }
 
+#home h1, #home h2, #home p{
+	font-family: 'Myriad Pro';
+}
+
+#home .story img {
+	margin: 300px 0 0 0;
+}
+
+#home h1 {
+	font-size: 5em;
+	color: #888;
+	margin: -250px 0 0 190px;
+	z-index: 9999;
+}
+
+#home h2 {
+	font-size: 5em;
+	color: #555;
+	margin: -40px 0 0 270px;
+}
+
+#home p {
+	color: #888;
+	font-size: 2em;
+	margin: 0 0 0 0px;
+}
+
+#home .story {
+	padding-top: 150px;
+	margin: 0px 0 0 400px;
+}
+
 #gebouw{	
 	background: url(../../_images/bg02c.png); /*gradient*/
 	background-repeat: repeat-x;
@@ -297,11 +329,11 @@ ul#nav li a:hover {
 	width: 960px;
 	z-index: 200;
 /*	border: 4px solid red;*/
-	pointer-events: none;
+	pointer-events: none; /*add IE hack*/
 }
 
-#maps{
-	pointer-events: none;
+#map{
+	margin-top: 150px;
 }
 
 #video{
