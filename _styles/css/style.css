@@ -375,14 +375,14 @@ img.logo{
 	position: relative;
 }
 
-#video iframe{
-	margin: 270px 0 0 100px;
+#video .story{
+	height: 1300px;
 }
 
-#video .story a {
-	position: absolute;
-	top: 400px;
-	left: 550px;
+#video .story a img {
+	position: relative;
+	top: 30%;
+	left: 48%;
 }
 
 
@@ -416,6 +416,7 @@ img.logo{
 	position: absolute;
 	width: 960px;
 	z-index: 200;
+	pointer-events: none;
 }
 
 #nieuws .bg{
