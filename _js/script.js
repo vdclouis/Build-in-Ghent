@@ -23,6 +23,7 @@ function parseTexts(xml){
 	var title;
 	var text;
 	
+	var date
 //	var home;
 //	var gebouw;
 //	var fotos;
@@ -32,6 +33,7 @@ function parseTexts(xml){
 	
     var htmlMain = "";
     var htmlSub = "";
+    var htmlNews = "";
 //    var htmlNav = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
@@ -48,7 +50,7 @@ function parseTexts(xml){
     }); // end each loop  
     
     //sub gebouw
-    $(xml).find('texts').find(textlang).each(function () {
+    $(xml).find(textlang).each(function () {
     	$(this).find('sub').each(function () {
             title = $(this).find('title').text();
             text = $(this).find('text').text();
@@ -58,6 +60,17 @@ function parseTexts(xml){
        
     }); // end each loop
     
+    
+    //news
+    $(xml).find(textlang).each(function () {
+    	$(this).find('item').each(function () {
+    		title = $(this).find('title').text();
+    		date = $(this).find('date').text();
+    		content = $(this).find('content').text();
+    		
+    		htmlNews += '<tr><td>' + date + '</td><td>' + title + '</td></tr>';
+    	});
+    });
     //nav
 //    $(xml).find(textlang).each(function () {
 //    	$(this).find('nav').each(function () {
@@ -81,6 +94,7 @@ function parseTexts(xml){
     //Write to container
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
+    $("table#newz").html(htmlNews);
 //    $("ul#nav").html(htmlNav);
 }
 
