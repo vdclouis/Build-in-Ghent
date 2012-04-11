@@ -1,5 +1,6 @@
 $(function () {
 	$('#parkeergebouw').hide();
+	
 	console.log('test');
 	$('#rightbullet').click( function () {
 		$('#gerechtsgebouw').fadeOut(100);

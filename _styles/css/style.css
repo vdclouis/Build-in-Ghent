@@ -459,24 +459,36 @@ img.logo{
 }
 
 #video{
+/*	background: url(../../_images/bg05f.jpg) repeat fixed; /*tiles texture*!/*/
+	color: white;
 	height: 1300px;
 	margin: 0 auto;
-	padding: 40px 0 0 0;
+	overflow: hidden;
+	padding: 0;
+	color: black;
+}
+
+#video .story{
+	border: 1px solid red;
 }
 
 /*#video .story img{
 	height: 1300px;
+	border: 1px solid #333;
 }*/
 
-/*#video .pavideo{
-	background: url(../../_images/pa03.png) 50% 0 no-repeat fixed;
+
+#video .pavideo{
+/*	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
 	width: 960px;
 	z-index: 200;
-}*/
+	border: 5px solid #333;
+	pointer-events: none; /*add IE hack*/
+}
 
 #nieuws{
 	background: url(../../_images/bg06.png);
