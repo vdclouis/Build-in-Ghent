@@ -204,6 +204,7 @@ img.logo{
 
 #home .story img {
 	margin: 300px 0 0 0;
+	z-index: 50;
 }
 
 #home h1 {
@@ -227,8 +228,26 @@ img.logo{
 
 #home .story {
 	padding-top: 150px;
-	margin: 0px 0 0 400px;
+	margin: 0px 0 0 300px;
 	height: 1000px;
+}
+
+#home #shadow p {
+	position: absolute;
+	font-size: 15em;
+	color: rgba(255, 255, 255, .0);
+	text-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
+	left: -200px;
+	z-index: 0;
+}
+
+#home #shadow p:first-child{
+	top: 250px;
+}
+
+#home #shadow p:last-child{
+	top: 600px;
+	left: 100px;
 }
 
 #gebouw{	
