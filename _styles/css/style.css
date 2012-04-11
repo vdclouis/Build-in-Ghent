@@ -184,8 +184,8 @@ ul#nav li a:hover {
 
 img.logo{
 	position: absolute;
-	left: 10px;
-	top: 10px;
+	left: 40px;
+	top: 40px;
 }
 
 #header, #intro, #second{
@@ -286,7 +286,7 @@ img.logo{
 	position: absolute;
 	width: 1024px;
 	z-index: 200;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	pointer-events: none;
 }
 
@@ -328,6 +328,7 @@ img.logo{
 	color: white;
 	height: 1300px;
 	padding: 0px 0 0 0;	
+	position: relative;
 }
 
 #fotos .story{
@@ -342,7 +343,6 @@ img.logo{
 	position: absolute;
 	width: 1024px;
 	z-index: 600;
-	border: 5px solid blue;
 	pointer-events: none;
 }
 
@@ -374,7 +374,7 @@ img.logo{
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: transparent url(../images/browser.png) no-repeat top left;
+	background: transparent url(../../images/browser.png) no-repeat top left;
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
 }
 .dg-wrapper a.dg-transition{
@@ -436,6 +436,7 @@ img.logo{
 	overflow: hidden;
 	padding: 0;
 	color: black;
+	position: relative;
 }
 
 #praktisch .papraktisch{
@@ -460,17 +461,18 @@ img.logo{
 }
 
 #video{
-/*	background: url(../../_images/bg05f.jpg) repeat fixed; /*tiles texture*!/*/
+	background: url(../../_images/bg05.jpg) repeat fixed; /*tiles texture*/
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
 	color: black;
+	position: relative;
 }
 
 #video .story{
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 }
 
 /*#video .story img{
@@ -480,14 +482,14 @@ img.logo{
 
 
 #video .pavideo{
-/*	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;*/
+	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
 	width: 960px;
 	z-index: 200;
-	border: 5px solid #333;
+/*	border: 5px solid #333;*/
 	pointer-events: none; /*add IE hack*/
 }
 
@@ -498,6 +500,7 @@ img.logo{
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
+	position: relative;
 }
 
 #nieuws .panieuws{
