@@ -182,6 +182,12 @@ ul#nav li a:hover {
 	color: yellow;
 }*/
 
+img.logo{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
 #header, #intro, #second{
 	width: 100%;
 }
@@ -235,6 +241,7 @@ ul#nav li a:hover {
 	overflow: hidden;
 	padding: 0;
 	color: black;
+	position: relative;
 }
 
 #gebouw .story{
@@ -286,6 +293,14 @@ ul#nav li a:hover {
 	width: 40px;
 	height: 40px;
 	display: inline-block;
+}
+
+#leftbullet{
+	background-color: #2096d3;
+}
+
+#rightbullet{
+	background-color: #b2b2b2;
 }
 
 #fotos{
