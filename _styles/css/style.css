@@ -295,16 +295,6 @@ img.logo{
 	float: right;
 }
 
-#gebouw .story .gebouwen .float-right h1{
-	text-transform: uppercase;
-	border-top: 1px solid #333;
-}
-
-#gebouw .story .gebouwen .float-right p{
-	font-size: 14px;
-	line-height: 24px;
-}
-
 #gebouw .story #parkeergebouw{
 
 }
@@ -458,6 +448,25 @@ img.logo{
 	z-index: 200;
 }
 
+#nieuws .story .float-left{
+	border: 1px solid #333;
+}
+
+#nieuws .story .float-right h1{
+	border-bottom: 1px solid #333;
+	border-top: none;
+	text-align: right;
+}
+
+#nieuws .story .float-right table{
+	text-align: right;
+}
+
+#nieuws .story .float-right table tr td:nth-child(2){
+	width: 310px;
+}
+
+/*the story containers*/
 .story{
 	margin: 0 auto;
 	min-width: 980px;
@@ -469,6 +478,17 @@ img.logo{
 	padding: 150px 0 0 0;
 	position: relative;
 	width: 350px;	
+}
+
+/*the textboxes*/
+.float-left h1, .float-right h1{
+	text-transform: uppercase;
+	border-top: 1px solid #333;
+}
+
+.float-left p, .float-right p{
+	font-size: 14px;
+	line-height: 24px;
 }
 
 /*the slideshow*/
