@@ -4,12 +4,14 @@ $(function () {
 
 	//gives the first nav element current status (red color)
 	$('#nav li:first-child').addClass('current');
+	
+	// ---------------------------- //
 
-	//hides the second page
+	//hides the second page 'parkeergebouw'
 	$('#parkeergebouw').hide();
 	
 	//navigation with the bulletnavs
-	$('.bulletnav .rightbullet').click( function () {
+	$('#gebouwennav .rightbullet').click( function () {
 		$('#gerechtsgebouw').hide();
 		$('#parkeergebouw').fadeIn(1000);
 		$(this).animate({ backgroundColor: '#2096d3'}, 500);
@@ -17,7 +19,7 @@ $(function () {
 		console.log('rightbullet clicked!');
 		return false;
 	});
-	$('.bulletnav .leftbullet').click( function () {
+	$('#gebouwennav .leftbullet').click( function () {
 		$('#parkeergebouw').hide();
 		$('#gerechtsgebouw').fadeIn(1000);
 		$(this).animate({ backgroundColor: '#2096d3'}, 500);
@@ -25,6 +27,31 @@ $(function () {
 		console.log('leftbullet clicked!');
 		return false;
 	});
+	
+	// ---------------------------- //
+	
+	//hides the second page 'contactform'
+	$('#contactform').hide();
+	
+	//navigation with the bulletnavs
+	$('#praktischnav .rightbullet').click( function () {
+		$('#contactmap').hide();
+		$('#contactform').fadeIn(1000);
+		$(this).animate({ backgroundColor: '#2096d3'}, 500);
+		$('.leftbullet').animate({ backgroundColor: '#b2b2b2'}, 500);
+		console.log('rightbullet clicked! -> contactform');
+		return false;
+	});
+	$('#praktischnav .leftbullet').click( function () {
+		$('#contactform').hide();
+		$('#contactmap').fadeIn(1000);
+		$(this).animate({ backgroundColor: '#2096d3'}, 500);
+		$('.rightbullet').animate({ backgroundColor: '#b2b2b2'}, 500);
+		console.log('leftbullet clicked! -> contactmap');
+		return false;
+	});
+	
+	// ---------------------------- //
 	
 	$('#contactbig').hide();
 
@@ -40,7 +67,6 @@ $(function () {
 		console.log('contact clicked!');
 		return false;
 	});
-	
 	$('#collapse').click(function() {
 		$('#contactbig').fadeOut(500);
 		$('#contact').animate({
@@ -53,4 +79,13 @@ $(function () {
 		console.log('contact hidden!');
 		return false;
 	});
+	
+	// ---------------------------- //
+	
+	$('#more').click(function () {
+		$('#gd, #wd').toggle('contactshown');
+	})
 });
+
+
+

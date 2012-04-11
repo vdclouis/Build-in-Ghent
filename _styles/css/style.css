@@ -310,28 +310,6 @@ img.logo{
 	pointer-events: none;
 }
 
-.bulletnav{
-	margin-top: 50px;
-}
-
-.bullet{
-	background-color: #2096d3;
-	border-radius: 15px;
-	width: 30px;
-	height: 30px;
-	display: inline-block;
-}
-
-.leftbullet{
-	background-color: #2096d3;	
-	margin-left: 80px;
-}
-
-.rightbullet{
-	background-color: #b2b2b2;
-	margin-left: 20px;
-}
-
 #fotos{
 	background: url(../../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
 	color: white;
@@ -493,6 +471,32 @@ img.logo{
 	line-height: 24px;
 }
 
+/*bulletnav*/
+#gebouwennav{
+	margin-top: 50px;
+}
+
+#praktischnav{
+	
+}
+
+.bullet{
+	border-radius: 15px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+
+.leftbullet{
+	background-color: #2096d3;	
+	margin-left: 80px;
+}
+
+.rightbullet{
+	background-color: #b2b2b2;
+	margin-left: 20px;
+}
+
 /*contact*/
 #contact{
 	font-size: 10px;
@@ -506,6 +510,7 @@ img.logo{
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 /*	padding: 5px 5px 5px 10px;*/
+	z-index: 1000;
 }
 
 #contactsmall{
@@ -522,19 +527,23 @@ img.logo{
 	padding: 5px 5px 5px 10px;
 }
 
-#contactbig title{
-
+#contactbig .title{
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
-#contactbig title p{
+#contactbig .title p{
 	color: black;
 }
 
-#contactbig autors{
-	
+#contactbig .authors{
+	position: absolute;
+	top: 0;
+	left: 300px;
 }
 
-#contactbig autors p{
+#contactbig .authors p{
 	color: white;
 }
 
@@ -546,6 +555,24 @@ img.logo{
 	padding: 5px;
 	color: white;
 	font-size: 15px;
+}
+
+#contactbig #more{
+	float: right;
+}
+
+#contactbig #more p{
+	padding: 5px;
+	color: white;
+	font-size: 15px;
+}
+
+.contactshown{
+	background-color: red;
+}
+
+.contacthidden{
+	background-color: blue;
 }
 
 /*the slideshow*/

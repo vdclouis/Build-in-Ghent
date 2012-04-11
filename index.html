@@ -8,13 +8,11 @@
 		<title>Build in Ghent</title>
 		<meta name="description" content="">	
 		<meta name="viewport" content="width=device-width">
-		<link href="_styles/css/style.css" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" href="_styles/css/jquery.fancybox.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="_styles/css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/style.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/jquery.fancybox.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/jquery.fancybox-buttons.css" />
 <!--		<script src="js/libs/modernizr-2.5.3.min.js"></script> -->
 		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script> 
-		
-		
 	</head>
 	<body>
 		<nav>
@@ -34,11 +32,11 @@
 					<h1>justitia</h1>
 					<h2>omnibus</h2>
 					<p>- Gerechtigheid voor allen -</p>
-				</div>
+				</div> <!--#nonshadow-->
 				<div id="shadow">
 					<p>justitia</p>
 					<p>omnibus</p>
-				</div>
+				</div> <!--#shadow-->
 		    </div> <!--.story-->
 		</div> <!--#home-->
 		<div id="gebouw">
@@ -60,7 +58,7 @@
 					    <div class="text"></div>
 					</div>
 				</section>
-				<div class="bulletnav">
+				<div id="gebouwennav">
 					<div class="bullet leftbullet"></div>
 					<div class="bullet rightbullet"></div>
 				</div>
@@ -95,11 +93,16 @@
 		<div id="praktisch">
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
-				<div class="papraktisch"></div>
-				<div id="map">
-					<!--<iframe width="640" height="480" src="http://maps.google.be/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Opge%C3%ABistenlaan+401,+gent&amp;aq=&amp;sll=51.062493,3.717129&amp;sspn=0.002795,0.00574&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Opge%C3%ABistenlaan+401,+Gent+9000+Gent,+Oost-Vlaanderen,+Vlaams+Gewest&amp;ll=51.066482,3.716125&amp;spn=0.02589,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>-->
-				</div> <!--eo map-->
-				<div class="bulletnav">
+				<section class="praktisch" id="contactmap">
+					<div class="papraktisch"></div>
+					<div id="map">
+						<iframe width="640" height="480" src="http://maps.google.be/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Opge%C3%ABistenlaan+401,+gent&amp;aq=&amp;sll=51.062493,3.717129&amp;sspn=0.002795,0.00574&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Opge%C3%ABistenlaan+401,+Gent+9000+Gent,+Oost-Vlaanderen,+Vlaams+Gewest&amp;ll=51.066482,3.716125&amp;spn=0.02589,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+					</div> <!--eo map-->
+				</section>
+				<section class="praktisch" id="contactform">
+					<p>test</p>
+				</section>
+				<div id="praktischnav">
 					<div class="bullet leftbullet"></div>
 					<div class="bullet rightbullet"></div>
 				</div>
@@ -135,23 +138,28 @@
 				<img src="" alt="arrow" />
 			</div>
 			<div id="contactbig">
-				<section id="collapse">
-					<p>hide</p>
+				<section id="contactmenu">
+					<div id="collapse">
+						<p>hide</p>
+					</div>
+					<div id="more">
+						<p>the authors</p>
+					</div>
 				</section>
-				<section id="gd">
+				<section id="gd" class="contactshown">
 					<div class="title">
 						<p>graphic designers</p>
 					</div>
-					<div class="autors">
+					<div class="authors">
 						<p>dqsfkljqds</p>
 						<p>sqlkjdflmqdjsf</p>
 					</div>
 				</section>
-				<section id="wd">
+				<section id="wd" class="contactshown">
 					<div class="title">
 						<p>web designers</p>
 					</div>
-					<div class="autors">
+					<div class="authors">
 						<p>qsdfqsdf sqdfsq</p>
 						<p>dslkfjqs jsdqkfl</p>
 					</div>
