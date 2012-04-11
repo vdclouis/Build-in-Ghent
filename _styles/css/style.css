@@ -397,14 +397,16 @@ img.logo{
 	position: relative;
 }
 
-#video .story{
-/*	border: 1px solid red;*/
+#video iframe{
+	margin: 270px 0 0 100px;
 }
 
-/*#video .story img{
-	height: 1300px;
-	border: 1px solid #333;
-}*/
+#video .story a {
+	position: absolute;
+	top: 400px;
+	left: 550px;
+}
+
 
 #video .pavideo{
 	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;
