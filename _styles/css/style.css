@@ -310,7 +310,7 @@ img.logo{
 	pointer-events: none;
 }
 
-#bulletnav{
+.bulletnav{
 	margin-top: 50px;
 }
 
@@ -322,12 +322,12 @@ img.logo{
 	display: inline-block;
 }
 
-#leftbullet{
+.leftbullet{
 	background-color: #2096d3;	
 	margin-left: 80px;
 }
 
-#rightbullet{
+.rightbullet{
 	background-color: #b2b2b2;
 	margin-left: 20px;
 }
@@ -489,6 +489,64 @@ img.logo{
 .float-left p, .float-right p{
 	font-size: 14px;
 	line-height: 24px;
+}
+
+/*contact*/
+#contact{
+	font-size: 10px;
+	position: absolute;
+	position: fixed;
+	background-color: #2096d3;
+	cursor: default;
+}
+
+#contactsmall{
+	right: 50px;
+	bottom: 0;
+	width: 80px;
+	height: 15px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 5px 5px 5px 10px;
+}
+
+#contactsmall p{
+	color: white;
+}
+
+#contactbig{
+	bottom: 0;
+	width: 95%;
+	height: 50px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	padding: 5px 5px 5px 10px;
+}
+
+#contactbig title{
+
+}
+
+#contactbig title p{
+	color: black;
+}
+
+#contactbig autors{
+	
+}
+
+#contactbig autors p{
+	color: white;
+}
+
+#contactbig #collapse{
+	float: right;
+}
+
+#contactbig #collapse p{
+	padding: 5px;
+	color: white;
+	font-size: 15px;
 }
 
 /*the slideshow*/
