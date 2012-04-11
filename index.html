@@ -36,11 +36,11 @@
 					<p>omnibus</p>
 				</div>
 		    </div> <!--.story-->
-		</div> <!--#intro-->
+		</div> <!--#home-->
 		<div id="gebouw">
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
-				<section id="gerechtsgebouw">
+				<section class="gebouwen" id="gerechtsgebouw">
 					<div class="pagerechtsgebouw"></div>
 					<img src="_images/bg02a.png" alt="gerechtsgebouw" />
 			    	<div class="float-right">
@@ -48,9 +48,9 @@
 			            <div class="text"></div>
 			    	</div>
 				</section>
-				<section id="parkeergebouw">	
-					<div class="bg"></div>
-					<img src="_images/bg02a.png" alt="parkeergebouw" />
+				<section class="gebouwen" id="parkeergebouw">	
+					<div class="paparkeergebouw"></div>
+					<img src="_images/bg02b.png" alt="parkeergebouw" />
 					<div class="float-right">
 					    <div class="sub"></div>
 					    <div class="text"></div>
@@ -66,7 +66,6 @@
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
 				<div class="pafotos"></div>
-	        	<h2>What Happens When JavaScript is Disabled?</h2>
 <!--				<section id="dg-container" class="dg-container">
 					<div class="dg-wrapper">
 						<a href="#"><img src="images/1.jpg" alt="image01"><div>http://www.colazionedamichy.it/</div></a>
@@ -103,14 +102,19 @@
 				<img class="logo" src="_images/logo01.png" alt="logo" />
 				<div class="pavideo"></div>
 <!--				<img src="_images/bg05f.jpg" alt="" />-->
-				<video src="_video/interview.mov" preload="none" controls></video>
+<!--				<video src="_video/interview.mov" preload="none" controls></video>-->
 		    </div> <!--.story-->
 		</div> <!--#video-->
 		<div id="nieuws">
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
 				<div class="panieuws"></div>
-		    	<div class="float-right">
+		    	<div class="float-left">
+		            <h2>Multiple Backgrounds</h2>
+		            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
+		            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
+		        </div>
+		        <div class="float-right">
 		            <h2>Multiple Backgrounds</h2>
 		            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
 		            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
@@ -137,21 +141,21 @@
 				//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
 				//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 				$('#home').parallax("50%", 0, 0.1, true);
-				$('#gebouw').parallax("50%", 1600, 0.2, true);
-				$('.pagerechtsgebouw').parallax("50%", 2600, 0.4, true);
+				$('#gebouw').parallax("50%", 1800, 0.2, true);
+				$('.pagerechtsgebouw').parallax("150px", 2600, 0.4, true);
+				$('.paparkeergebouw').parallax("50%", 2600, 0.4, true);
 				$('#fotos').parallax("50%", 0, 0.3, true);
 				$('.pafotos').parallax("50%", 4000, 0.4, true);
 				$('#praktisch').parallax("50%", 0, 0.3, true);
 				$('.papraktisch').parallax("50%", 5500, 0.4, true);
 				$('#video').parallax("50%", 2000, 0.3, true);
-				$('.pavideo').parallax("1px", 6600, 0.4, true);
+				$('.pavideo').parallax("50%", 6600, 0.4, true);
 				$('#nieuws').parallax("50%", 2750, 0.3, true);
 				$('.panieuws').parallax("50%", 7700, 0.4, true);
 			})
 			$(function() {
 				$('#dg-container').gallery();
 			});
-			
 		</script>
 	</body>
 </html>

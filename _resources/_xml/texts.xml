@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <texts>
 	<nl>
 		<main>
-			<title>De Stenen van Gent</title>
+			<title>gerechtsgebouw</title>
 			<text>
 				Het nieuwe gerechtsgebouw Gent gelegen de wijk Rabot aan de Opgeeïstenlaan. Dit complex, ook wel Groot Gerechtsgebouw Gent (GGG) genoemd, werd geopend in 2007 om een einde te maken aan het plaatsgebrek en versnippering van de gerechtelijke diensten. De buitenkant van het gebouw bestaat voor een groot deel uit glas en is daarom bekend als het glazen huis in de volksmond.
 				
@@ -11,7 +10,7 @@
 			</text>
 		</main>
 		<sub>
-			<title>Het Parking Gebouw</title>
+			<title>parkinggebouw</title>
 			<text>Naast het imposante gerechtsgebouw bevindt zich een kleiner gebouw. Dit gebouw heeft een zeer minimalistisch en strak design. Het lijkt deels te zweven en steunt maar op een paar grote pilaren.
 			Het uiterlijk geeft niet direct prijs dat het om een ondergrondse en bovengrondse parking gaat.
 			Het 'parkingsgebouw' heeft verder geen officiële naam. Het is wel ontworpen door dezelfde architecten als het gerechtsgebouw zelf.</text>
@@ -24,8 +23,29 @@
 			<video>video</video>
 			<nieuws>nieuws</nieuws>
 		</nav>
+		<news>
+			<item id="1">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="2">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="3">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="4">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="5">
+				<title></title>
+				<content></content>
+			</item>
+		</news>
 	</nl>
-	
 	<fr>
 		<main>
 			<title>Les Pierres de Gand</title>
@@ -48,8 +68,29 @@
 			<video>vidéo</video>
 			<nieuws>nouvelles</nieuws>
 		</nav>
+		<news>
+			<item id="1">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="2">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="3">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="4">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="5">
+				<title></title>
+				<content></content>
+			</item>
+		</news>
 	</fr>
-	
 	<en>
 		<main>
 			<title>Build in Ghent</title>
@@ -71,5 +112,27 @@
 			<video>video</video>
 			<nieuws>news</nieuws>
 		</nav>
+		<news>
+			<item id="1">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="2">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="3">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="4">
+				<title></title>
+				<content></content>
+			</item>
+			<item id="5">
+				<title></title>
+				<content></content>
+			</item>
+		</news>
 	</en>
 </texts>

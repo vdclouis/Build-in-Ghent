@@ -272,55 +272,74 @@ img.logo{
 
 }
 
-#gebouw .story #parkeergebouw{
-
-}
-
 #gebouw .story section#gerechtsgebouw .pagerechtsgebouw{
 	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
-	background-position-x: 0;
-	background-position-y: 0;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
 	width: 1024px;
 	z-index: 200;
-/*	border: 1px solid red;*/
 	pointer-events: none;
 }
 
-#gebouw .story section#gerechtsgebouw img{
-/*	border: 4px solid blue;*/
-/*	width: 400px;*/
+#gebouw .story .gebouwen img{
+	margin-top: 200px;
+	width: 600px;
 }
 
-#gebouw .story section#gerechtsgebouw .float-right{
-	background-color: yellow;
+#gebouw .story .gebouwen .float-right{
+	text-align: right;
+/*	background-color: yellow;*/
 	position: inline-block;
 	float: right;
 }
 
-#gebouw .story section#gerechtsgebouw .float-right	h2{
+#gebouw .story .gebouwen .float-right h1{
 	text-transform: uppercase;
 	border-top: 1px solid #333;
-	text-align: right;
+}
+
+#gebouw .story .gebouwen .float-right p{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#gebouw .story #parkeergebouw{
+
+}
+
+#gebouw .story section#parkeergebouw .paparkeergebouw{
+	background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 1024px;
+	z-index: 200;
+	pointer-events: none;
+}
+
+#bulletnav{
+	margin-top: 50px;
 }
 
 .bullet{
 	background-color: #2096d3;
-	border-radius: 20px;
-	width: 40px;
-	height: 40px;
+	border-radius: 15px;
+	width: 30px;
+	height: 30px;
 	display: inline-block;
 }
 
 #leftbullet{
-	background-color: #2096d3;
+	background-color: #2096d3;	
+	margin-left: 80px;
 }
 
 #rightbullet{
 	background-color: #b2b2b2;
+	margin-left: 20px;
 }
 
 #fotos{
@@ -346,6 +365,113 @@ img.logo{
 	pointer-events: none;
 }
 
+#praktisch{
+	background: url(../../_images/bg04.png) repeat fixed; /*tiles texture*/
+	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	color: black;
+	position: relative;
+}
+
+#praktisch .papraktisch{
+	background: url(../../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 200;
+	pointer-events: none; /*add IE hack*/
+}
+
+#map{
+	margin-top: 150px;
+}
+
+#map iframe{
+	margin: 0;
+	border: none;
+}
+
+#video{
+	background: url(../../_images/bg05.jpg) repeat fixed; /*tiles texture*/
+	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	color: black;
+	position: relative;
+}
+
+#video .story{
+/*	border: 1px solid red;*/
+}
+
+/*#video .story img{
+	height: 1300px;
+	border: 1px solid #333;
+}*/
+
+#video .pavideo{
+	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 1024px;
+	z-index: 200;
+	pointer-events: none; /*add IE hack*/
+}
+
+#nieuws{
+	background: url(../../_images/bg06.png);
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	color: #000;
+}
+
+#nieuws .panieuws{
+	background: url(../../_images/pa06.png) 50% 0 fixed;
+	background-repeat: no-repeat;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 200;
+}
+
+#nieuws .bg{
+/*	background: url(../_images/test.png) 50% 0 fixed;*/
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 200;
+}
+
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 980px;
+}
+
+.story .float-left, .story .float-right{
+	padding: 150px 0 0 0;
+	position: relative;
+	width: 350px;	
+}
+
+/*the slideshow*/
 .dg-container{
 	width: 100%;
 	height: 450px;
@@ -428,114 +554,9 @@ img.logo{
 	margin-left: 10px;
 }
 
-#praktisch{
-	background: url(../../_images/bg04.png) repeat fixed; /*tiles texture*/
-	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	color: black;
-	position: relative;
-}
-
-#praktisch .papraktisch{
-	background: url(../../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
-/*	border: 4px solid red;*/
-	pointer-events: none; /*add IE hack*/
-}
-
-#map{
-	margin-top: 150px;
-}
-
-#map iframe{
-	margin: 0;
-	border: none;
-}
-
-#video{
-	background: url(../../_images/bg05.jpg) repeat fixed; /*tiles texture*/
-	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	color: black;
-	position: relative;
-}
-
-#video .story{
-/*	border: 1px solid red;*/
-}
-
-/*#video .story img{
-	height: 1300px;
-	border: 1px solid #333;
-}*/
 
 
-#video .pavideo{
-	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
-/*	border: 5px solid #333;*/
-	pointer-events: none; /*add IE hack*/
-}
 
-#nieuws{
-	background: url(../../_images/bg06.png);
-	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	position: relative;
-}
-
-#nieuws .panieuws{
-	background: url(../../_images/pa06.png) 50% 0 fixed;
-	background-repeat: no-repeat;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
-}
-
-#nieuws .bg{
-/*	background: url(../_images/test.png) 50% 0 fixed;*/
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
-}
-
-.story{
-	margin: 0 auto;
-	min-width: 980px;
-	overflow: auto;
-	width: 980px;
-}
-
-.story .float-left, .story .float-right{
-	padding: 100px 0 0 0;
-	position: relative;
-	width: 350px;	
-}
 
 @media only screen and (min-width: 35em) {
 
