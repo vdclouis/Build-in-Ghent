@@ -419,18 +419,23 @@ ul#nav li a:hover {
 	margin-top: 150px;
 }
 
-/*#video{
+#map iframe{
+	margin: 0;
+	border: none;
+}
+
+#video{
 	height: 1300px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
-}*/
-
-#video .story img{
-	height: 1300px;
 }
 
+/*#video .story img{
+	height: 1300px;
+}*/
+
 /*#video .pavideo{
-	background: url(../_images/trainers.png) 50% 0 no-repeat fixed;
+	background: url(../../_images/pa03.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
