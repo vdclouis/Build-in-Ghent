@@ -496,20 +496,20 @@ img.logo{
 /*contact*/
 #contact{
 	font-size: 10px;
-	position: absolute;
 	position: fixed;
 	background-color: #2096d3;
 	cursor: default;
-}
-
-#contactsmall{
 	right: 50px;
 	bottom: 0;
 	width: 80px;
 	height: 15px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	padding: 5px 5px 5px 10px;
+/*	padding: 5px 5px 5px 10px;*/
+}
+
+#contactsmall{
+
 }
 
 #contactsmall p{
@@ -517,9 +517,6 @@ img.logo{
 }
 
 #contactbig{
-	bottom: 0;
-	width: 95%;
-	height: 50px;
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
 	padding: 5px 5px 5px 10px;
