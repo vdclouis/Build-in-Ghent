@@ -239,6 +239,7 @@ img.logo{
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
 	left: -200px;
 	z-index: 0;
+	cursor: default;
 }
 
 #home #shadow p:first-child{

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<texts>
 
+<texts>
 	<nl>
 		<main>
 			<title>De Stenen van Gent</title>
@@ -16,6 +16,14 @@
 			Het uiterlijk geeft niet direct prijs dat het om een ondergrondse en bovengrondse parking gaat.
 			Het 'parkingsgebouw' heeft verder geen officiële naam. Het is wel ontworpen door dezelfde architecten als het gerechtsgebouw zelf.</text>
 		</sub>
+		<nav>
+			<home>home</home>
+			<gebouw>gebouw</gebouw>
+			<fotos>foto's</fotos>
+			<praktisch>praktisch</praktisch>
+			<video>video</video>
+			<nieuws>nieuws</nieuws>
+		</nav>
 	</nl>
 	
 	<fr>
@@ -32,6 +40,14 @@
 			<text>A coté du palais de justice on aperçoit un bâtiment plus petit. Ce bâtiment a un style très minimaliste et élégant. La structure a l'aire de flotter mais elle est soutenu par quelque gros piliers. L'apparence du bâtiment ne divulgue pas qu'au fait cette structure fait office d'un parking.
 			Le 'bâtiment parking' n'a pas de nom officielle. Il est toutefois conçu par les mêmes architectes qu'on on fait le palais de justice.</text>
 		</sub>
+		<nav>
+			<home>home</home>
+			<gebouw>batiment</gebouw>
+			<fotos>photo's</fotos>
+			<praktisch>pratique</praktisch>
+			<video>vidéo</video>
+			<nieuws>nouvelles</nieuws>
+		</nav>
 	</fr>
 	
 	<en>
@@ -47,6 +63,13 @@
 			<title>The Parking Building</title>
 			<text>Next to the impressive courthouse we find a smaller building. This building has a really minimalistic and sleek look. It looks like it's somewhat floating. It is being supported by only a couple of big pillars. The looks of the building does not give the impression that this building is in fact a parking garage. This 'parking building' doesn't has an official name. It is however designed by the same architects as the courthouse.</text>
 		</sub>
+		<nav>
+			<home>home</home>
+			<gebouw>building</gebouw>
+			<fotos>fotos</fotos>
+			<praktisch>practical</praktisch>
+			<video>video</video>
+			<nieuws>news</nieuws>
+		</nav>
 	</en>
-	
 </texts>
