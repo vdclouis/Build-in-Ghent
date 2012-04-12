@@ -329,9 +329,14 @@ img.logo{
 	position: relative;
 }
 
+#fotos #flexocontainer {
+	width: 80%;
+	max-width: 800px;
+	margin: 200px auto;
+}
+
 #fotos .story{
 	height: 1000px;
-	width: 600px;
 }
 
 #fotos .story .pafotos{
