@@ -58,11 +58,12 @@ $(function () {
 	$('#contactsmall p').click(function() {
 		$('#contact').animate({
 			'width':'100%',
-			'height':'100px',
+			'height':'50px',
 			'border-top-left-radius': '50px',
 			'border-top-right-radius': '50px',
 			'right':'0',
 		}, 500);
+		$('#contactsmall').hide();
 		$('#contactbig').fadeIn(500);
 		console.log('contact clicked!');
 		return false;
@@ -76,6 +77,7 @@ $(function () {
 			'border-top-right-radius': '10px',
 			'right': '50px'
 		}, 500);
+		$('#contactsmall').fadeIn(500);
 		console.log('contact hidden!');
 		return false;
 	});
