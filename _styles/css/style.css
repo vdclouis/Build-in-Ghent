@@ -622,9 +622,9 @@ img.logo{
 /*contact from*/
 #contact-form {
 	background: url(../../_images/project_papper.png);
-	width:465px;
-	padding:20px;
-	margin: 50px auto;	
+	width:665px;
+	padding:20px 20px 20px 0;
+	margin: 200px auto;	
 	border: 2px solid #ddd;
 	-moz-border-radius:15px;
 	-webkit-border-radius:15px;
@@ -633,20 +633,33 @@ img.logo{
 	box-shadow: 0px 0px 7px #888;
 }
 
-#contact-form form label:nth-child(1){
-	background: url(../../_images/contactIcons/user.png) no-repeat;
+#contact-form form label{
+	padding: 10px 0px 10px 40px;
+	margin: 0;
+	background-color: rgba(0, 0, 0, .1);
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
-#contact-form form label:nth-child(3){
-	background: url(../../_images/contactIcons/mail.png) no-repeat;
+/*#contact-form form label:nth-child(3){
+	padding: 10px 0px 10px 40px;
+	padding-left: 40px;
+	background-color: rgba(0, 0, 0, .1);
 }
 #contact-form form label:nth-child(5){
-	background: url(../../_images/contactIcons/tel.png) no-repeat;
+	padding: 10px 0px 10px 40px;
+	padding-left: 40px;
+	background-color: rgba(0, 0, 0, .1);
 }
 #contact-form form label:nth-child(7){
-	background: url(../../_images/contactIcons/subject.png) no-repeat;
-}
+	padding: 10px 0px 10px 40px;
+	padding-left: 40px;
+	background-color: rgba(0, 0, 0, .1);
+}*/
 #contact-form form label:nth-child(9){
-	background: url(../../_images/contactIcons/chat.png) no-repeat;
+	margin: 0px 0 0 0;	
+}
+
+#contact-form form input{
+	/*padding: 0 0 0 0;*/
 }
 
 /*#contact-form h1 {
@@ -670,18 +683,22 @@ img.logo{
 #contact-form input, 
 #contact-form select, 
 #contact-form textarea {
-	width: 300px;
-	border: 1px solid #CEE1E8;
+	width: 450px;
+	border: none;
 	margin: 0 0 20px 115px;
-	padding: 4px;
+	padding: 12px 4px 12px 4px;
 	display: block;
+	background-color: rgba(0, 0, 0, .05);
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
 }
 
 #contact-form input:focus, 
 #contact-form select:focus, 
 #contact-form textarea:focus {
-	border: 1px solid #AFCDD8;
-	background-color: #EBF2F4;
+	border: none;
+	background-color: rgba(255, 255, 255, .0);
+	outline: none;
 	
 }
 
@@ -702,11 +719,10 @@ img.logo{
 
 #contact-form #submit-button {
 	width: 100px;
-	height: 40px;
+	margin-left: 150px;
 	color:#000;
 	border: 1px solid #bbb;
-	font-family: helvetica;
-	font-weight: bold;
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;	font-weight: bold;
 	display:block;
 	
 	-webkit-border-radius: 8px;
