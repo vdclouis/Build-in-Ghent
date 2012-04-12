@@ -647,17 +647,18 @@ img.logo{
 #contact-form select, 
 #contact-form textarea, 
 #contact-form label {
-	font-size:15px;
-	margin-bottom:2px;
+	font-size: 15px;
+	margin-bottom: 2px;
 }
 
 #contact-form input, 
 #contact-form select, 
 #contact-form textarea {
-	width:450px;
+	width: 300px;
 	border: 1px solid #CEE1E8;
-	margin-bottom:20px;
-	padding:4px;
+	margin: 0 0 20px 115px;
+	padding: 4px;
+	display: block;
 }
 
 #contact-form input:focus, 
@@ -665,6 +666,7 @@ img.logo{
 #contact-form textarea:focus {
 	border: 1px solid #AFCDD8;
 	background-color: #EBF2F4;
+	
 }
 
 #contact-form textarea {
@@ -673,7 +675,8 @@ img.logo{
 }
 
 #contact-form label {
-	display:block;
+	float: left;
+	width: 110px;
 }
 
 #contact-form .required {
