@@ -621,18 +621,19 @@ img.logo{
 
 /*contact from*/
 #contact-form {
-	background-color:#F2F7F9;
+	background: url(../../_images/project_papper.png);
 	width:465px;
 	padding:20px;
 	margin: 50px auto;	
-	border: 6px solid #8FB5C1;
+	border: 2px solid #ddd;
 	-moz-border-radius:15px;
 	-webkit-border-radius:15px;
 	border-radius:15px;
 	position:relative;
+	box-shadow: 0px 0px 7px #888;
 }
 
-#contact-form h1 {
+/*#contact-form h1 {
 	font-size:42px;
 }
 
@@ -640,7 +641,7 @@ img.logo{
 	margin-bottom:15px;
 	font-style:italic;
 	font-weight:normal;
-}
+}*/
 
 #contact-form input, 
 #contact-form select, 
