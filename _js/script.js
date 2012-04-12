@@ -86,8 +86,8 @@ $(function () {
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 	$('#home').parallax("50%", 0, 0.1, true);
 	$('#gebouw').parallax("50%", 1800, 0.2, true);
-	$('.pagerechtsgebouw').parallax("150px", 2600, 0.4, true);
-	$('.paparkeergebouw').parallax("50%", 2600, 0.4, true);
+	$('#pagerechtsgebouw').parallax("150px", 2600, 0.4, true);
+	$('#paparkeergebouw').parallax("50%", 2600, 0.4, true);
 	$('#fotos').parallax("50%", 0, 0.3, true);
 	$('.pafotos').parallax("50%", 4000, 0.4, true);
 	$('#praktisch').parallax("50%", 0, 0.3, true);
