@@ -24,18 +24,11 @@ function parseTexts(xml){
 	var text;
 	
 	var date
-//	var home;
-//	var gebouw;
-//	var fotos;
-//	var praktisch;
-//	var video;
-//	var nieuws;
 	
     var htmlMain = "";
     var htmlSub = "";
     var htmlNews = "";
     var htmlNewsContent = "";
-//    var htmlNav = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
 	
@@ -58,7 +51,6 @@ function parseTexts(xml){
     	});
     // Add matched items to an array         
     htmlSub += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
-       
     }); // end each loop
     
     
@@ -71,32 +63,11 @@ function parseTexts(xml){
     		htmlNews += '<tr><td><p>' + date + '</p></td><td><p>' + title + '</p></td></tr>';
     	});
     });
-    
-    //nav
-//    $(xml).find(textlang).each(function () {
-//    	$(this).find('nav').each(function () {
-//    		home = $(this).find('home').text();
-//    		gebouw = $(this).find('gebouw').text();
-//    		fotos = $(this).find('fotos').text();
-//    		praktisch = $(this).find('praktisch').text();
-//    		video = $(this).find('video').text();
-//    		nieuws = $(this).find('nieuws').text();
-//    	});
-//    	
-//    htmlNav += '<li><a href="#home" title="Next Section">' + home +'</a></li>'
-//    			+'<li><a href="#gebouw" title="Next Section">' + gebouw +'</a></li>'
-//    			+'<li><a href="#fotos" title="Next Section">' + fotos +'</a></li>'
-//    			+'<li><a href="#praktisch" title="Next Section">' + praktisch +'</a></li>'
-//    			+'<li><a href="#video" title="Next Section">' + video +'</a></li>'
-//    			+'<li><a href="#nieuws" title="Next Section">' + nieuws +'</a></li>';
-//    
-//    }); //eo each loop
 
     //Write to container
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
     $("table#newz").html(htmlNews);
-//    $("ul#nav").html(htmlNav);
 }
 
 /* document ready */
@@ -105,6 +76,28 @@ $(function () {
 		cache: false
 	});
 	
+	//hook parallax
+	$('#nav').onePageNav();
+	//$('#nav').localScroll(800);
+	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//adjuster - y position to start from
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	$('#home').parallax("50%", 0, 0.1, true);
+	$('#gebouw').parallax("50%", 1800, 0.2, true);
+	$('.pagerechtsgebouw').parallax("150px", 2600, 0.4, true);
+	$('.paparkeergebouw').parallax("50%", 2600, 0.4, true);
+	$('#fotos').parallax("50%", 0, 0.3, true);
+	$('.pafotos').parallax("50%", 4000, 0.4, true);
+	$('#praktisch').parallax("50%", 0, 0.3, true);
+	$('.papraktisch').parallax("50%", 5800, 0.4, true);
+	$('#video').parallax("50%", 2000, 0.3, true);
+	$('.pavideo').parallax("50%", 6600, 0.4, true);
+	$('#nieuws').parallax("50%", 2750, 0.3, true);
+	$('.panieuws').parallax("270px", 7900, 0.4, true);
+	
+	//hook fancybox
 	$(".various").fancybox({
 		maxWidth	: 780,
 		maxHeight	: 450,
@@ -117,18 +110,10 @@ $(function () {
 		closeEffect	: 'none'
 	});
 	
+	//hook flexslider
+	$('.flexslider').flexslider();
+	
+	//XML text loading
 	loadTexts("_resources/_xml/texts.xml");
 	
-//	$("table#newz").click(function () {
-//		console.log("BANG");
-//		$(xml).find(textlang).each(function () {
-//			$(this).find('item').each(function () {
-//				content = $(this).find('content').text();
-//				
-//				htmlNewsContent += '<p>' + content + '</p>';
-//			});
-//		});
-//		
-//		$("#newsContent").html(htmlNewsContent).show();
-//	});
-})
+});

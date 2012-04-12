@@ -10,9 +10,8 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/style.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/jquery.fancybox.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/jquery.fancybox-buttons.css" />
-<!--		<script src="_js/_libs/modernizr-2.5.3.min.js"></script> -->
-		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script> 
+		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/flexslider.css" />
+		<script src="_js/_libs/modernizr.custom.50865.js"></script> 
 	</head>
 	<body>
 		<nav>
@@ -68,27 +67,10 @@
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
 				<div class="pafotos"></div>
-			<!--	<section id="dg-container" class="dg-container">
-					<div class="dg-wrapper">
-						<a href="#"><img src="images/1.jpg" alt="image01"><div>http://www.colazionedamichy.it/</div></a>
-						<a href="#"><img src="images/2.jpg" alt="image02"><div>http://www.percivalclo.com/</div></a>
-						<a href="#"><img src="images/3.jpg" alt="image03"><div>http://www.wanda.net/fr</div></a>
-						<a href="#"><img src="images/4.jpg" alt="image04"><div>http://lifeingreenville.com/</div></a>
-						<a href="#"><img src="images/5.jpg" alt="image05"><div>http://circlemeetups.com/</div></a>
-						<a href="#"><img src="images/6.jpg" alt="image06"><div>http://www.castirondesign.com/</div></a>
-						<a href="#"><img src="images/7.jpg" alt="image07"><div>http://www.foundrycollective.com/</div></a>
-						<a href="#"><img src="images/8.jpg" alt="image08"><div>http://www.mathiassterner.com/home</div></a>
-						<a href="#"><img src="images/9.jpg" alt="image09"><div>http://learnlakenona.com/</div></a>
-						<a href="#"><img src="images/10.jpg" alt="image10"><div>http://www.neighborhood-studio.com/</div></a>
-						<a href="#"><img src="images/11.jpg" alt="image11"><div>http://www.beckindesign.com/</div></a>
-						<a href="#"><img src="images/12.jpg" alt="image12"><div>http://kicksend.com/</div></a>
-					</div>
-					<nav>	
-						<span class="dg-prev">&lt;</span>
-						<span class="dg-next">&gt;</span>
-					</nav>
-				</section>-->
-		    </div> <!--.story-->
+				
+				<div class="inner"><div class="flex-intro"><h1>Flexslider</h1><h2>Basic installation demo</h2></div><div class="flex-nav-container"><div class="flexslider"><ul class="slides"><li style="width: 100%; float: left; margin-right: -100%; display: list-item; "> <img src="http://cdn.woothemes.com/wp-content/themes/woo/images/flex/flexslider_a.jpg"><p class="flex-caption">Flexslider by WooThemes.</p></li><li style="width: 100%; float: left; margin-right: -100%; "> <a href="http://www.woothemes.com/flexslider/"><img src="http://cdn.woothemes.com/wp-content/themes/woo/images/flex/flexslider_b.jpg"></a><p class="flex-caption">This image is wrapped in a link.</p></li><li style="width: 100%; float: left; margin-right: -100%; "> <img src="http://cdn.woothemes.com/wp-content/themes/woo/images/flex/flexslider_c.jpg"></li><li style="width: 100%; float: left; margin-right: -100%; display: none; "> <img src="http://cdn.woothemes.com/wp-content/themes/woo/images/flex/flexslider_d.jpg"></li></ul></div><ol class="flex-control-nav"><li><a class="active">1</a></li><li><a>2</a></li><li><a>3</a></li><li><a class="">4</a></li></ol><ul class="flex-direction-nav"><li><a class="prev" href="#">Previous</a></li><li><a class="next" href="#">Next</a></li></ul></div><p class="info-link"><a href="http://www.woothemes.com/flexslider/" title="Flexslider Homepage">Detailed documentation and support can be found on the homepage</a></p></div>
+								
+			</div> <!--.story-->
 		</div> <!--#fotos-->
 		<div id="praktisch">
 			<div class="story">
@@ -241,6 +223,8 @@
 		<script type="text/javascript" src="_js/_libs/jquery-ui-1.8.18.custom.min.js"></script>
 	<!--fancybox-->
 		<script type="text/javascript" src="_js/_libs/jquery.fancybox.pack.js"></script>
+	<!--flexslider-->
+		<script type="text/javascript" src="_js/_libs/jquery.flexslider-min.js"></script>
 	<!--parallax-->
 		<script type="text/javascript" src="_js/_libs/jquery.localscroll-1.2.7-min.js"></script>
 		<script type="text/javascript" src="_js/jquery.parallax-1.1.js"></script>
@@ -254,33 +238,5 @@
 	<!--php form-->
 <!--		<script src="_js/contactformplugins.js"></script>
 		<script src="_js/contactformscript.js"></script>-->
-	<!--image slideshow-->
-		<script type="text/javascript" src="js/jquery.gallery.js"></script> <!--tijdelijk in de verkeerde map-->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('#nav').onePageNav();
-				//$('#nav').localScroll(800);
-				//.parallax(xPosition, adjuster, inertia, outerHeight) options:
-				//xPosition - Horizontal position of the element
-				//adjuster - y position to start from
-				//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-				//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-				$('#home').parallax("50%", 0, 0.1, true);
-				$('#gebouw').parallax("50%", 1800, 0.2, true);
-				$('.pagerechtsgebouw').parallax("150px", 2600, 0.4, true);
-				$('.paparkeergebouw').parallax("50%", 2600, 0.4, true);
-				$('#fotos').parallax("50%", 0, 0.3, true);
-				$('.pafotos').parallax("50%", 4000, 0.4, true);
-				$('#praktisch').parallax("50%", 0, 0.3, true);
-				$('.papraktisch').parallax("50%", 5800, 0.4, true);
-				$('#video').parallax("50%", 2000, 0.3, true);
-				$('.pavideo').parallax("50%", 6600, 0.4, true);
-				$('#nieuws').parallax("50%", 2750, 0.3, true);
-				$('.panieuws').parallax("270px", 7900, 0.4, true);
-			})
-			$(function() {
-				$('#dg-container').gallery();
-			});
-		</script>
 	</body>
 </html>

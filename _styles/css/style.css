@@ -330,7 +330,8 @@ img.logo{
 }
 
 #fotos .story{
-
+	height: 1000px;
+	width: 600px;
 }
 
 #fotos .story .pafotos{
