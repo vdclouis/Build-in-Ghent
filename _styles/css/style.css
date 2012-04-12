@@ -376,6 +376,10 @@ img.logo{
 	height: 300px;
 }
 
+#praktisch .story {
+	height: 1300px;
+}
+
 #praktisch section#contactmap{
 	
 }
@@ -388,8 +392,8 @@ img.logo{
 	padding: 30px;
 	background-color: #DDD;
 	border-radius: 30px;
-	margin-left: 100px;
-/*	margin-top: 200px;*/
+	margin: 200px 0 0 100px;
+
 }
 
 #map iframe{
