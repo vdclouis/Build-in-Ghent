@@ -1,7 +1,7 @@
 /* GLOBAL VARIABLES */
 
 if(localStorage.getItem('stonesfromghent-language') != null) {
-	window.location.href = "index.php";
+	window.location.href = "index.html";
 }
 
 var selectedLanguage = "nl";
