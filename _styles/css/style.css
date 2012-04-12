@@ -451,7 +451,9 @@ img.logo{
 }
 
 #nieuws .story .float-right table tr td:nth-child(2){
-	width: 310px;
+	width: 350px;
+	padding-left: 50px;
+	text-align: left;
 }
 
 /*the story containers*/

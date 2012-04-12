@@ -68,7 +68,7 @@ function parseTexts(xml){
     		title = $(this).find('title').text();
     		date = $(this).find('date').text();
     		
-    		htmlNews += '<tr><td>' + date + '</td><td>' + title + '</td></tr>';
+    		htmlNews += '<tr><td><p>' + date + '</p></td><td><p>' + title + '</p></td></tr>';
     	});
     });
     
@@ -119,16 +119,16 @@ $(function () {
 	
 	loadTexts("_resources/_xml/texts.xml");
 	
-	$("table#newz").click(function () {
-		console.log("BANG");
-		$(xml).find(textlang).each(function () {
-			$(this).find('item').each(function () {
-				content = $(this).find('content').text();
-				
-				htmlNewsContent += '<p>' + content + '</p>';
-			});
-		});
-		
-		$("#newsContent").html(htmlNewsContent).show();
-	});
+//	$("table#newz").click(function () {
+//		console.log("BANG");
+//		$(xml).find(textlang).each(function () {
+//			$(this).find('item').each(function () {
+//				content = $(this).find('content').text();
+//				
+//				htmlNewsContent += '<p>' + content + '</p>';
+//			});
+//		});
+//		
+//		$("#newsContent").html(htmlNewsContent).show();
+//	});
 })
