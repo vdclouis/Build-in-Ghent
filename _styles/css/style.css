@@ -434,7 +434,7 @@ img.logo{
 }
 
 #nieuws{
-	background: url(../../_images/bg06.png);
+	background: url(../../_images/fabric_plaid.png); /*fabric-texture*/
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -444,7 +444,7 @@ img.logo{
 }
 
 #nieuws .panieuws{
-	background: url(../../_images/pa06.png) 50% 0 fixed;
+	background: url(../../_images/pa06.png) 50% 0 fixed; /*newspapers*/
 	background-repeat: no-repeat;
 	height: 1300px;
 	margin: 0 auto;
