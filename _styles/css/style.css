@@ -644,6 +644,10 @@ img.logo{
 	box-shadow: 0px 0px 7px #888;
 }
 
+#contact-form #lblName::before{
+	background: url(../../_images/contactIcons/user.png);
+}
+
 #contact-form form label{
 	padding: 10px 0px 10px 40px;
 	margin: 0;
@@ -856,18 +860,24 @@ input:required, textarea:required {
 ::-webkit-input-placeholder {
 	color:#CCC;
 	font-style:italic;
+	font-family: serif;
+	text-shadow: 1px 1px #fff;
 }
 
 /* mozilla */
 input:-moz-placeholder, textarea:-moz-placeholder {
 	color:#CCC;
 	font-style:italic;
+	font-family: serif;
+	text-shadow: 1px 1px #fff;
 }
 
 /* ie (faux placeholder) */
 input.placeholder-text, textarea.placeholder-text  { 
 	color:#CCC;
 	font-style:italic;
+	font-family: serif;
+	text-shadow: 1px 1px #fff;
 }
 
 @media only screen and (min-width: 35em) {
