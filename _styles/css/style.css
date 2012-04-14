@@ -202,42 +202,44 @@ img.logo{
 	font-family: 'Myriad Pro';
 }
 
-#home .story img {
-	margin: 300px 0 0 0;
-	z-index: 50;
+#home #nonshadow{
+	position: relative;
 }
 
-#home h1 {
+#home #nonshadow img {
+	margin: 0px 0 0 0;
+	z-index: 50;
+	position: absolute;
+}
+
+#home #nonshadow h1 {
 	font-size: 5em;
 	color: #888;
-	margin: -250px 0 0 190px;
 	z-index: 9999;
+	position: absolute;
+	margin: 0;
 }
 
-#home h2 {
+#home #nonshadow h2 {
 	font-size: 5em;
 	color: #555;
-	margin: -40px 0 0 270px;
+	position: absolute;
+	margin: 0;
 }
 
-#home p {
+#home #nonshadow p {
 	color: #888;
 	font-size: 1.7em;
 	margin: -30px 0 0 265px;
 }
 
 #home .story {
-/*	padding: 150px 0 0 300px;*/
-/*	margin: 0px 0 0 0px;*/
 	height: 1000px;
 }
 
-#home #shadow {
-	width: 50%;
-}
-
 #home #shadow{
-	line-height: 1em;
+	position: relative;
+	width: 50%;
 }
 
 #home #shadow p {
@@ -245,18 +247,20 @@ img.logo{
 	font-size: 10em;
 	color: rgba(255, 255, 255, .0);
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
-	left: -200px;
 	z-index: 0;
 	cursor: default;
+	margin: 0;
 }
 
 #home #shadow p:first-child{
 	top: 250px;
+	border: 1px solid red;
 }
 
 #home #shadow p:last-child{
 	top: 600px;
 	left: 100px;
+	border: 1px solid red;
 }
 
 #gebouw{	
@@ -271,7 +275,9 @@ img.logo{
 }
 
 #gebouw .story{
-	width: 100%;
+	width: 980px;
+	border: 1px solid red;
+	height: 1300px;
 }
 
 #gebouw .story section#gerechtsgebouw{
@@ -523,19 +529,19 @@ img.logo{
 }
 
 .bullet{
-	border-radius: 15px;
+/*	border-radius: 15px;
 	width: 30px;
-	height: 30px;
+	height: 30px;*/
 	display: inline-block;
 }
 
 .leftbullet{
-	background-color: #2096d3;	
+/*	background-color: #2096d3;	*/
 	margin-left: 80px;
 }
 
 .rightbullet{
-	background-color: #b2b2b2;
+/*	background-color: #b2b2b2;*/
 	margin-left: 20px;
 }
 
