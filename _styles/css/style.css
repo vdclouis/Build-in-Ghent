@@ -550,14 +550,6 @@ img.logo{
 	text-indent: -999em;
 }
 
-.rightbullet{
-	width: 13px; 
-	height: 13px; 
-	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
-	text-indent: -999em;
->>>>>>> conflict?
-}
-
 /*contact*/
 #contact{
 	font-size: 10px;
