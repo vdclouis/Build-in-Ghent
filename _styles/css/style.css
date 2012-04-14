@@ -536,20 +536,18 @@ img.logo{
 }
 
 .leftbullet{
-<<<<<<< HEAD
-/*	background-color: #2096d3;	*/
-	margin-left: 80px;
-}
-
-.rightbullet{
-/*	background-color: #b2b2b2;*/
-	margin-left: 20px;
-=======
 	width: 13px; 
 	height: 13px; 
 	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
 	text-indent: -999em;
 	background-position: 0 -26px;
+}
+
+.rightbullet{
+	width: 13px; 
+	height: 13px; 
+	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
+	text-indent: -999em;
 }
 
 .rightbullet{
