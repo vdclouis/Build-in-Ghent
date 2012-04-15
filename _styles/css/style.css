@@ -687,7 +687,7 @@ img.logo{
 	border: 1px solid green;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 400px;
 }
 
 #wd td{
@@ -699,44 +699,44 @@ img.logo{
 	color: black;
 }
 
-#contactbig #collapse{
+#contactbig #contactmenu{
+	width: 100px;
 	float: right;
-}
-
-#contactbig #collapse p{
-	padding: 5px;
 	color: white;
 	font-size: 15px;
 }
 
-#contactbig #more{
-	float: right;
+#contactbig #contactmenu #collapse{
 }
 
-#contactbig #more p{
-	padding: 5px;
-	color: white;
-	font-size: 15px;
+#contactbig #contactmenu #collapse img{
+	float: left;
+	margin: 4px 5px;
+}
+
+#contactbig #contactmenu #collapse p{
+	margin: 0;
+
+}
+
+#contactbig #contactmenu #more{
+}
+
+#contactbig #contactmenu #more p{
 }
 
 .contactshown{
-	background-color: red;
 }
 
 .contacthidden{
-	background-color: blue;
-}
-
-#contactmenu{
-	border: 1px solid red;
-	display: inline-block;
-	width: 100px;
-	float: right;
 }
 
 /*contact from*/
 #contact-form {
+}
 
+#contact-form #more{
+	
 }
 
 #contact-form #lblName::before{
