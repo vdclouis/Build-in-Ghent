@@ -26,6 +26,37 @@
 			<video>video</video>
 			<nieuws>nieuws</nieuws>
 		</nav>
+		<departments>
+			<title>Afdelingen</title>
+			<text>
+				<p>In het gerechtsgebouw van Gent vindt u verschillende afdelingen terug. Zo vindt u hier de:</p>
+				<ul>
+					<li>Rechtbank van Eerste Aanleg</li>
+					<li>Arbeidsrechtbank</li>
+					<li>Vrederechten</li>
+					<li>Politierechtbank</li>
+					<li>Afdeling Parket Procureur des Konings</li>
+					<li>Afdeling Jeugd en Gezin van het Parket van de Procureur des Konings</li>
+					<li>Afdeling Politieparket van het Parket van de Procureur des Konings</li>
+					<li>De Orde van Advocaten van de balie te Gent</li>
+				</ul>
+				<p>In totaal zijn circa 600 personen in dit gerechtsgebouw tewerkgesteld.</p>
+				<p>De Politierechtbank behandelt overtredingen en verkeerszaken.</p>
+				<p>Bij het parket van de Procureur des Konings zijn tevens justitieassistenten actief:</p>
+				<ul>
+					<li>justitieassistenten bemiddeling in strafzaken</li>
+					<li>justitieassistenten slachtofferonthaal</li>
+				</ul>
+				<p>Voor de Afdeling Parket Politierechtbank, Parket Economische Delinquentie en Fiscale Zaken en Nationaliteitskeuze/Naturalisatie van het Parket van de Procureur des Konings dient u zich te wenden naar  het Lieven Bauwensbuilding. Het Hof van Beroep vindt u terug In het Gerechtsgebouw, Koophandelsplein 23.</p>
+				<p>De openingsuren van de verschillende instanties vindt u terug bij Praktisch – algemene info.</p>
+			</text>
+		</departments>
+		<architecten>
+			<p>De federale Regie der Gebouwen schreef in 1998 een internationale architectuurwedstrijd uit. Zij stelde een jury samen met vertegenwoordigers van het Gentse stadsbestuur, het ministerie van de Vlaamse Gemeenschap, de federale overheidsdienst Justitie, de Orde van Architecten, de Regie der Gebouwen zelf, het buurtcomité Rabot en externe architecten.
+			De Tijdelijke Vereniging Beel-Achtergael architecten F.V. - Technum N.V. kwam als eerste laureaat uit de bus.
+			</p>
+			<p>Stéphane Beel is een opvallende vertegenwoordiger van de Nieuwe Eenvoud die de laatste decennia van de 20e eeuw in Vlaanderen tot ontwikkeling kwam. Hij startte een eigen bureau maar naast zijn eigen bureau, werkt Stéphane Beel ook nauw samen met Lieven Achtergael. Samen leiden ze het bureau Beel-Achtergael architecten. Ze realiseerden reeds de Tacktoren in Kortrijk (1994-1999), het Centraal Museum in Utrecht (1994-1999), het Gerechtsgebouw in Gent (1998-2006), het JOC Rabot (JOC Minus One) in Gent (2002-2007) en Villa V te T (2006-2009) Momenteel werkt het bureau aan het Militair Hospitaal Oostende, het Militair Hospitaal Antwerpen, de renovatie en herontwikkeling van het Cultureel Centrum De Warande in Turnhout en een fuifzaal in Turnhout (eveneens op De Warande-site). In 2005 kwam een overzicht van het werk in een editie van het gerenommeerde Spaanse tijdschrift 'El Croquis'</p>
+		</architecten>
 		<news>
 			<item id="1">
 				<title>Ophef over naaktfoto's in Gentse gerechtsgebouw</title>
@@ -72,6 +103,29 @@
 			<video>vidéo</video>
 			<nieuws>nouvelles</nieuws>
 		</nav>
+		<departments>
+			<title>Départements</title>
+			<p>Le palais de justice a plusieurs départements.</p>
+			<ul>
+				<li>Tribunal de première instance</li>
+				<li>Tribunal du travail</li>
+				<li>Tribunaux cantonaux</li>
+				<li>Tribunal de police</li>
+				<li>Service Public Bureau du Procureur</li>
+				<li>Service de la jeunesse et famille</li>
+				<li>Service </li>
+				<li></li>
+			</ul>
+			<p>En total il y a 600 personnes employés dans le Palais de justice</p>
+			
+			<p>Le Tribunal de police couvre des infractions et la gestion du trafique</p>
+			<p></p>
+			<ul>
+				<li>Adjoint judiciaire en matière pénale</li>
+				<li>Adjoint judiciare en traite de victime</li>
+			</ul>
+			<p>Vous trouvez les heures d'ouverture </p>
+		</departments>
 		<news>
 			<item id="1">
 				<title>Agitation a propos des photos nues dans  le palais de justice de Gand</title>
@@ -117,6 +171,38 @@
 			<video>video</video>
 			<nieuws>news</nieuws>
 		</nav>
+		<departments>
+			<title>Departments</title>
+			<text>
+				<p>The Courthouse houses a variety of departments. You will find the:</p>
+				<ul>
+					<li>Court of First Instance</li>
+					<li>Labour court</li>
+					<li>Peace courts</li>
+					<li>Police Court</li>
+					<li>Department Public Prosecutor's Office</li>
+					<li>Department Youth and Family  of Public Prosecutor's Office</li>
+					<li>Department Police Court Family  of Public Prosecutor's Office</li>
+					<li>The Amendments to the Belgian Arbitration Law</li>
+				</ul>
+				<p>A Total number of 600 people are employed in the courthouse</p>
+				<p>The Police court is specialized in violations and traffic issues.</p>
+				<p>The public prosecutor’ Office is assisted by Judicial Assistant</p>
+				<ul>
+					<li>Judicial Assistant in criminal matters</li>
+					<li>Judicial Assistant victim treats</li>
+				</ul>
+				<p>You will find the Opening hours of the different departments at Practical – General information</p>
+			</text>
+		</departments>
+		<architecten>
+			<p>In 1998 an international architecture contest was set up. In the jury there were representatives of the city of Ghent, The ministry of Flemish Community, Federal Public Service of Justice, The Amendments of Architects,  The Director of buildings, the Rabot Neighbourhood en external achitects.
+			</p>
+			<p>The temporaly association Beel-Achtergael Architects F.V. – Technum N.V.  became top winner.
+			Stéphane Bell is a representative of a Simplicity movement that came to take place in the 20’s in Flanders. He started his own Agency but also works closely together with Lieven Achtergael. Together they are leading the agency Beel-Achtergael. They allready realized the Tack Tower in Kortrijk ( 1994 – 1999), the Central museum in Utrecht ( 1994 – 1999), The Youth House Rabot ( 2002-2007) and Villa V (2006-2009). At the moment the company is working on the military hospital in Ostend and Antwerp and is conducting the renovation of the cultural center ‘De Warande’ in turnhout.
+			</p>
+			<p>In 2005 a summary of their work was published in the famous Spanish Magazine 'El Croquis'</p>
+		</architecten>
 		<news>
 			<item id="1">
 				<title>Fuss about nude pictures in the courthouse of Ghent</title>
