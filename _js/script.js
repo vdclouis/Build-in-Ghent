@@ -93,7 +93,7 @@ $(function () {
 	$('.pafotos').parallax("50%", 4000, 0.4, true);
 	$('#praktisch').parallax("50%", 0, 0.3, true);
 	$('.papraktisch').parallax("50%", 5800, 0.4, true);
-	$('#video').parallax("50%", 2000, 0.3, true);
+	$('#video').parallax("50%", 700, 0.3, true);
 	$('.pavideo').parallax("50%", 6600, 0.4, true);
 	$('#nieuws').parallax("50%", 2750, 0.3, true);
 	$('.panieuws').parallax("270px", 7900, 0.4, true);
@@ -118,7 +118,7 @@ $(function () {
 	loadTexts("_resources/_xml/texts.xml");
 	
 //	language menu
-
+//	dutch
 	$('#chooseLang li:nth-child(1) a').click(function () {
 		//setLanguageFromLink(this);
 		$(this).addClass('current');
@@ -127,6 +127,7 @@ $(function () {
 		return false;
 	});
 	
+//	english
 	$('#chooseLang li:nth-child(2) a').click(function () {
 		//setLanguageFromLink(this);
 		$(this).addClass('current');
@@ -135,6 +136,7 @@ $(function () {
 		return false;
 	});
 	
+//	french
 	$('#chooseLang li:nth-child(3) a').click(function () {
 		//setLanguageFromLink(this);
 		$(this).addClass('current');

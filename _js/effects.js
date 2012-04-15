@@ -7,6 +7,31 @@ $(function () {
 	
 	// ---------------------------- //
 
+	$('#architect').hide();
+	$('#afdeling').hide();
+	
+	$('#gebouwnav ul li:nth-child(1) a').click(function () {
+		$('#architect').hide();
+		$('#afdeling').hide();
+		$('#algemeen').fadeIn(1000);
+		console.log('algemeen clicked');
+		return false;
+	});
+	
+	$('#gebouwnav ul li:nth-child(2) a').click(function () {
+		$('#algemeen').hide();
+		$('#afdeling').hide();
+		$('#architect').fadeIn(1000);
+		return false;
+	});
+	
+	$('#gebouwnav ul li:nth-child(3) a').click(function () {
+		$('#algemeen').hide();
+		$('#architect').hide();
+		$('#afdeling').fadeIn(1000);
+		return false;
+	});
+
 	//hides the second page 'parkeergebouw'
 	$('#parkeergebouw').hide();
 	
@@ -32,8 +57,11 @@ $(function () {
 	
 	// ---------------------------- //
 	
+	
 	//hides the second page 'contactform'
 	$('#contactform').hide();
+	
+	$('.rightbullet a').css("background-position","0 0");
 	
 	//navigation with the bulletnavs
 	$('#praktischnav .rightbullet, #praktischnav .rightbullet a').click( function () {
@@ -54,6 +82,7 @@ $(function () {
 	});
 	
 	// ---------------------------- //
+	// footer contact
 	
 	$('#contactbig').hide();
 
@@ -93,5 +122,10 @@ $(function () {
 	
 	$('#more').click(function () {
 		
-	})
+	});
+	
+//	remove the fancybox when a menulink is clicked
+	$('#mainmenu a').click( function () {
+		$('.fancybox-wrap, #fancybox-overlay').hide();
+	});
 });

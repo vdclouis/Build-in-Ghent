@@ -146,7 +146,7 @@ nav#mainmenu {
 	z-index: 9999;
 	width: 100%;
 	padding: 30px 0px;
-	
+	pointer-events: none;
 }
 
 ul#nav{
@@ -167,6 +167,7 @@ ul#nav li a {
 	padding: 5px 20px 5px 0;
 	text-decoration: none;
 	text-transform: lowercase;
+	pointer-events: auto;
 }
 
 ul#nav li a:hover {
@@ -192,6 +193,7 @@ ul#nav li a:hover {
 #chooseLang a{
 	color: #636466;
 	text-decoration: none;
+	pointer-events: auto;
 }
 #chooseLang a:hover{
 	color: #cc3333;
@@ -206,7 +208,7 @@ ul#nav li a:hover {
 img.logo{
 	position: absolute;
 	left: 40px;
-	top: 60px;
+	top: 70px;
 }
 
 #header, #intro, #second{
@@ -293,7 +295,6 @@ img.logo{
 	font-size: 15em;
 	color: rgba(255, 255, 255, .0);
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
-	z-index: 0;
 	cursor: default;
 	margin: 0;
 	z-index: 1;
@@ -307,6 +308,26 @@ img.logo{
 #home #shadow p:last-child{
 	top: 500px;
 	left: 90px; /*100px = horizonal scroll*/
+}
+
+nav#gebouwnav{
+	position: relative;
+	padding: 20px 30px;
+	margin-top: 50px;
+}
+
+nav#gebouwnav ul{
+	float: right;
+}
+
+nav#gebouwnav ul li{
+	float: left;
+	margin-left: 85px;
+}
+
+nav#gebouwnav ul li a{
+	text-decoration: none;
+	color: black;
 }
 
 #gebouw{	
@@ -327,11 +348,15 @@ img.logo{
 	height: 1300px;
 }
 
-#gebouw .story section#gerechtsgebouw{
+#gebouw .story section{
+	border: 1px solid red;
+}
+
+#gebouw .story #gerechtsgebouw{
 
 }
 
-#gebouw .story section#gerechtsgebouw #pagerechtsgebouw{
+#gebouw .story #gerechtsgebouw #pagerechtsgebouw{
 	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
 	height: 1300px;
 	margin: 0 auto;
@@ -342,8 +367,8 @@ img.logo{
 	pointer-events: none;
 }
 
-#gebouw .story .gebouwen img{
-	margin-top: 200px;
+#gebouw .story .gebouwen img, #gebouw #architect img{
+	margin-top: 100px;
 	width: 600px;
 	float: left;
 }
@@ -351,10 +376,7 @@ img.logo{
 #gebouw .story .gebouwen .tekst{
 	text-align: right;
 	margin: 0 20px 0 600px;
-}
-
-#gebouw .story .gebouwen .tekst{
-	height: 400px;
+	height: 500px;
 	overflow: hidden;
 }
 
@@ -373,7 +395,7 @@ img.logo{
 
 }*/
 
-#gebouw .story section#parkeergebouw #paparkeergebouw{
+#gebouw .story #paparkeergebouw{
 	background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
 	height: 1300px;
 	margin: 0 auto;
@@ -478,13 +500,14 @@ img.logo{
 	position:relative;
 	box-shadow: 0px 0px 7px #888;
 	height: 480px;
+	overflow: hidden;
 }
 
 #map{
 	padding: 30px;
 	background-color: #DDD;
 	border-radius: 30px;
-	margin: 200px 0 0 100px;
+/*	margin: 200px 0 0 100px;*/
 }
 
 #map iframe{
@@ -588,7 +611,7 @@ img.logo{
 }
 
 .story .tekst{
-	padding: 150px 0 0 0;
+/*	padding: 150px 0 0 0;*/
 	position: relative;
 	width: 350px;
 }
@@ -597,6 +620,7 @@ img.logo{
 .tekst h1{
 	text-transform: uppercase;
 	border-top: 1px solid #333;
+	padding: 15px;
 }
 
 .tekst p{
@@ -606,8 +630,6 @@ img.logo{
 
 /*bulletnav*/
 #gebouwennav{
-	margin-top: 50px;
-	position: absolute;
 }
 
 #praktischnav{
