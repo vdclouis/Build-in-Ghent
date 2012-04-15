@@ -232,7 +232,7 @@ img.logo{
 #home #nonshadow h1 {
 	font-size: 5em;
 	color: #888;
-	z-index: 9999;
+	z-index: 50;
 	position: absolute;
 	margin: 0;
 	left: 400px;
@@ -246,7 +246,7 @@ img.logo{
 	margin: 0;
 	top: 570px;
 	left: 470px;
-	z-index: 9999;
+	z-index: 50;
 }
 
 /*beter use bottom for most resolutions?*/
@@ -331,7 +331,11 @@ img.logo{
 #gebouw .story .gebouwen .tekst{
 	text-align: right;
 	margin: 0 20px 0 600px;
-	height: 320px;
+}
+
+#gebouw .story .gebouwen .tekst .main{
+	height: 400px;
+	overflow: hidden;
 }
 
 #gebouw .story .gebouwen #tekstgerechtsgebouw{

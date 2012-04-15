@@ -19,7 +19,6 @@ http://www.gnu.org/licenses/gpl.html
 //	$('#nav').css({"top": newtop}); //set the new top position of the navigation list
 //}
 
-
 (function( $ ){
 	$.fn.parallax = function(xpos, adjuster, inertia, outerHeight) {
 			
