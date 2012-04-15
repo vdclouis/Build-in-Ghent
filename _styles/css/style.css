@@ -146,7 +146,7 @@ nav {
 	position: fixed;
 	right: 0;
 	top: 0;
-	height: 85px;
+	height: 150px;
 	z-index: 9999;
 	text-align: right;
 }
@@ -178,6 +178,24 @@ ul#nav li a:hover {
 	color: #cc3333;
 }
 
+#chooseLang{
+	text-align: left;
+	margin: -80px 0 0 20px;
+}
+
+#chooseLang ul li{
+	display: inline-block;
+}
+#chooseLang a{
+	color: #636466;
+	text-decoration: none;
+}
+#chooseLang a:hover{
+	color: #cc3333;
+}
+#chooseLang .current a{
+	color: #cc3333;
+}
 /*#nav .current a:hover {
 	color: yellow;
 }*/
