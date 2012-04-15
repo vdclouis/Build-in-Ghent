@@ -3,25 +3,25 @@
 	padding: 0;
 }
 body {
-
-}
-#imgcontainer {
-	background: #ddd;
-	height: 600px;
-
 }
 #container {
-	background: url('../../_images/bg00.png') no-repeat;
-	width: 1024px;
-	height: 768px;
+	background: url('../../_images/bg000.jpg') no-repeat;
 	margin: 0 auto;
+	height: 1152px;
+	display: block;
+}
+#content{
+	margin: 0 45%;
 }
 header img {
-	margin-top: 20px;
+	margin-top: 400px;
+	z-index: -9999;
 }
 nav {
-	margin-top: 210px;
-	margin-left: 190px;
+	z-index: 9999;
+	position: absolute;
+	top: 590px;
+	margin-left: -50px;
 }
 .button {
 	width: 250px;
@@ -33,11 +33,14 @@ nav {
 }
 .button a {
 	text-decoration: none;
-	color: orange;
+	color: #000;
 }
 .button a:hover {
-	color: lightblue;
+	color: red;
 	cursor: pointer;
+}
+.button a:active{
+	color: red;
 }
 #en {
 	padding-left: 5px;

@@ -26,11 +26,11 @@ function setLanguage(language){
 	$("#language-indicator").html('<h1>' + language + '</h1>');
 	
 	if (language == "nl") {
-		$("#nl a").css({'color':'lightblue'});
+		$("#nl a").css({'color':'red'});
 	}else if (language == "en") {
-		$("#en a").css({'color':'lightblue'});
+		$("#en a").css({'color':'red'});
 	}else{
-		$("#fr a").css({'color':'lightblue'});
+		$("#fr a").css({'color':'red'});
 	}
 	
 }
