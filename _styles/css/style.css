@@ -50,7 +50,7 @@ ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+img { border: 0; -ms-interpolation-mode: bicubic; /*vertical-align: middle;*/ }
 svg:not(:root) { overflow: hidden; }
 figure { margin: 0; }
 
@@ -207,9 +207,12 @@ img.logo{
 }
 
 #home #nonshadow img {
-	margin: 0px 0 0 0;
-	z-index: 50;
+	margin: 0;
+/*	z-index: 50;*/
 	position: absolute;
+	top: 500ox;
+	left: 100px;
+	display: block;
 }
 
 #home #nonshadow h1 {
@@ -253,13 +256,13 @@ img.logo{
 }
 
 #home #shadow p:first-child{
-	top: 250px;
+/*	top: 250px;*/
 	border: 1px solid red;
 }
 
 #home #shadow p:last-child{
-	top: 600px;
-	left: 100px;
+/*	top: 600px;
+	left: 100px;*/
 	border: 1px solid red;
 }
 
