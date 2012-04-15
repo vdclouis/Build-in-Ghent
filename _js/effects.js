@@ -56,7 +56,7 @@ $(function () {
 	
 	$('#contactbig').hide();
 
-	$('#contactsmall p').click(function() {
+	$('#contact').click(function() {
 		$('#contact').animate({
 			'width':'100%',
 			'height':'50px',
@@ -73,7 +73,7 @@ $(function () {
 	$('#collapse').click(function() {
 		$('#contactbig').fadeOut(500);
 		$('#contact').animate({
-			'width':'80px',
+			'width':'60px',
 			'height':'15px',
 //			'border-top-left-radius': '10px',
 //			'border-top-right-radius': '10px',
