@@ -11,19 +11,19 @@ $(function () {
 	$('#parkeergebouw').hide();
 	
 	//navigation with the bulletnavs
-	$('#gebouwennav .rightbullet').click( function () {
+	$('#gebouwennav .rightbullet, #gebouwennav .rightbullet a').click( function () {
 		$('#gerechtsgebouw').hide();
 		$('#parkeergebouw').fadeIn(1000);
-		$(this).css("background-position","0 -26px");
-		$('.leftbullet').css("background-position","0 0");
+		$('#gebouwennav .rightbullet a').css("background-position","0 -26px");
+		$('.leftbullet a').css("background-position","0 0");
 		console.log('rightbullet clicked!');
 		return false;
 	});
-	$('#gebouwennav .leftbullet').click( function () {
+	$('#gebouwennav .leftbullet, #gebouwennav .leftbullet a').click( function () {
 		$('#parkeergebouw').hide();
 		$('#gerechtsgebouw').fadeIn(1000);
-		$(this).css("background-position","0 -26px");
-		$('.rightbullet').css("background-position","0 0");
+		$('#gebouwennav .leftbullet a').css("background-position","0 -26px");
+		$('.rightbullet a').css("background-position","0 0");
 		console.log('leftbullet clicked!');
 		return false;
 	});
@@ -34,19 +34,19 @@ $(function () {
 	$('#contactform').hide();
 	
 	//navigation with the bulletnavs
-	$('#praktischnav .rightbullet').click( function () {
+	$('#praktischnav .rightbullet, #praktischnav .rightbullet a').click( function () {
 		$('#contactmap').hide();
 		$('#contactform').fadeIn(1000);
-		$(this).css("background-position","0 -26px");
-		$('.leftbullet').css("background-position","0 0");
+		$('#praktischnav .rightbullet a').css("background-position","0 -26px");
+		$('.leftbullet a').css("background-position","0 0");
 		console.log('rightbullet clicked! -> contactform');
 		return false;
 	});
-	$('#praktischnav .leftbullet').click( function () {
+	$('#praktischnav .leftbullet, #praktischnav .leftbullet a').click( function () {
 		$('#contactform').hide();
 		$('#contactmap').fadeIn(1000);
-		$(this).css("background-position","0 -26px");
-		$('.rightbullet').css("background-position","0 0");
+		$('#praktischnav .leftbullet a').css("background-position","0 -26px");
+		$('.rightbullet a').css("background-position","0 0");
 		console.log('leftbullet clicked! -> contactmap');
 		return false;
 	});

@@ -246,6 +246,7 @@ img.logo{
 	margin: 0;
 	top: 570px;
 	left: 470px;
+	z-index: 9999;
 }
 
 /*beter use bottom for most resolutions?*/
@@ -255,6 +256,7 @@ img.logo{
 	top: 660px;
 	left: 530px;
 	position: absolute;
+	z-index: 30;
 }
 
 #home .story {
@@ -279,6 +281,7 @@ img.logo{
 
 #home #shadow p:first-child{
 	top: 350px;
+	left: 20px;
 }
 
 #home #shadow p:last-child{
@@ -403,7 +406,7 @@ img.logo{
 }
 
 #praktisch section{
-	height: 300px;
+	height: auto;
 }
 
 #praktisch .story {
@@ -418,16 +421,43 @@ img.logo{
 	
 }
 
+#praktisch .praktisch .praktischbox{
+	background: url(../../_images/project_papper.png);
+	width:665px;
+	padding:20px 20px 20px 0;
+	margin: 100px auto 0 auto;	
+	border: 2px solid #ddd;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	position:relative;
+	box-shadow: 0px 0px 7px #888;
+	height: 550px;
+}
+
+#praktisch .praktisch .praktischbox{
+	background: url(../../_images/project_papper.png);
+	width:665px;
+	padding:20px 20px 20px 0;
+	margin: 100px auto 0 auto;	
+	border: 2px solid #ddd;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	position:relative;
+	box-shadow: 0px 0px 7px #888;
+	height: 480px;
+}
+
 #map{
 	padding: 30px;
 	background-color: #DDD;
 	border-radius: 30px;
 	margin: 200px 0 0 100px;
-
 }
 
 #map iframe{
-	margin: 0;
+	margin: 0 22px;
 	border: none;
 }
 
@@ -553,25 +583,29 @@ img.logo{
 }
 
 .bullet{
-/*	border-radius: 15px;
-	width: 30px;
-	height: 30px;*/
 	display: inline-block;
+	border: 1px solid #333;
+	width: 30px;
+	height: 30px;
 }
 
-.leftbullet{
+.leftbullet a{
 	width: 13px; 
 	height: 13px; 
 	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
 	text-indent: -999em;
 	background-position: 0 -26px;
+	display: block;
+	margin: 10px auto;
 }
 
-.rightbullet{
+.rightbullet a{
 	width: 13px; 
 	height: 13px; 
 	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
 	text-indent: -999em;
+	display: block;
+	margin: 10px auto;
 }
 
 /*contact*/
@@ -656,16 +690,7 @@ img.logo{
 
 /*contact from*/
 #contact-form {
-	background: url(../../_images/project_papper.png);
-	width:665px;
-	padding:20px 20px 20px 0;
-	margin: 200px auto;	
-	border: 2px solid #ddd;
-	-moz-border-radius:15px;
-	-webkit-border-radius:15px;
-	border-radius:15px;
-	position:relative;
-	box-shadow: 0px 0px 7px #888;
+
 }
 
 #contact-form #lblName::before{
