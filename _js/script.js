@@ -117,4 +117,29 @@ $(function () {
 	//XML text loading
 	loadTexts("_resources/_xml/texts.xml");
 	
+//	language menu
+
+	$('#chooseLang li:nth-child(1) a').click(function () {
+		//setLanguageFromLink(this);
+		$(this).addClass('current');
+		$('#chooseLang li:nth-child(2) a, #chooseLang li:nth-child(3) a').removeClass('current');
+		console.log('dutch selected!');
+		return false;
+	});
+	
+	$('#chooseLang li:nth-child(2) a').click(function () {
+		//setLanguageFromLink(this);
+		$(this).addClass('current');
+		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(3) a').removeClass('current');
+		console.log('english selected!');
+		return false;
+	});
+	
+	$('#chooseLang li:nth-child(3) a').click(function () {
+		//setLanguageFromLink(this);
+		$(this).addClass('current');
+		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(2) a').removeClass('current');
+		console.log('french selected!');
+		return false;
+	});
 });

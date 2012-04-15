@@ -10,6 +10,8 @@ $(function () {
 	//hides the second page 'parkeergebouw'
 	$('#parkeergebouw').hide();
 	
+	$('#gebouwennav .rightbullet a').css("background-position","0 0");
+	
 	//navigation with the bulletnavs
 	$('#gebouwennav .rightbullet, #gebouwennav .rightbullet a').click( function () {
 		$('#gerechtsgebouw').hide();
