@@ -370,7 +370,7 @@ img.logo{
 
 }*/
 
-#gebouw .story section#algemeen #paparkeergebouw{
+#gebouw .story section#parkeergebouw #paparkeergebouw{
 	background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
 	height: 1300px;
 	margin: 0 auto;
@@ -680,40 +680,36 @@ img.logo{
 	margin: 0 40px;
 }
 
-#contactbig section#contactauthors{
-	border: 1px solid red;
+#contactbig section#contactauthors, #contactbig section#contactjustitie {
 	width: 980px;
 	margin: 0 auto;
 /*	display: inline-block;*/
 	position: relative;
 }
 
-#gd{
-	width: 400px;
-	border: 1px solid green;
+.table1{
+	width: 450px;
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-#gd td{
-	width: 110px;
+.table1 td{
+	width: 150px;
 }
 
-#wd{
-	width: 400px;
-	border: 1px solid green;
+.table2{
+	width: 450px;
 	position: absolute;
 	top: 0;
-	left: 400px;
+	left: 450px;
 }
 
-#wd td{
+.table2 td{
 	width: 150px;
-	border: 1px solid black;
 }
 
-#contactauthors tr:first-child td:first-child{
+tr:first-child td:first-child{
 	color: black;
 }
 
@@ -730,11 +726,12 @@ img.logo{
 #contactbig #contactmenu #collapse img{
 	float: left;
 	margin: 4px 5px;
+	border: 1px solid #333;
+	
 }
 
 #contactbig #contactmenu #collapse p{
 	margin: 0;
-
 }
 
 #contactbig #contactmenu #more{

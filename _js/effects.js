@@ -13,7 +13,6 @@ $(function () {
 	//navigation with the bulletnavs
 	$('#gebouwennav .rightbullet, #gebouwennav .rightbullet a').click( function () {
 		$('#gerechtsgebouw').hide();
-//		$('#gerechtsgebouw').hide();
 		$('#parkeergebouw').fadeIn(1000);
 		$('#gebouwennav .rightbullet a').css("background-position","0 -26px");
 		$('.leftbullet a').css("background-position","0 0");
@@ -87,7 +86,10 @@ $(function () {
 	
 	// ---------------------------- //
 	
+	$('#contactauthors').hide();
+	
+	
 	$('#more').click(function () {
-		$('#gd, #wd').toggle('contactshown');
+		
 	})
 });
