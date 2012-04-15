@@ -193,9 +193,20 @@ img.logo{
 }
 
 #home{
-	background:url(../../_images/bg01.png) repeat fixed;
+/*	background:url(../../_images/bg01.png) repeat fixed;*/
+	background: url(../../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 	color: black;
 	height: 1300px;
+}
+
+#home .pahome{
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 1024px;
+	z-index: 200;
+	pointer-events: none;
 }
 
 #home h1, #home h2, #home p{
@@ -213,6 +224,9 @@ img.logo{
 	top: 500ox;
 	left: 100px;
 	display: block;
+	top: 500px;
+	left: 200px;
+	z-index: 2;
 }
 
 #home #nonshadow h1 {
@@ -221,6 +235,8 @@ img.logo{
 	z-index: 9999;
 	position: absolute;
 	margin: 0;
+	left: 400px;
+	top: 500px;
 }
 
 #home #nonshadow h2 {
@@ -228,12 +244,17 @@ img.logo{
 	color: #555;
 	position: absolute;
 	margin: 0;
+	top: 570px;
+	left: 470px;
 }
 
+/*beter use bottom for most resolutions?*/
 #home #nonshadow p {
 	color: #888;
 	font-size: 1.7em;
-	margin: -30px 0 0 265px;
+	top: 660px;
+	left: 530px;
+	position: absolute;
 }
 
 #home .story {
@@ -247,27 +268,26 @@ img.logo{
 
 #home #shadow p {
 	position: absolute;
-	font-size: 10em;
+	font-size: 15em;
 	color: rgba(255, 255, 255, .0);
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
 	z-index: 0;
 	cursor: default;
 	margin: 0;
+	z-index: 1;
 }
 
 #home #shadow p:first-child{
-/*	top: 250px;*/
-	border: 1px solid red;
+	top: 350px;
 }
 
 #home #shadow p:last-child{
-/*	top: 600px;
-	left: 100px;*/
-	border: 1px solid red;
+	top: 500px;
+	left: 90px; /*100px = horizonal scroll*/
 }
 
 #gebouw{	
-	background: url(../../_images/bg02c.png); /*gradient*/
+/*	background: url(../../_images/bg02c.png); /*gradient*!/*/
 	background-repeat: repeat-x;
 	height: 1300px;
 	margin: 0 auto;
@@ -275,6 +295,7 @@ img.logo{
 	padding: 0;
 	color: black;
 	position: relative;
+	border-bottom-color: red;
 }
 
 #gebouw .story{
