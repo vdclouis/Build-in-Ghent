@@ -8,6 +8,7 @@
 		<title>Build in Ghent</title>
 		<meta name="description" content="">	
 		<meta name="viewport" content="width=device-width">
+		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
 		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/style.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/jquery.fancybox.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/flexslider.css" />
@@ -44,15 +45,24 @@
 		<div id="gebouw">
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
-				<section class="gebouwen" id="gerechtsgebouw">
+				<section class="gebouwen" id="algemeen">
 					<div id="pagerechtsgebouw"></div>
 					<img src="_images/bg02a.png" alt="gerechtsgebouw" />
 			    	<div class="tekst" id="tekstgerechtsgebouw">
 			            <div class="main"></div>
 			            <div class="text"></div>
+			            <div id="scrollarrow"></div>
 			    	</div>
 				</section>
-				<section class="gebouwen" id="parkeergebouw">	
+				<section class="gebouwen" id="afdelingen">	
+					<div id="paparkeergebouw"></div>
+					<img src="_images/bg02b.png" alt="parkeergebouw" />
+					<div class="tekst" id="tekstparkeergebouw">
+					    <div class="sub"></div>
+					    <div class="text"></div>
+					</div>
+				</section>
+				<section class="gebouwen" id="architecten">	
 					<div id="paparkeergebouw"></div>
 					<img src="_images/bg02b.png" alt="parkeergebouw" />
 					<div class="tekst" id="tekstparkeergebouw">
@@ -62,6 +72,9 @@
 				</section>
 				<div id="gebouwennav">
 					<div class="bullet leftbullet">
+						<a href="#"></a>
+					</div>
+					<div class="bullet middlebullet">
 						<a href="#"></a>
 					</div>
 					<div class="bullet rightbullet">
@@ -75,24 +88,23 @@
 				<img class="logo" src="_images/logo01.png" alt="logo" />
 				<div class="pafotos"></div>
 				<div id="flexocontainer">
-				<div class="flexslider">
-					<ul class="slides">
-						<li>
-							<img src="_images/flexslider/inacup_samoa.jpg" alt="" />
-						</li>
-						<li>
-							<img src="_images/flexslider/inacup_pumpkin.jpg" alt="" />
-						</li>
-						<li>
-							<img src="_images/flexslider/inacup_donut.jpg" alt="" />
-						</li>
-						<li>
-							<img src="_images/flexslider/inacup_vanilla.jpg" alt="" />
-						</li>
-					</ul>
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<img src="_images/flexslider/inacup_samoa.jpg" alt="" />
+							</li>
+							<li>
+								<img src="_images/flexslider/inacup_pumpkin.jpg" alt="" />
+							</li>
+							<li>
+								<img src="_images/flexslider/inacup_donut.jpg" alt="" />
+							</li>
+							<li>
+								<img src="_images/flexslider/inacup_vanilla.jpg" alt="" />
+							</li>
+						</ul>
+					</div>
 				</div>
-				</div>
-										
 			</div> <!--.story-->
 		</div> <!--#fotos-->
 		<div id="praktisch">
@@ -195,7 +207,7 @@
 		<div id="contact">
 			<div id="contactsmall">
 				<p>contact</p>
-				<img src="" alt="arrow" />
+				<img src="_images/uparrow.png" alt="arrow" />
 			</div>
 			<div id="contactbig">
 				<section id="contactmenu">

@@ -13,6 +13,7 @@ $(function () {
 	//navigation with the bulletnavs
 	$('#gebouwennav .rightbullet, #gebouwennav .rightbullet a').click( function () {
 		$('#gerechtsgebouw').hide();
+//		$('#gerechtsgebouw').hide();
 		$('#parkeergebouw').fadeIn(1000);
 		$('#gebouwennav .rightbullet a').css("background-position","0 -26px");
 		$('.leftbullet a').css("background-position","0 0");
@@ -59,9 +60,10 @@ $(function () {
 		$('#contact').animate({
 			'width':'100%',
 			'height':'50px',
-			'border-top-left-radius': '50px',
-			'border-top-right-radius': '50px',
+//			'border-top-left-radius': '10px',
+//			'border-top-right-radius': '10px',
 			'right':'0',
+			'padding': '0',
 		}, 500);
 		$('#contactsmall').hide();
 		$('#contactbig').fadeIn(500);
@@ -71,11 +73,12 @@ $(function () {
 	$('#collapse').click(function() {
 		$('#contactbig').fadeOut(500);
 		$('#contact').animate({
-			'width':'50px',
-			'height':'10px',
-			'border-top-left-radius': '10px',
-			'border-top-right-radius': '10px',
-			'right': '50px'
+			'width':'80px',
+			'height':'15px',
+//			'border-top-left-radius': '10px',
+//			'border-top-right-radius': '10px',
+			'right': '50px',
+			'padding': '5px'
 		}, 500);
 		$('#contactsmall').fadeIn(500);
 		console.log('contact hidden!');
@@ -88,6 +91,3 @@ $(function () {
 		$('#gd, #wd').toggle('contactshown');
 	})
 });
-
-
-

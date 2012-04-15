@@ -171,11 +171,11 @@ ul#nav li a {
 }
 
 ul#nav li a:hover {
-	color: #cc6666;
+	color: #cc3333;
 }
 
 #nav .current a {
-	color: #cc6666;
+	color: #cc3333;
 }
 
 /*#nav .current a:hover {
@@ -193,7 +193,6 @@ img.logo{
 }
 
 #home{
-/*	background:url(../../_images/bg01.png) repeat fixed;*/
 	background: url(../../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 	color: black;
 	height: 1300px;
@@ -338,15 +337,22 @@ img.logo{
 	overflow: hidden;
 }
 
-#gebouw .story .gebouwen #tekstgerechtsgebouw{
+#gebouw .story .gebouwen .tekst #scrollarrow{
+	height: 50px;
+	width: 50px;
+	margin: 20px auto 0 auto;
+	border: 1px solid #333;
+}
+
+/*#gebouw .story .gebouwen #tekstgerechtsgebouw{
 	
 }
 
 #gebouw .story .gebouwen #parkeergebouw{
 
-}
+}*/
 
-#gebouw .story section#parkeergebouw #paparkeergebouw{
+#gebouw .story section#algemeen #paparkeergebouw{
 	background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
 	height: 1300px;
 	margin: 0 auto;
@@ -593,7 +599,17 @@ img.logo{
 	height: 30px;
 }
 
-.leftbullet a{
+.bullet a{
+	width: 13px; 
+	height: 13px; 
+	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
+	text-indent: -999em;
+	background-position: 0 -26px;
+	display: block;
+	margin: 10px auto;
+}
+
+/*.middlebullet a{
 	width: 13px; 
 	height: 13px; 
 	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
@@ -610,7 +626,7 @@ img.logo{
 	text-indent: -999em;
 	display: block;
 	margin: 10px auto;
-}
+}*/
 
 /*contact*/
 #contact{
@@ -624,7 +640,7 @@ img.logo{
 	height: 15px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-/*	padding: 5px 5px 5px 10px;*/
+	padding: 5px 5px 5px 5px;
 	z-index: 1000;
 	color: white;
 }
@@ -635,16 +651,19 @@ img.logo{
 
 #contactbig {
 	margin: 0 40px;
-	border: 1px solid red;
 }
 
 #contactbig section#contactauthors{
-
+	border: 1px solid red;
+	width: 800px;
+	margin: 0 auto;
+	display: inline-block;
 }
 
 #gd{
 	display: inline-block;
 	width: 350px;
+	
 }
 
 #gd td{
@@ -690,6 +709,13 @@ img.logo{
 
 .contacthidden{
 	background-color: blue;
+}
+
+#contactmenu{
+	border: 1px solid red;
+	display: inline-block;
+	width: 100px;
+	float: right;
 }
 
 /*contact from*/
