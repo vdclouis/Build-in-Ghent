@@ -22,13 +22,15 @@ function loadTextsSuccess(data, xhr){
 function parseTexts(xml){
 	var title;
 	var text;
+	var list;
 	
-	var date
+	var date;
 	
     var htmlMain = "";
     var htmlSub = "";
     var htmlArchitecten = "";
     var htmlAfdeling = "";
+    var htmlList = "";
     var htmlNews = "";
     var htmlNewsContent = "";
 		
@@ -68,9 +70,18 @@ function parseTexts(xml){
     
     //afdeling
     $(xml).find(textlang).each(function () {
-    	text = $(this).find('departments').text();
+    	$(this).find('departments').each(function () {
+    		title = $(this).find('title').text();
+    		
+    		text = $();
+    		
+    		$(this).find('li').each(function () {
+    			list = $(this).text();
+    			htmlList += '<li>' + list + '</li>';
+    		});
+    	});
     	
-    htmlAfdeling += text;
+    htmlAfdeling += '<h1>' + title + '</h1>' + '<ul>' + htmlList + '</ul>';
     });
     
     //news
