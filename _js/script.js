@@ -116,31 +116,32 @@ $(function () {
 	
 	//XML text loading
 	loadTexts("_resources/_xml/texts.xml");
+
 /*
 //	language menu
 //	dutch
 	$('#chooseLang li:nth-child(1) a').click(function () {
-		//setLanguageFromLink(this);
-		$(this).addClass('current');
-		$('#chooseLang li:nth-child(2) a, #chooseLang li:nth-child(3) a').removeClass('current');
+//		setLanguageFromLink(this);
+//		$(this).addClass('current');
+//		$('#chooseLang li:nth-child(2) a, #chooseLang li:nth-child(3) a').removeClass('current');
 		console.log('dutch selected!');
 		return false;
 	});
-	
+
 //	english
 	$('#chooseLang li:nth-child(2) a').click(function () {
-		//setLanguageFromLink(this);
-		$(this).addClass('current');
-		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(3) a').removeClass('current');
+//		setLanguageFromLink(this);
+//		$(this).addClass('current');
+//		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(3) a').removeClass('current');
 		console.log('english selected!');
 		return false;
 	});
 	
 //	french
 	$('#chooseLang li:nth-child(3) a').click(function () {
-		//setLanguageFromLink(this);
-		$(this).addClass('current');
-		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(2) a').removeClass('current');
+//		setLanguageFromLink(this);
+//		$(this).addClass('current');
+//		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(2) a').removeClass('current');
 		console.log('french selected!');
 		return false;
 	});*/
