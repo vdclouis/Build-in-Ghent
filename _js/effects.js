@@ -38,7 +38,7 @@ $(function () {
 	});
 
 	//hides the second page 'parkeergebouw'
-	$('#parkeergebouw').hide();
+	$('#parkeergebouw, #paparkeergebouw').hide();
 	
 	$('#gebouwennav .rightbullet a').css("background-position","0 0");
 	
@@ -48,6 +48,8 @@ $(function () {
 		$('#parkeergebouw').fadeIn(1000);
 		$('#gebouwennav .rightbullet a').css("background-position","0 -26px");
 		$('.leftbullet a').css("background-position","0 0");
+		$('#pagerechtsgebouw').hide();
+		$('#paparkeergebouw').show();
 		console.log('rightbullet clicked!');
 		return false;
 	});
@@ -56,37 +58,14 @@ $(function () {
 		$('#gerechtsgebouw').fadeIn(1000);
 		$('#gebouwennav .leftbullet a').css("background-position","0 -26px");
 		$('.rightbullet a').css("background-position","0 0");
+		$('#paparkeergebouw').hide();
+		$('#pagerechtsgebouw').show();
 		console.log('leftbullet clicked!');
 		return false;
 	});
 	
 	// ---------------------------- //
 	
-/*	
-	//hides the second page 'contactform'
-	$('#contactform').hide();
-	
-	$('.rightbullet a').css("background-position","0 0");
-	
-	//navigation with the bulletnavs
-	$('#praktischnav .rightbullet, #praktischnav .rightbullet a').click( function () {
-		$('#contactmap').hide();
-		$('#contactform').fadeIn(1000);
-		$('#praktischnav .rightbullet a').css("background-position","0 -26px");
-		$('.leftbullet a').css("background-position","0 0");
-		console.log('rightbullet clicked! -> contactform');
-		return false;
-	});
-	$('#praktischnav .leftbullet, #praktischnav .leftbullet a').click( function () {
-		$('#contactform').hide();
-		$('#contactmap').fadeIn(1000);
-		$('#praktischnav .leftbullet a').css("background-position","0 -26px");
-		$('.rightbullet a').css("background-position","0 0");
-		console.log('leftbullet clicked! -> contactmap');
-		return false;
-	});
-*/
-
 	$('#contacturen, #contactform').hide();
 	$('nav#praktischnav ul li:nth-child(1) a').css('color', '#cc3333');
 	
@@ -123,30 +102,33 @@ $(function () {
 	$('#contactbig').hide();
 
 	$('#contact').click(function() {
-		$(this).animate({
-		
+//		$(this).animate({
 //			'width':'100%',
 //			'height':'50px',
-
 //			'right':'0',
 //			'padding': '0',
-		}, 500);
-		$(this).addClass('contactsmall')
-		$('#contactsmall').hide();
-		$('#contactbig').fadeIn(500);
+//		}, 500);
+		$('.contactsmall').switchClass('contactsmall', 'contactbig', 500);
+//		$(this).removeClass('contactsmall');
+//		$(this).addClass('contactbig');
+		$('#contactup').hide();
+		$('#contactinfo').fadeIn(500);
 		console.log('contact clicked!');
 		return false;
 	});
 	$('#collapse').click(function() {
-		$('#contactbig').fadeOut(500);
-		$('#contact').animate({
-			'width':'60px',
-			'height':'15px',
-//			'border-top-left-radius': '10px',
-//			'border-top-right-radius': '10px',
-			'right': '50px',
-			'padding': '5px'
-		}, 500);
+		$('#contactinfo').hide();
+		$('#contactup').show();
+//		$('#contact').animate({
+//			'width':'60px',
+//			'height':'15px',
+//			'right': '50px',
+//			'padding': '5px'
+//		}, 500);
+		
+//		$('#contact').removeClass('contactbig');
+//		$('#contact').addClass('contactsmall');
+		$('.contactbig').switchClass( 'contactbig', 'contactsmall', 1000);
 		$('#contactsmall').fadeIn(500);
 		console.log('contact hidden!');
 		return false;

@@ -328,7 +328,7 @@ nav#gebouwnav ul li a{
 
 }
 
-#gebouw .story #gerechtsgebouw #pagerechtsgebouw{
+#gebouw .story #pagerechtsgebouw{
 	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
 	height: 1300px;
 	margin: 0 auto;
@@ -665,40 +665,47 @@ table#newz tr td p{
 }*/
 
 /*contact*/
+
 #contact{
 	font-size: 10px;
 	position: fixed;
 	background-color: #cc3333;
 	cursor: default;
-	right: 50px;
-	bottom: 0;
-	width: 60px;
-	height: 15px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	padding: 5px 5px 5px 5px;
 	z-index: 1000;
 	color: white;
 }
 
-#contactsmall p{
+#contact p{
 	margin-left: 10px;
 }
 
-#contactsmall img{
+#contact img{
 	float: left;
 	margin: 4px 5px;
 }
 
-#contactbig{
-
+.contactsmall{
+	right: 50px;
+	bottom: 0;
+	height: 15px;
+	padding: 5px 5px 5px 5px;
+	width: 60px;
 }
 
-#contactbig {
+.contactbig{
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	right: 0;
+}
+
+#contactinfo {
 	margin: 0 40px;
 }
 
-#contactbig section#contactauthors, #contactbig section#contactjustitie {
+#contactinfo section#contactauthors, #contactinfo section#contactjustitie {
 	width: 980px;
 	margin: 0 auto;
 /*	display: inline-block;*/
@@ -731,31 +738,31 @@ tr:first-child td:first-child{
 	color: black;
 }
 
-#contactbig #contactmenu{
+#contactinfo #contactmenu{
 	width: 100px;
 	float: right;
 	color: white;
 	font-size: 15px;
 }
 
-#contactbig #contactmenu #collapse{
+#contactinfo #contactmenu #collapse{
 }
 
-#contactbig #contactmenu #collapse img{
+#contactinfo #contactmenu #collapse img{
 	float: left;
 	margin: 4px 5px;
 	border: 1px solid #333;
 	
 }
 
-#contactbig #contactmenu #collapse p{
+#contactinfo #contactmenu #collapse p{
 	margin: 0;
 }
 
-#contactbig #contactmenu #more{
+#contactinfo #contactmenu #more{
 }
 
-#contactbig #contactmenu #more p{
+#contactinfo #contactmenu #more p{
 }
 
 .contactshown{
