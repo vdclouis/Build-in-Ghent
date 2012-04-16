@@ -31,6 +31,12 @@ function parseTexts(xml){
 	var date;
 	var p1;
 	var p2;
+	var content;
+	
+	var c1;
+	var c2;
+	var c3;
+	var c4;
 	
 	var htmlNav = "";
     var htmlMain = "";
@@ -123,10 +129,16 @@ function parseTexts(xml){
     		title = $(this).find('title').text();
     		date = $(this).find('date').text();
     		
+    		c1 = $(this).find('content1').text();
+    		c2 = $(this).find('content2').text();
+    		c3 = $(this).find('content3').text();
+    		c4 = $(this).find('content4').text();
+    		
     		htmlNews += '<tr><td><p>' + date + '</p></td><td><p>' + title + '</p></td></tr>';
     	});
     });
-
+	
+	
     //Write to container
 //    $("#gebouwnav").html(htmlNav);
     $(".main").html(htmlMain);
@@ -140,10 +152,6 @@ function parseTexts(xml){
 $(function () {
 	$.ajaxSetup ({
 		cache: false
-	});
-	
-	$('table#newz tr:nth-child(1)').click(function () {
-		
 	});
 	
 	//hook parallax
