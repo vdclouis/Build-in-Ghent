@@ -12,7 +12,7 @@ function loadTexts(url){
 }
 
 function loadTextsError(xhr, message, optional){	
-	$(".text").html("Error loading products XML file!");
+	$(".text").html("Error loading the XML file!");
 }
 
 function loadTextsSuccess(data, xhr){
@@ -116,7 +116,7 @@ $(function () {
 	
 	//XML text loading
 	loadTexts("_resources/_xml/texts.xml");
-	
+/*
 //	language menu
 //	dutch
 	$('#chooseLang li:nth-child(1) a').click(function () {
@@ -143,5 +143,5 @@ $(function () {
 		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(2) a').removeClass('current');
 		console.log('french selected!');
 		return false;
-	});
+	});*/
 });
