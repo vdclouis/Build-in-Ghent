@@ -195,6 +195,10 @@ img.logo{
 	height: 1300px;
 }
 
+#home .story{
+	overflow: hidden;
+}
+
 #home .pahome{
 	height: 1300px;
 	margin: 0 auto;
@@ -266,7 +270,7 @@ img.logo{
 
 #home #shadow p {
 	position: absolute;
-	font-size: 15em;
+	font-size: 14em;
 	color: rgba(255, 255, 255, .0);
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
 	cursor: default;

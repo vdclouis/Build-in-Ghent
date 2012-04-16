@@ -73,6 +73,8 @@ $(function () {
 		$('nav#praktischnav ul li:nth-child(1) a').css('color', '#cc3333');
 		$('nav#praktischnav ul li:nth-child(2) a, nav#praktischnav ul li:nth-child(3) a').css('color', '#636466');
 		$('#contacturen, #contactform').hide();
+		$('#paparkeergebouw').hide();
+		$('#pagerechtsgebouw').show();
 		$('#contactmap').fadeIn(1000);
 		console.log('wegebeschrijving clicked!');
 		return false;
@@ -82,6 +84,8 @@ $(function () {
 		$('nav#praktischnav ul li:nth-child(2) a').css('color', '#cc3333');
 		$('nav#praktischnav ul li:nth-child(1) a, nav#praktischnav ul li:nth-child(3) a').css('color', '#636466');
 		$('#contactmap, #contactform').hide();
+		$('#paparkeergebouw').hide();
+		$('#pagerechtsgebouw').show();
 		$('#contacturen').fadeIn(1000);
 		console.log('openingsuren clicked!');
 		return false;
@@ -91,6 +95,8 @@ $(function () {
 		$('nav#praktischnav ul li:nth-child(3) a').css('color', '#cc3333');
 		$('nav#praktischnav ul li:nth-child(1) a, nav#praktischnav ul li:nth-child(2) a').css('color', '#636466');
 		$('#contactmap, #contacturen').hide();
+		$('#paparkeergebouw').hide();
+		$('#pagerechtsgebouw').show();
 		$('#contactform').fadeIn(1000);
 		console.log('contact clicked!');
 		return false;
