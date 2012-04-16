@@ -313,7 +313,7 @@ img.logo{
 nav#gebouwnav{
 	position: relative;
 	padding: 20px 30px;
-	margin-top: 50px;
+	margin: 50px 0 20px 0;
 }
 
 nav#gebouwnav ul{
@@ -344,12 +344,10 @@ nav#gebouwnav ul li a{
 
 #gebouw .story{
 	width: 980px;
-	border: 1px solid red;
 	height: 1300px;
 }
 
 #gebouw .story section{
-	border: 1px solid red;
 }
 
 #gebouw .story #gerechtsgebouw{
@@ -367,13 +365,13 @@ nav#gebouwnav ul li a{
 	pointer-events: none;
 }
 
-#gebouw .story .gebouwen img, #gebouw #architect img{
+#gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
 	margin-top: 100px;
 	width: 600px;
 	float: left;
 }
 
-#gebouw .story .gebouwen .tekst{
+#gebouw .story .tekst{
 	text-align: right;
 	margin: 0 20px 0 600px;
 	height: 500px;
@@ -447,7 +445,24 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch nav#praktischnav{
+/*	border: 1px solid #333;*/
+	float: left;
+	margin: 100px 0 0 50px;
 	
+}
+
+#praktisch nav#praktischnav ul{
+	
+}
+
+#praktisch nav#praktischnav ul li{
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+#praktisch nav#praktischnav ul li a{
+	text-decoration: none;
+	color: #636466;
 }
 
 #praktisch .papraktisch{
@@ -480,7 +495,7 @@ nav#gebouwnav ul li a{
 
 #praktisch .praktisch .praktischbox{
 	background: url(../../_images/project_papper.png);
-	width: 265px;
+	width: 665px;
 	padding: 20px 20px 20px 0;
 	margin: 100px auto 0 auto;	
 	border: 2px solid #ddd;
@@ -488,20 +503,6 @@ nav#gebouwnav ul li a{
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
 	position: relative;
-	box-shadow: 0px 0px 7px #888;
-	height: 550px;
-}
-
-#praktisch .praktisch .praktischbox{
-	background: url(../../_images/project_papper.png);
-	width:665px;
-	padding:20px 20px 20px 0;
-	margin: 100px auto 0 auto;	
-	border: 2px solid #ddd;
-	-moz-border-radius:15px;
-	-webkit-border-radius:15px;
-	border-radius:15px;
-	position:relative;
 	box-shadow: 0px 0px 7px #888;
 	height: 480px;
 	overflow: hidden;
@@ -575,17 +576,20 @@ nav#gebouwnav ul li a{
 }
 
 #nieuws .story .tekst{
-	background-color: red;
 }
 
 #nieuws .story #nieuwstekst{
-	border: 1px solid orange;
-	float: left;
+	float: left; 
 }
 
 #nieuws .story #archieftekst{
-	border: 1px solid blue;
 	float: right;
+}
+
+#nieuws .story #archieftekst h1{
+	border-top: none;
+	border-bottom: 1px solid black;
+	text-align: right;
 }
 
 /*#nieuws .story .float-left{
@@ -624,7 +628,8 @@ nav#gebouwnav ul li a{
 .tekst h1{
 	text-transform: uppercase;
 	border-top: 1px solid #333;
-	padding: 15px;
+	padding: 15px 0;
+	margin: 0;
 }
 
 .tekst p{
@@ -680,7 +685,7 @@ nav#gebouwnav ul li a{
 #contact{
 	font-size: 10px;
 	position: fixed;
-	background-color: #2096d3;
+	background-color: #cc3333;
 	cursor: default;
 	right: 50px;
 	bottom: 0;

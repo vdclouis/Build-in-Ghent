@@ -7,28 +7,32 @@ $(function () {
 	
 	// ---------------------------- //
 
-	$('#architect').hide();
-	$('#afdeling').hide();
+	$('#architect, #afdeling').hide();
 	
 	$('#gebouwnav ul li:nth-child(1) a').click(function () {
-		$('#architect').hide();
-		$('#afdeling').hide();
+		$(this).css('color', '#cc3333');
+		$('#gebouwnav ul li:nth-child(2) a, #gebouwnav ul li:nth-child(3) a').css('color', 'black');
+		$('#architect, #afdeling').hide();
 		$('#algemeen').fadeIn(1000);
 		console.log('algemeen clicked');
 		return false;
 	});
 	
 	$('#gebouwnav ul li:nth-child(2) a').click(function () {
-		$('#algemeen').hide();
-		$('#afdeling').hide();
+		$(this).css('color', '#cc3333');
+		$('#gebouwnav ul li:nth-child(1) a, #gebouwnav ul li:nth-child(3) a').css('color', 'black');
+		$('#algemeen, #afdeling').hide();
 		$('#architect').fadeIn(1000);
+		console.log('architect clicked');
 		return false;
 	});
 	
 	$('#gebouwnav ul li:nth-child(3) a').click(function () {
-		$('#algemeen').hide();
-		$('#architect').hide();
+		$(this).css('color', '#cc3333');
+		$('#gebouwnav ul li:nth-child(1) a, #gebouwnav ul li:nth-child(2) a').css('color', 'black');
+		$('#algemeen, #architect').hide();
 		$('#afdeling').fadeIn(1000);
+		console.log('afdeling clicked');
 		return false;
 	});
 
