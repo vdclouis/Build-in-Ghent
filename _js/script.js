@@ -24,9 +24,9 @@ function parseTexts(xml){
 	var text;
 	var list;
 	
-	var algemeen;
-	var architect;
-	var afdeling;
+//	var algemeen;
+//	var architect;
+//	var afdeling;
 	
 	var date;
 	var p1;
@@ -46,15 +46,15 @@ function parseTexts(xml){
 	
 	
 	//subnav
-	$(xml).find(textlang).each(function () {
-		$(this).find('nav').each(function () {
-			algemeen = $(this).find('algemeen').text();
-			architect = $(this).find('architect').text();
-			afdeling = $(this).find('afdeling').text();
-		});
-		
-		htmlNav += '<ul><li><a href="#">' + algemeen + '</a></li>' + '<li><a href="#">' + architect + '</a></li>' + '<li><a href="#">' + afdeling + '</a></li></ul>';
-	});
+//	$(xml).find(textlang).each(function () {
+//		$(this).find('nav').each(function () {
+//			algemeen = $(this).find('algemeen').text();
+//			architect = $(this).find('architect').text();
+//			afdeling = $(this).find('afdeling').text();
+//		});
+//		
+//		htmlNav += '<ul><li><a href="#">' + algemeen + '</a></li>' + '<li><a href="#">' + architect + '</a></li>' + '<li><a href="#">' + afdeling + '</a></li></ul>';
+//	});
 	
 	//main gebouw
     $(xml).find(textlang).each(function () {
@@ -128,7 +128,7 @@ function parseTexts(xml){
     });
 
     //Write to container
-    $("#gebouwnav").html(htmlNav);
+//    $("#gebouwnav").html(htmlNav);
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
     $(".arch").html(htmlArchitecten);
