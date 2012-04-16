@@ -445,10 +445,8 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch nav#praktischnav{
-/*	border: 1px solid #333;*/
 	float: left;
 	margin: 100px 0 0 50px;
-	
 }
 
 #praktisch nav#praktischnav ul{
@@ -456,8 +454,10 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch nav#praktischnav ul li{
-	text-align: right;
-	margin-bottom: 10px;
+	text-align: right;	
+	padding: 5px;
+	display: block;
+	border: 1px solid #333;
 }
 
 #praktisch nav#praktischnav ul li a{

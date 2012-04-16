@@ -8,6 +8,7 @@ $(function () {
 	// ---------------------------- //
 
 	$('#architect, #afdeling').hide();
+	$('#gebouwnav ul li:nth-child(1) a').css('color', '#cc3333');
 	
 	$('#gebouwnav ul li:nth-child(1) a').click(function () {
 		$(this).css('color', '#cc3333');
@@ -61,7 +62,7 @@ $(function () {
 	
 	// ---------------------------- //
 	
-	
+/*	
 	//hides the second page 'contactform'
 	$('#contactform').hide();
 	
@@ -82,6 +83,37 @@ $(function () {
 		$('#praktischnav .leftbullet a').css("background-position","0 -26px");
 		$('.rightbullet a').css("background-position","0 0");
 		console.log('leftbullet clicked! -> contactmap');
+		return false;
+	});
+*/
+
+	$('#contacturen, #contactform').hide();
+	$('nav#praktischnav ul li:nth-child(1) a').css('color', '#cc3333');
+	
+	$('nav#praktischnav ul li:nth-child(1)').click( function () {
+		$(this).css('color', '#cc3333');
+		$('nav#praktischnav ul li:nth-child(2) a, nav#praktischnav ul li:nth-child(3) a').css('color', '#636466');
+		$('#contacturen, #contactform').hide();
+		$('#contactmap').fadeIn(1000);
+		console.log('wegebeschrijving clicked!');
+		return false;
+	});
+	
+	$('nav#praktischnav ul li:nth-child(2) a').click( function () {
+		$(this).css('color', '#cc3333');
+		$('nav#praktischnav ul li:nth-child(1) a, nav#praktischnav ul li:nth-child(3) a').css('color', '#636466');
+		$('#contactmap, #contactform').hide();
+		$('#contacturen').fadeIn(1000);
+		console.log('openingsuren clicked!');
+		return false;
+	});
+	
+	$('nav#praktischnav ul li:nth-child(3) a').click( function () {
+		$(this).css('color', '#cc3333');
+		$('nav#praktischnav ul li:nth-child(1) a, nav#praktischnav ul li:nth-child(2) a').css('color', '#636466');
+		$('#contactmap, #contacturen').hide();
+		$('#contactform').fadeIn(1000);
+		console.log('contact clicked!');
 		return false;
 	});
 	
