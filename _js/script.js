@@ -24,17 +24,37 @@ function parseTexts(xml){
 	var text;
 	var list;
 	
-	var date;
+	var algemeen;
+	var architect;
+	var afdeling;
 	
+	var date;
+	var p1;
+	var p2;
+	
+	var htmlNav = "";
     var htmlMain = "";
     var htmlSub = "";
     var htmlArchitecten = "";
     var htmlAfdeling = "";
     var htmlList = "";
+    var htmlList2 = "";
     var htmlNews = "";
     var htmlNewsContent = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
+	
+	
+	//subnav
+	$(xml).find(textlang).each(function () {
+		$(this).find('nav').each(function () {
+			algemeen = $(this).find('algemeen').text();
+			architect = $(this).find('architect').text();
+			afdeling = $(this).find('afdeling').text();
+		});
+		
+		htmlNav += '<ul><li><a href="#">' + algemeen + '</a></li>' + '<li><a href="#">' + architect + '</a></li>' + '<li><a href="#">' + afdeling + '</a></li></ul>';
+	});
 	
 	//main gebouw
     $(xml).find(textlang).each(function () {
@@ -73,15 +93,28 @@ function parseTexts(xml){
     	$(this).find('departments').each(function () {
     		title = $(this).find('title').text();
     		
-    		text = $();
+    		p1 = $(this).find('p1').text();
+    		p2 = $(this).find('p2').text();
+    		p3 = $(this).find('p3').text();
     		
-    		$(this).find('li').each(function () {
-    			list = $(this).text();
-    			htmlList += '<li>' + list + '</li>';
+    		$(this).find('ul1').each(function () {
+    			$(this).find('li').each(function () {
+    				list = $(this).text();
+    				htmlList += '<li>' + list + '</li>';
+    			});
     		});
+    		
+    		$(this).find('ul2').each(function () {
+    			$(this).find('li').each(function () {
+    				list = $(this).text();
+    				htmlList2 += '<li>' + list + '</li>';
+    			});
+    		});
+    		 		
+//    		$(this).find
     	});
     	
-    htmlAfdeling += '<h1>' + title + '</h1>' + '<ul>' + htmlList + '</ul>';
+    htmlAfdeling += '<h1>' + title + '</h1>' + '<p>' + p1 + '</p>' + '<ul>' + htmlList + '</ul>' + '<p>' + p2 + '</p>' + '<ul>' + htmlList2 + '</ul>' + '<p>' + p3 + '</p3>';
     });
     
     //news
@@ -95,6 +128,7 @@ function parseTexts(xml){
     });
 
     //Write to container
+    $("#gebouwnav").html(htmlNav);
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
     $(".arch").html(htmlArchitecten);

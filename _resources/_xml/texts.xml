@@ -19,18 +19,15 @@
 			Het 'parkingsgebouw' heeft verder geen officiële naam. Het is wel ontworpen door dezelfde architecten als het gerechtsgebouw zelf.</text>
 		</sub>
 		<nav>
-			<home>home</home>
-			<gebouw>gebouw</gebouw>
-			<fotos>foto's</fotos>
-			<praktisch>praktisch</praktisch>
-			<video>video</video>
-			<nieuws>nieuws</nieuws>
+			<algemeen>Algemeen</algemeen>
+			<architect>Architect</architect>
+			<afdeling>Afdeling</afdeling>
 		</nav>
 		<departments>
 			<title>Afdelingen</title>
 			<text>
-				<p>In het gerechtsgebouw van Gent vindt u verschillende afdelingen terug. Zo vindt u hier de:</p>
-				<ul>
+				<p1>In het gerechtsgebouw van Gent vindt u verschillende afdelingen terug. Zo vindt u hier de:</p1>
+				<ul1>
 					<li>Rechtbank van Eerste Aanleg</li>
 					<li>Arbeidsrechtbank</li>
 					<li>Vrederechten</li>
@@ -39,16 +36,16 @@
 					<li>Afdeling Jeugd en Gezin van het Parket van de Procureur des Konings</li>
 					<li>Afdeling Politieparket van het Parket van de Procureur des Konings</li>
 					<li>De Orde van Advocaten van de balie te Gent</li>
-				</ul>
-				<p>In totaal zijn circa 600 personen in dit gerechtsgebouw tewerkgesteld.</p>
-				<p>De Politierechtbank behandelt overtredingen en verkeerszaken.</p>
-				<p>Bij het parket van de Procureur des Konings zijn tevens justitieassistenten actief:</p>
-				<ul>
+				</ul1>
+				<p2>In totaal zijn circa 600 personen in dit gerechtsgebouw tewerkgesteld.
+				De Politierechtbank behandelt overtredingen en verkeerszaken.
+				Bij het parket van de Procureur des Konings zijn tevens justitieassistenten actief:</p2>
+				<ul2>
 					<li>justitieassistenten bemiddeling in strafzaken</li>
 					<li>justitieassistenten slachtofferonthaal</li>
-				</ul>
-				<p>Voor de Afdeling Parket Politierechtbank, Parket Economische Delinquentie en Fiscale Zaken en Nationaliteitskeuze/Naturalisatie van het Parket van de Procureur des Konings dient u zich te wenden naar  het Lieven Bauwensbuilding. Het Hof van Beroep vindt u terug In het Gerechtsgebouw, Koophandelsplein 23.</p>
-				<p>De openingsuren van de verschillende instanties vindt u terug bij Praktisch – algemene info.</p>
+				</ul2>
+				<p3>Voor de Afdeling Parket Politierechtbank, Parket Economische Delinquentie en Fiscale Zaken en Nationaliteitskeuze/Naturalisatie van het Parket van de Procureur des Konings dient u zich te wenden naar  het Lieven Bauwensbuilding. Het Hof van Beroep vindt u terug In het Gerechtsgebouw, Koophandelsplein 23.
+				De openingsuren van de verschillende instanties vindt u terug bij Praktisch – algemene info.</p3>
 			</text>
 		</departments>
 		<architecten>
@@ -99,17 +96,14 @@
 			Le 'bâtiment parking' n'a pas de nom officielle. Il est toutefois conçu par les mêmes architectes qu'on on fait le palais de justice.</text>
 		</sub>
 		<nav>
-			<home>home</home>
-			<gebouw>batiment</gebouw>
-			<fotos>photo's</fotos>
-			<praktisch>pratique</praktisch>
-			<video>vidéo</video>
-			<nieuws>nouvelles</nieuws>
+			<algemeen>Générale</algemeen>
+			<architect>Architect</architect>
+			<afdeling>Section</afdeling>
 		</nav>
 		<departments>
 			<title>Départements</title>
-			<p>Le palais de justice a plusieurs départements.</p>
-			<ul>
+			<p1>Le palais de justice a plusieurs départements.</p1>
+			<ul1>
 				<li>Tribunal de première instance</li>
 				<li>Tribunal du travail</li>
 				<li>Tribunaux cantonaux</li>
@@ -118,16 +112,16 @@
 				<li>département  jeunesse et famille  du procureur du roi</li>
 				<li>Département du parquet de police  du procureur du roi</li>
 				<li>l'Ordre des Avocats de Gand</li>
-			</ul>
-			<p>En total il y a 600 personnes employés dans le Palais de justice</p>
-			
-			<p>Le Tribunal de police couvre des infractions et la gestion du trafique</p>
-			<p></p>
-			<ul>
+			</ul1>
+			<p2>En total il y a 600 personnes employés dans le Palais de justice.
+			Le Tribunal de police couvre des infractions et la gestion du trafique.
+			Au parquet du procureur du roi les assistent de justice sont aussi actif:
+			</p2>
+			<ul2>
 				<li>Adjoint judiciaire en matière pénale</li>
 				<li>Adjoint judiciare en traite de victime</li>
-			</ul>
-			<p>Vous trouvez les heures d'ouverture sur la page Pratique - Information Générale</p>
+			</ul2>
+			<p3>Vous trouvez les heures d'ouverture sur la page Pratique - Information Générale</p3>
 		</departments>
 		<architecten>
 			<title>Architects</title>
@@ -173,18 +167,15 @@
 			<text>Next to the impressive courthouse we find a smaller building. This building has a really minimalistic and sleek look. It looks like it's somewhat floating. It is being supported by only a couple of big pillars. The looks of the building does not give the impression that this building is in fact a parking garage. This 'parking building' doesn't has an official name. It is however designed by the same architects as the courthouse.</text>
 		</sub>
 		<nav>
-			<home>home</home>
-			<gebouw>building</gebouw>
-			<fotos>fotos</fotos>
-			<praktisch>practical</praktisch>
-			<video>video</video>
-			<nieuws>news</nieuws>
+			<algemeen>General</algemeen>
+			<architect>Architect</architect>
+			<afdeling>Department</afdeling>
 		</nav>
 		<departments>
 			<title>Departments</title>
 			<text>
-				<p>The Courthouse houses a variety of departments. You will find the:</p>
-				<ul>
+				<p1>The Courthouse houses a variety of departments. You will find the:</p1>
+				<ul1>
 					<li>Court of First Instance</li>
 					<li>Labour court</li>
 					<li>Peace courts</li>
@@ -193,15 +184,15 @@
 					<li>Department Youth and Family  of Public Prosecutor's Office</li>
 					<li>Department Police Court Family  of Public Prosecutor's Office</li>
 					<li>The Amendments to the Belgian Arbitration Law</li>
-				</ul>
-				<p>A Total number of 600 people are employed in the courthouse</p>
-				<p>The Police court is specialized in violations and traffic issues.</p>
-				<p>The public prosecutor’ Office is assisted by Judicial Assistant</p>
-				<ul>
+				</ul1>
+				<p2>A Total number of 600 people are employed in the courthouse.
+				The Police court is specialized in violations and traffic issues.
+				The public prosecutor’ Office is assisted by Judicial Assistant</p2>
+				<ul2>
 					<li>Judicial Assistant in criminal matters</li>
 					<li>Judicial Assistant victim treats</li>
-				</ul>
-				<p>You will find the Opening hours of the different departments at Practical – General information</p>
+				</ul2>
+				<p3>You will find the Opening hours of the different departments at Practical – General information</p3>
 			</text>
 		</departments>
 		<architecten>
