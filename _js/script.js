@@ -27,6 +27,7 @@ function parseTexts(xml){
 	
     var htmlMain = "";
     var htmlSub = "";
+    var htmlArchitecten ="";
     var htmlNews = "";
     var htmlNewsContent = "";
 		
@@ -53,6 +54,13 @@ function parseTexts(xml){
     htmlSub += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
     }); // end each loop
     
+    //archicten
+    $(xml).find(textlang).each(function () {
+    	text = $(this).find('architecten').text();
+ 
+    htmlArchitecten += text;
+    
+    });
     
     //news
     $(xml).find(textlang).each(function () {
@@ -67,6 +75,7 @@ function parseTexts(xml){
     //Write to container
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
+    $(".arch").html(htmlArchitecten);
     $("table#newz").html(htmlNews);
 }
 
