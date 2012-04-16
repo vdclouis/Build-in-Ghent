@@ -142,6 +142,10 @@ $(function () {
 		cache: false
 	});
 	
+	$('table#newz tr:nth-child(1)').click(function () {
+		
+	});
+	
 	//hook parallax
 	$('#nav').onePageNav();
 	//$('#nav').localScroll(800);
