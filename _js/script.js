@@ -27,7 +27,8 @@ function parseTexts(xml){
 	
     var htmlMain = "";
     var htmlSub = "";
-    var htmlArchitecten ="";
+    var htmlArchitecten = "";
+    var htmlAfdeling = "";
     var htmlNews = "";
     var htmlNewsContent = "";
 		
@@ -54,12 +55,22 @@ function parseTexts(xml){
     htmlSub += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
     }); // end each loop
     
-    //archicten
+    //architecten
     $(xml).find(textlang).each(function () {
-    	text = $(this).find('architecten').text();
- 
-    htmlArchitecten += text;
+    	$(this).find('architecten').each(function () {
+    		title = $(this).find('title').text();
+    		text = $(this).find('p').text();
+    	});
+    	
+    htmlArchitecten += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
     
+    });
+    
+    //afdeling
+    $(xml).find(textlang).each(function () {
+    	text = $(this).find('departments').text();
+    	
+    htmlAfdeling += text;
     });
     
     //news
@@ -76,6 +87,7 @@ function parseTexts(xml){
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
     $(".arch").html(htmlArchitecten);
+    $(".afd").html(htmlAfdeling);
     $("table#newz").html(htmlNews);
 }
 
