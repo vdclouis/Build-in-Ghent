@@ -123,14 +123,15 @@ $(function () {
 	$('#contactbig').hide();
 
 	$('#contact').click(function() {
-		$('#contact').animate({
-			'width':'100%',
-			'height':'50px',
-//			'border-top-left-radius': '10px',
-//			'border-top-right-radius': '10px',
-			'right':'0',
-			'padding': '0',
+		$(this).animate({
+		
+//			'width':'100%',
+//			'height':'50px',
+
+//			'right':'0',
+//			'padding': '0',
 		}, 500);
+		$(this).addClass('contactsmall')
 		$('#contactsmall').hide();
 		$('#contactbig').fadeIn(500);
 		console.log('contact clicked!');

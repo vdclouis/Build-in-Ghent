@@ -113,32 +113,6 @@ h2{
 	border: none;
 }
 
-#header h1, #pixels{
-	color: #48941A;
-}
-
-/*.float-left{
-	float: left;	
-	margin: 0 0 0 20px;
-}
-
-.float-right{
-	float: right;
-	margin: 0 20px 0 0;
-}*/
-
-/*this is for the "scrolled pixels */
-/*.center{
-	font-size: 2.5em;
-	padding: 80px 0 0 0;
-	text-align: center;
-}*/
-
-/*#nav{
-	position: fixed;
-	float: right;
-}*/
-
 nav#mainmenu {
 	list-style: none;
 	overflow: hidden;
@@ -462,8 +436,6 @@ nav#gebouwnav ul li a{
 	color: #636466;
 	padding: 5px;
 	display: block;
-	border: 1px solid #333;
-	
 }
 
 #praktisch .papraktisch{
