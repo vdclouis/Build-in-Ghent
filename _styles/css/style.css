@@ -455,14 +455,15 @@ nav#gebouwnav ul li a{
 
 #praktisch nav#praktischnav ul li{
 	text-align: right;	
-	padding: 5px;
-	display: block;
-	border: 1px solid #333;
 }
 
 #praktisch nav#praktischnav ul li a{
 	text-decoration: none;
 	color: #636466;
+	padding: 5px;
+	display: block;
+	border: 1px solid #333;
+	
 }
 
 #praktisch .papraktisch{

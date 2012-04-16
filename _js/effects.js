@@ -91,7 +91,7 @@ $(function () {
 	$('nav#praktischnav ul li:nth-child(1) a').css('color', '#cc3333');
 	
 	$('nav#praktischnav ul li:nth-child(1)').click( function () {
-		$(this).css('color', '#cc3333');
+		$('nav#praktischnav ul li:nth-child(1) a').css('color', '#cc3333');
 		$('nav#praktischnav ul li:nth-child(2) a, nav#praktischnav ul li:nth-child(3) a').css('color', '#636466');
 		$('#contacturen, #contactform').hide();
 		$('#contactmap').fadeIn(1000);
@@ -99,8 +99,8 @@ $(function () {
 		return false;
 	});
 	
-	$('nav#praktischnav ul li:nth-child(2) a').click( function () {
-		$(this).css('color', '#cc3333');
+	$('nav#praktischnav ul li:nth-child(2)').click( function () {
+		$('nav#praktischnav ul li:nth-child(2) a').css('color', '#cc3333');
 		$('nav#praktischnav ul li:nth-child(1) a, nav#praktischnav ul li:nth-child(3) a').css('color', '#636466');
 		$('#contactmap, #contactform').hide();
 		$('#contacturen').fadeIn(1000);
@@ -108,8 +108,8 @@ $(function () {
 		return false;
 	});
 	
-	$('nav#praktischnav ul li:nth-child(3) a').click( function () {
-		$(this).css('color', '#cc3333');
+	$('nav#praktischnav ul li:nth-child(3)').click( function () {
+		$('nav#praktischnav ul li:nth-child(3) a').css('color', '#cc3333');
 		$('nav#praktischnav ul li:nth-child(1) a, nav#praktischnav ul li:nth-child(2) a').css('color', '#636466');
 		$('#contactmap, #contacturen').hide();
 		$('#contactform').fadeIn(1000);
