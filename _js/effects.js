@@ -1,3 +1,15 @@
+function scrollContent(direction) {
+    var amount = (direction === "up" ? "-=1px" : "+=1px");
+    $("#content").animate({
+        scrollTop: amount
+    }, 1, function() {
+        if (scrolling) {
+            // If we want to keep scrolling, call the scrollContent function again:
+            scrollContent(direction);
+        }
+    });
+}
+
 $(function () {
 	//jquery test
 	console.log("It's Alive!");
@@ -144,13 +156,39 @@ $(function () {
 	
 	$('#contactauthors').hide();
 	
-	
+//	contactbar
 	$('#more').click(function () {
-		
+		$('#contactjustitie, #more').hide();
+		$('#contactauthors, #less').fadeIn(1000);
+	});
+	
+	$('#less').click(function () {
+		$('#contactauthors, #less').hide();
+		$('#contactjustitie, #more').fadeIn(1000);
 	});
 	
 //	remove the fancybox when a menulink is clicked
 	$('#mainmenu a').click( function () {
 		$('.fancybox-wrap, #fancybox-overlay').hide();
 	});
+	
+//	gebouwen scroll
+	var step = 25;
+	var scrolling = false;
+	
+	$("#scrollarrow").bind("click", function(event) {
+	    event.preventDefault();
+	    console.log('scroll clicked');
+	    $(".tekst").animate({
+	        scrollTop: "+=" + step + "px"
+	    });
+	}).bind("mouseover", function(event) {
+	    scrolling = true;
+	    scrollContent("down");
+	}).bind("mouseout", function(event) {
+	    scrolling = false;
+	});
+	
+	
+	
 });

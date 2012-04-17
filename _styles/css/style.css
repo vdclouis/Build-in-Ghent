@@ -309,7 +309,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw{	
-/*	background: url(../../_images/bg02c.png); /*gradient*!/*/
+	background: url(../../_images/bg02c.png); /*gradient*/
 	background-repeat: repeat-x;
 	height: 1300px;
 	margin: 0 auto;
@@ -353,14 +353,23 @@ nav#gebouwnav ul li a{
 	text-align: right;
 	margin: 0 20px 0 600px;
 	height: 500px;
-	overflow: hidden;
+	overflow: auto;
 }
 
-#gebouw .story .gebouwen .tekst #scrollarrow{
+#gebouw .story .tekst .main, #gebouw .story .tekst .sub{
+	height: 300px;
+/*	overflow: auto;*/
+	margin: 0;
+}
+
+#gebouw .story .gebouwen #scrollarrow{
+	background: url(../../_images/down.png) no-repeat fixed; /*downarrow*/
 	height: 50px;
 	width: 50px;
-	margin: 20px auto 0 auto;
-	border: 1px solid #333;
+	margin: 0 auto;
+	float: right;
+	margin-right: 180px;
+/*	background-color: red;*/
 }
 
 /*#gebouw .story .gebouwen #tekstgerechtsgebouw{
@@ -642,7 +651,6 @@ table#newz tr td p{
 
 .bullet{
 	display: inline-block;
-	border: 1px solid #333;
 	width: 30px;
 	height: 30px;
 }
