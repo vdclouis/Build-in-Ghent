@@ -624,6 +624,14 @@ table#newz tr td p{
 	line-height: 24px;
 }
 
+.tekst li{
+	text-align: left;
+}
+
+#afdeling .tekst{
+	text-align: left;
+}
+
 /*bulletnav*/
 #gebouwennav{
 }
