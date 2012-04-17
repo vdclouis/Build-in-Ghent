@@ -182,6 +182,12 @@ $(function () {
 	    $(".tekst").animate({
 	        scrollTop: "+=" + step + "px"
 	    });
+	    $(".arch").animate({
+	        scrollTop: "+=" + step + "px"
+	    });
+	    $(".afd").animate({
+	        scrollTop: "+=" + step + "px"
+	    });
 	}).bind("mouseover", function(event) {
 	    scrolling = true;
 	    scrollContent("down");

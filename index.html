@@ -75,8 +75,8 @@
 						<div class="tekst" id="tekstparkeergebouw">
 						    <div class="sub"></div>
 						    <div class="text"></div>
-						    <div id="scrollarrow"></div>
 						</div>
+						<div id="scrollarrow"></div>
 					</div>
 					<div id="gebouwennav">
 						<div class="bullet leftbullet">
@@ -92,12 +92,14 @@
 					<div class="tekst">
 						<div class="arch"></div>
 					</div>
+					<div id="scrollarrow"></div>
 	    		</section>
 	    		<section id="afdeling">
 					<img src="_images/bg02a.png" alt="gerechtsgebouw" />
 					<div class="tekst">
 						<div class="afd"></div>
 					</div>
+					<div id="scrollarrow"></div>
 	    		</section>
 		    </div> <!--.story-->
 		</div> <!--#gebouw-->
@@ -141,7 +143,7 @@
 				<section class="praktisch" id="contactmap">
 					<div class="papraktisch"></div>
 					<div id="map" class="praktischbox">
-<!--						<iframe width="640" height="480" src="http://maps.google.be/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Opge%C3%ABistenlaan+401,+gent&amp;aq=&amp;sll=51.062493,3.717129&amp;sspn=0.002795,0.00574&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Opge%C3%ABistenlaan+401,+Gent+9000+Gent,+Oost-Vlaanderen,+Vlaams+Gewest&amp;ll=51.066482,3.716125&amp;spn=0.02589,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>-->
+						<iframe width="640" height="480" src="http://maps.google.be/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Opge%C3%ABistenlaan+401,+gent&amp;aq=&amp;sll=51.062493,3.717129&amp;sspn=0.002795,0.00574&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Opge%C3%ABistenlaan+401,+Gent+9000+Gent,+Oost-Vlaanderen,+Vlaams+Gewest&amp;ll=51.066482,3.716125&amp;spn=0.02589,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
 					</div> <!--eo map-->
 				</section>
 				<section class="praktisch" id="contacturen">
@@ -161,7 +163,7 @@
 					</div> <!--eo map-->
 				</section>
 				<section class="praktisch" id="contactform">
-<!--					<div id="contact-form" class="praktischbox">
+					<div id="contact-form" class="praktischbox">
 					    <?php
 						//init variables
 						$cf = array();
@@ -200,7 +202,7 @@
 					            <option value="General" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'General') ? "selected='selected'" : '' ?>General</option>
 					            <option value="Sales" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Sales') ? "selected='selected'" : '' ?>Sales</option>
 					            <option value="Support" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Support') ? "selected='selected'" : '' ?>Support</option>
-					        </select>--*>
+					        </select>-->
 					        
 					        <label for="message">Message: <span class="required">*</span></label>
 					        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required data-minlength="20"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
@@ -210,7 +212,7 @@
 					        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
 					    </form>
 					    <?php unset($_SESSION['cf_returndata']); ?>
-					</div>-->
+					</div>
 				</section>
 		    </div> <!--.story-->
 		</div> <!--#praktisch-->

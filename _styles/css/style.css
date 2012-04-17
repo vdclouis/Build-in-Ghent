@@ -354,16 +354,19 @@ nav#gebouwnav ul li a{
 	margin: 0 20px 0 600px;
 	height: 500px;
 	overflow: auto;
+/*	scroll: hidden;*/
 }
 
-#gebouw .story .tekst .main, #gebouw .story .tekst .sub{
+#gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
 	height: 300px;
 /*	overflow: auto;*/
 	margin: 0;
 }
 
-#gebouw .story .gebouwen #scrollarrow{
-	background: url(../../_images/down.png) no-repeat fixed; /*downarrow*/
+#gebouw .story #scrollarrow{
+	background: url(../../_images/down.png);  /*downarrow*/
+	background-position: center;
+	background-repeat: no-repeat;
 	height: 50px;
 	width: 50px;
 	margin: 0 auto;
@@ -771,8 +774,6 @@ tr:first-child td:first-child{
 #contactinfo #contactmenu #collapse img{
 	float: left;
 	margin: 4px 5px;
-	border: 1px solid #333;
-	
 }
 
 #contactinfo #contactmenu #collapse p{
