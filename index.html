@@ -164,7 +164,7 @@
 				</section>
 				<section class="praktisch" id="contactform">
 					<div id="contact-form" class="praktischbox">
-					    <?php
+<!--					    <?php
 						//init variables
 						$cf = array();
 						$sr = false;
@@ -202,7 +202,7 @@
 					            <option value="General" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'General') ? "selected='selected'" : '' ?>General</option>
 					            <option value="Sales" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Sales') ? "selected='selected'" : '' ?>Sales</option>
 					            <option value="Support" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Support') ? "selected='selected'" : '' ?>Support</option>
-					        </select>-->
+					        </select>--*>
 					        
 					        <label for="message">Message: <span class="required">*</span></label>
 					        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required data-minlength="20"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
@@ -211,7 +211,7 @@
 					        <input type="submit" value="SUBMIT" id="submit-button" />
 					        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
 					    </form>
-					    <?php unset($_SESSION['cf_returndata']); ?>
+					    <?php unset($_SESSION['cf_returndata']); ?>-->
 					</div>
 				</section>
 		    </div> <!--.story-->

@@ -942,7 +942,7 @@ tr:first-child td:first-child{
 #contact-form #loading {
 	width:32px;
 	height:32px;
-	background-image:url(../img/loading.gif);
+	background-image:url(../../img/loading.gif);
 	display:block;
 	position:absolute;
 	right:130px;
@@ -959,7 +959,7 @@ tr:first-child td:first-child{
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	border-radius:8px;
-	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+	background:#FFE6E6 url(../../img/cancel_48.png) no-repeat 405px center;
 	display:none;
 }
 
@@ -989,7 +989,7 @@ tr:first-child td:first-child{
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	border-radius:8px;
-	background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+	background:#D3EDD3 url(../../img/accepted_48.png) no-repeat 405px center;
 	font-weight:bold;
 	display:none;
 }
