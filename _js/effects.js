@@ -120,12 +120,6 @@ $(function () {
 	$('#contactbig').hide();
 
 	$('#contact').click(function() {
-//		$(this).animate({
-//			'width':'100%',
-//			'height':'50px',
-//			'right':'0',
-//			'padding': '0',
-//		}, 500);
 		$('.contactsmall').switchClass('contactsmall', 'contactbig', 500);
 //		$(this).removeClass('contactsmall');
 //		$(this).addClass('contactbig');
@@ -137,13 +131,6 @@ $(function () {
 	$('#collapse').click(function() {
 		$('#contactinfo').hide();
 		$('#contactup').show();
-//		$('#contact').animate({
-//			'width':'60px',
-//			'height':'15px',
-//			'right': '50px',
-//			'padding': '5px'
-//		}, 500);
-		
 //		$('#contact').removeClass('contactbig');
 //		$('#contact').addClass('contactsmall');
 		$('.contactbig').switchClass( 'contactbig', 'contactsmall', 1000);

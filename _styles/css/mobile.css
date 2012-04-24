@@ -96,7 +96,7 @@
 		margin: 0 auto;
 		padding: 0;
 		position: absolute;
-		width: 1024px;
+		width: 500px;
 		z-index: 200;
 		pointer-events: none;
 	}
@@ -252,7 +252,6 @@
 		height: 50px;
 		width: 50px;
 		margin: 20px auto 0 auto;
-		border: 1px solid #333;
 	}
 	
 	/*#gebouw .story .gebouwen #tekstgerechtsgebouw{
@@ -516,7 +515,6 @@
 	
 	.bullet{
 		display: inline-block;
-		border: 1px solid #333;
 		width: 30px;
 		height: 30px;
 	}
@@ -552,57 +550,49 @@
 	
 	/*contact*/
 	#contact{
-		font-size: 18px;
+		font-size: 10px;
 		position: fixed;
 		background-color: #cc3333;
 		cursor: default;
-		right: 50px;
-		bottom: 0;
-/*		width: 60px;*/
-		height: 15px;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
-		padding: 5px;
 		z-index: 1000;
 		color: white;
 	}
 	
-	.contactsmall{
-		padding: 0;
-		right: 0;
-		width:100%;
-		height:50px;
-	}
-	
-	#contactsmall p{
+	#contact p{
 		margin-left: 10px;
 	}
 	
-	#contactsmall img{
+	#contact img{
 		float: left;
 		margin: 4px 5px;
 	}
 	
-	#contactbig{
-	
+	.contactsmall{
+		right: 50px;
+		bottom: 0;
+		height: 15px;
+		padding: 5px 5px 5px 5px;
+		width: 60px;
 	}
 	
-	#contactbig {
+	.contactbig{
+		width: 100%;
+		height: 50px;
+		bottom: 0;
+		right: 0;
+	}
+	
+	#contactinfo {
 		margin: 0 40px;
 	}
 	
-	#contactbig section#contactauthors, #contactbig section#contactjustitie {
+	#contactinfo section#contactauthors, #contactinfo section#contactjustitie {
 		width: 980px;
 		margin: 0 auto;
 	/*	display: inline-block;*/
 		position: relative;
-	}
-	
-	.table1{
-		width: 450px;
-		position: absolute;
-		top: 0;
-		left: 0;
 	}
 	
 	.table1 td{

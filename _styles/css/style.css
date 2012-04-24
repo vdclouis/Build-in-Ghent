@@ -76,6 +76,10 @@ td { vertical-align: top; }
 
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
+/**{
+	border: 1px solid red;
+}*/
+
 body{
 	margin: 0;
 	min-width: 980px;
@@ -142,6 +146,11 @@ ul#nav li a {
 	text-decoration: none;
 	text-transform: lowercase;
 	pointer-events: auto;
+	
+}
+
+ul#nav li a:active, ul#nav li a:focus {
+	outline: 0
 }
 
 ul#nav li a:hover {
@@ -199,7 +208,7 @@ img.logo{
 	overflow: hidden;
 }
 
-#home .pahome{
+/*#home .pahome{
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -207,7 +216,7 @@ img.logo{
 	width: 1024px;
 	z-index: 200;
 	pointer-events: none;
-}
+}*/
 
 #home h1, #home h2, #home p{
 	font-family: 'Myriad Pro';
