@@ -53,7 +53,7 @@ h2{
 	border: none;
 }
 
-nav#mainmenu {
+#mainmenu {
 	list-style: none;
 	overflow: hidden;
 	position: fixed;
@@ -63,18 +63,49 @@ nav#mainmenu {
 	pointer-events: none;
 }
 
-ul#nav{
+#chooseLang{
+	text-align: left;
+	margin-left: 30px;
+	font-size: 14px;
+	float: left;
+}
+#chooseLang ul{
+
+}
+#chooseLang ul li{
+	display: inline-block;
+	margin: 0 5px;
+	padding-right: 10px;
+}
+#chooseLang a{
+	color: #636466;
+	text-decoration: none;
+	pointer-events: auto;
+	border-top: 1px solid #636466;
+}
+#chooseLang a:hover{
+	color: #cc3333;
+}
+#chooseLang .current a{
+	color: #cc3333;
+}
+
+nav#menu{
 	float: right;
 	margin-right: 40px;
 }
 
-ul#nav li{
+nav#menu ul{
+
+}
+
+nav#menu ul li{
 	display: inline-block;
 	border-top: 1px solid #767a7d;	
 	margin: 0 5px;
 }
 
-ul#nav li a {
+nav#menu ul li a {
 	color: #636466;
 	display: block;
 	font-size: 18px;
@@ -85,11 +116,11 @@ ul#nav li a {
 	
 }
 
-ul#nav li a:active, ul#nav li a:focus {
+nav#menu ul li a:active, nav#menuv ul li a:focus {
 	outline: 0
 }
 
-ul#nav li a:hover {
+nav#menu ul li a:hover {
 	color: #cc3333;
 }
 
@@ -97,29 +128,6 @@ ul#nav li a:hover {
 	color: #cc3333;
 }
 
-#chooseLang{
-	text-align: left;
-	margin-left: 30px;
-	font-size: 14px;
-}
-
-#chooseLang ul li{
-	display: inline-block;
-	border-top: 1px solid #636466;
-	margin: 0 5px;
-	padding-right: 10px;
-}
-#chooseLang a{
-	color: #636466;
-	text-decoration: none;
-	pointer-events: auto;
-}
-#chooseLang a:hover{
-	color: #cc3333;
-}
-#chooseLang .current a{
-	color: #cc3333;
-}
 /*#nav .current a:hover {
 	color: yellow;
 }*/
