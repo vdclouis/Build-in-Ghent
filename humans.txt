@@ -15,23 +15,23 @@
 
   Web developer: Louis Van de Calseyde
   Site: http://www.integralstudios.be
-  Twitter: https://twitter.com/vdclouis
+  Twitter: @vdclouis
   Location: Ghent, Belgium
 
   Web developer: Pierre Van der Eecken
   Site: http://www.integralstudios.be
-  Twitter: https://twitter.com/peecken
+  Twitter: @peecken
   Location: Ghent, Belgium
 
 
 /* THANKS */
-  Names (& URL):
+  Names (& URL): Philippe De Pauw-Waterschoot (@drdynscript)
 
 
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: Modernizr, jQuery
+  Components: Modernizr, jQuery, H5BP
   Software: Espresso
 
 
