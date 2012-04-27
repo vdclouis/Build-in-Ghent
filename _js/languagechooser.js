@@ -4,7 +4,7 @@ function setLanguageFromLink(languageLink){
 
 	var language = $(languageLink).attr('rel');
 	setLanguage(language);
-	
+		
 }
 /* SET LANGUAGE FOR THE WEBAPP
 --> Update HTML
@@ -48,4 +48,4 @@ function setLanguageToStorage(language){
 $(function () {
 	/* SET THE LANGUAGE AFTER PAGE LOAD OR REFRESH */
 	setLanguage(getLanguageFromStorage());
-})
+});

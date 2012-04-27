@@ -24,10 +24,6 @@ function parseTexts(xml){
 	var text;
 	var list;
 	
-//	var algemeen;
-//	var architect;
-//	var afdeling;
-	
 	var date;
 	var p1;
 	var p2;
@@ -39,52 +35,45 @@ function parseTexts(xml){
 	var c4;
 	
 	var htmlNav = "";
-    var htmlMain = "";
-    var htmlSub = "";
-    var htmlArchitecten = "";
-    var htmlAfdeling = "";
-    var htmlList = "";
-    var htmlList2 = "";
-    var htmlNews = "";
-    var htmlNewsContent = "";
+  var htmlMain = "";
+  var htmlSub = "";
+  var htmlArchitecten = "";
+  var htmlAfdeling = "";
+  var htmlList = "";
+  var htmlList2 = "";
+  var htmlNews = "";
+  var htmlNewsContent = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
 	
-	
-	//subnav
-//	$(xml).find(textlang).each(function () {
-//		$(this).find('nav').each(function () {
-//			algemeen = $(this).find('algemeen').text();
-//			architect = $(this).find('architect').text();
-//			afdeling = $(this).find('afdeling').text();
-//		});
-//		
-//		htmlNav += '<ul><li><a href="#">' + algemeen + '</a></li>' + '<li><a href="#">' + architect + '</a></li>' + '<li><a href="#">' + afdeling + '</a></li></ul>';
-//	});
-	
-	//main gebouw
+	  //main gebouw
     $(xml).find(textlang).each(function () {
-		$(this).find('main').each(function () {
-	        title = $(this).find('title').text();
-	        text = $(this).find('text').text();
-		});
-    // Add matched items to an array         
+    
+			$(this).find('main').each(function () {
+	      title = $(this).find('title').text();
+	      text = $(this).find('text').text();
+	      
+			});
+		
     htmlMain += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
        
     }); // end each loop  
     
     //sub gebouw
     $(xml).find(textlang).each(function () {
+    
     	$(this).find('sub').each(function () {
-            title = $(this).find('title').text();
-            text = $(this).find('text').text();
+	      title = $(this).find('title').text();
+	      text = $(this).find('text').text();
     	});
-    // Add matched items to an array         
+    	
     htmlSub += '<h1>' + title + '</h1>' + '<p>' + text + '</p>';
+    
     }); // end each loop
     
     //architecten
     $(xml).find(textlang).each(function () {
+    
     	$(this).find('architecten').each(function () {
     		title = $(this).find('title').text();
     		text = $(this).find('p').text();
@@ -96,6 +85,7 @@ function parseTexts(xml){
     
     //afdeling
     $(xml).find(textlang).each(function () {
+    
     	$(this).find('departments').each(function () {
     		title = $(this).find('title').text();
     		
@@ -116,15 +106,15 @@ function parseTexts(xml){
     				htmlList2 += '<li>' + list + '</li>';
     			});
     		});
-    		 		
-//    		$(this).find
     	});
     	
     htmlAfdeling += '<h1>' + title + '</h1>' + '<p>' + p1 + '</p>' + '<ul>' + htmlList + '</ul>' + '<p>' + p2 + '</p>' + '<ul>' + htmlList2 + '</ul>' + '<p>' + p3 + '</p3>';
+    
     });
     
     //news
     $(xml).find(textlang).each(function () {
+    
     	$(this).find('item').each(function () {
     		title = $(this).find('title').text();
     		date = $(this).find('date').text();
@@ -140,7 +130,6 @@ function parseTexts(xml){
 	
 	
     //Write to container
-//    $("#gebouwnav").html(htmlNav);
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
     $(".arch").html(htmlArchitecten);
@@ -195,32 +184,4 @@ $(function () {
 	//XML text loading
 	loadTexts("_resources/_xml/texts.xml");
 
-/*
-//	language menu
-//	dutch
-	$('#chooseLang li:nth-child(1) a').click(function () {
-//		setLanguageFromLink(this);
-//		$(this).addClass('current');
-//		$('#chooseLang li:nth-child(2) a, #chooseLang li:nth-child(3) a').removeClass('current');
-		console.log('dutch selected!');
-		return false;
-	});
-
-//	english
-	$('#chooseLang li:nth-child(2) a').click(function () {
-//		setLanguageFromLink(this);
-//		$(this).addClass('current');
-//		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(3) a').removeClass('current');
-		console.log('english selected!');
-		return false;
-	});
-	
-//	french
-	$('#chooseLang li:nth-child(3) a').click(function () {
-//		setLanguageFromLink(this);
-//		$(this).addClass('current');
-//		$('#chooseLang li:nth-child(1) a, #chooseLang li:nth-child(2) a').removeClass('current');
-		console.log('french selected!');
-		return false;
-	});*/
-});
+}); //eo ready fn
