@@ -143,7 +143,7 @@ img.logo{
 }
 
 #home{
-	background: url(../../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
+	background: url(../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 	color: black;
 	height: 1300px;
 }
@@ -262,7 +262,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw{	
-	background: url(../../_images/bg02c.png); /*gradient*/
+	background: url(../_images/bg02c.png); /*gradient*/
 	background-repeat: repeat-x;
 	height: 1300px;
 	margin: 0 auto;
@@ -286,7 +286,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw .story #pagerechtsgebouw{
-	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
+	background: url(../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -317,7 +317,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw .story #scrollarrow{
-	background: url(../../_images/down.png);  /*downarrow*/
+	background: url(../_images/down.png);  /*downarrow*/
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 50px;
@@ -337,7 +337,7 @@ nav#gebouwnav ul li a{
 }*/
 
 #gebouw .story #paparkeergebouw{
-	background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
+	background: url(../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -348,7 +348,7 @@ nav#gebouwnav ul li a{
 }
 
 #fotos{
-	background: url(../../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
+	background: url(../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
 	color: white;
 	height: 1300px;
 	padding: 0px 0 0 0;	
@@ -366,7 +366,7 @@ nav#gebouwnav ul li a{
 }
 
 #fotos .story .pafotos{
-	background: url(../../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
+	background: url(../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -377,7 +377,7 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch{
-	background: url(../../_images/bg04.png) repeat fixed; /*tiles texture*/
+	background: url(../_images/bg04.png) repeat fixed; /*tiles texture*/
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -408,7 +408,7 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch .papraktisch{
-	background: url(../../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
+	background: url(../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -436,7 +436,7 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch .praktisch .praktischbox{
-	background: url(../../_images/project_papper.png);
+	background: url(../_images/project_papper.png);
 	width: 665px;
 	padding: 20px 20px 20px 20px;
 	margin: 100px auto 0 auto;	
@@ -463,7 +463,7 @@ nav#gebouwnav ul li a{
 }
 
 #video{
-	background: url(../../_images/bg05.jpg) repeat fixed; /*tiles texture*/
+	background: url(../_images/bg05.jpg) repeat fixed; /*tiles texture*/
 	background-size: 100%;
 	color: white;
 	height: 1300px;
@@ -485,7 +485,7 @@ nav#gebouwnav ul li a{
 }
 
 #video .pavideo{
-	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;
+	background: url(../_images/pa05.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -496,7 +496,7 @@ nav#gebouwnav ul li a{
 }
 
 #nieuws{
-	background: url(../../_images/fabric_plaid.png); /*fabric-texture*/
+	background: url(../_images/fabric_plaid.png); /*fabric-texture*/
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -506,7 +506,7 @@ nav#gebouwnav ul li a{
 }
 
 #nieuws .panieuws{
-	background: url(../../_images/pa06.png) 50% 0 fixed; /*newspapers*/
+	background: url(../_images/pa06.png) 50% 0 fixed; /*newspapers*/
 	background-repeat: no-repeat;
 	height: 1300px;
 	margin: 0 auto;
@@ -614,7 +614,7 @@ table#newz tr td p{
 .bullet a{
 	width: 13px; 
 	height: 13px; 
-	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
+	background: url(../_images/flexslider/bg_control_nav.png) no-repeat; 
 	text-indent: -999em;
 	background-position: 0 -26px;
 	display: block;
@@ -754,7 +754,7 @@ tr:first-child td:first-child{
 }
 
 #contact-form #lblName::before{
-	background: url(../../_images/contactIcons/user.png);
+	background: url(../_images/contactIcons/user.png);
 }
 
 #contact-form form label{
@@ -895,7 +895,7 @@ tr:first-child td:first-child{
 #contact-form #loading {
 	width:32px;
 	height:32px;
-	background-image:url(../../img/loading.gif);
+	background-image:url(../img/loading.gif);
 	display:block;
 	position:absolute;
 	right:130px;
@@ -912,7 +912,7 @@ tr:first-child td:first-child{
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	border-radius:8px;
-	background:#FFE6E6 url(../../img/cancel_48.png) no-repeat 405px center;
+	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
 	display:none;
 }
 
@@ -942,7 +942,7 @@ tr:first-child td:first-child{
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	border-radius:8px;
-	background:#D3EDD3 url(../../img/accepted_48.png) no-repeat 405px center;
+	background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
 	font-weight:bold;
 	display:none;
 }

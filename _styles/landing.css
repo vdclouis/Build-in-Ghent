@@ -5,7 +5,7 @@
 }*/
 
 #container {
-	background: url('../../_images/bg000.jpg') no-repeat, url('../../_images/bg06.png');
+	background: url('../_images/bg000.jpg') no-repeat, url('../_images/bg06.png');
 	margin: 0 auto;
 	height: 1152px;
 	display: block;
@@ -34,7 +34,7 @@ nav {
 .button {
 	width: 250px;
 	height: 30px;
-	background: url('../../_images/diagonal-noise.png');
+	background: url('../_images/diagonal-noise.png');
 	text-transform: uppercase;
 	font: 1.3em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	margin-bottom: 10px;
@@ -68,7 +68,7 @@ nav {
 @media only screen and (max-width: 480px){
 
 	#container{
-		background: url('../../_images/bg000m.jpg') no-repeat;
+		background: url('../_images/bg000m.jpg') no-repeat;
 		height: 360px;
 		width: 320px;
 	}
@@ -97,7 +97,7 @@ nav {
 	.button {
 		width: 150px;
 		height: 30px;
-		background: url('../../_images/diagonal-noise.png');
+		background: url('../_images/diagonal-noise.png');
 		text-transform: uppercase;
 		font: 1.3em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 		margin-bottom: 10px;

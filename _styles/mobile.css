@@ -2,7 +2,6 @@
 
 	body{
 		margin: 0;
-/*		min-width: 700px;*/
 		padding: 0;
 		background-color: #ececed;
 	}
@@ -588,25 +587,6 @@
 		margin: 10px auto;
 	}
 	
-	/*.middlebullet a{
-		width: 13px; 
-		height: 13px; 
-		background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
-		text-indent: -999em;
-		background-position: 0 -26px;
-		display: block;
-		margin: 10px auto;
-	}
-	
-	.rightbullet a{
-		width: 13px; 
-		height: 13px; 
-		background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
-		text-indent: -999em;
-		display: block;
-		margin: 10px auto;
-	}*/
-	
 	/*contact*/
 	#contact{
 		font-size: 10px;
@@ -715,7 +695,7 @@
 	}
 	
 	#contact-form #lblName::before{
-		background: url(../../_images/contactIcons/user.png);
+		background: url(../_images/contactIcons/user.png);
 	}
 	
 	#contact-form form label{
