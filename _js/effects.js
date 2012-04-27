@@ -1,13 +1,13 @@
 function scrollContent(direction) {
-    var amount = (direction === "up" ? "-=1px" : "+=1px");
-    $("#content").animate({
-        scrollTop: amount
-    }, 1, function() {
-        if (scrolling) {
-            // If we want to keep scrolling, call the scrollContent function again:
-            scrollContent(direction);
-        }
-    });
+  var amount = (direction === "up" ? "-=1px" : "+=1px");
+  $("#content").animate({
+      scrollTop: amount
+  }, 1, function() {
+      if (scrolling) {
+          // If we want to keep scrolling, call the scrollContent function again:
+          scrollContent(direction);
+      }
+  });
 }
 
 $(function () {

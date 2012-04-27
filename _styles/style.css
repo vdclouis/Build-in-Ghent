@@ -18,7 +18,7 @@ place a link on your website to http://www.ianlunn.co.uk/.
 
 body{
 	margin: 0;
-	min-width: 980px;
+/*	min-width: 980px;*/
 	padding: 0;
 	background-color: #ececed;
 }
@@ -115,8 +115,9 @@ nav#menu ul li a {
 	pointer-events: auto;
 	
 }
+/*nav#menu ul li a:active, nav#menuv ul li a:focus {*/
 
-nav#menu ul li a:active, nav#menuv ul li a:focus {
+a:active, a:focus {
 	outline: 0
 }
 
@@ -291,7 +292,7 @@ nav#gebouwnav ul li a{
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 1024px;
+	width: 960px;
 	z-index: 200;
 	pointer-events: none;
 }
@@ -299,12 +300,11 @@ nav#gebouwnav ul li a{
 #gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
 	margin-top: 100px;
 	width: 600px;
-	float: left;
 }
 
 #gebouw .story .tekst{
+	float: right;
 	text-align: right;
-	margin: 0 20px 0 600px;
 	height: 500px;
 	overflow: auto;
 /*	scroll: hidden;*/
@@ -325,6 +325,7 @@ nav#gebouwnav ul li a{
 	margin: 0 auto;
 	float: right;
 	margin-right: 180px;
+	clear: right;
 /*	background-color: red;*/
 }
 
@@ -342,7 +343,7 @@ nav#gebouwnav ul li a{
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 1024px;
+	width: 960px;
 	z-index: 200;
 	pointer-events: none;
 }
@@ -371,7 +372,7 @@ nav#gebouwnav ul li a{
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 1024px;
+	width: 960px;
 	z-index: 600;
 	pointer-events: none;
 }
@@ -490,7 +491,7 @@ nav#gebouwnav ul li a{
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
-	width: 1024px;
+	width: 960px;
 	z-index: 200;
 	pointer-events: none; /*add IE hack*/
 }

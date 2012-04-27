@@ -1,938 +1,547 @@
 @media only screen and (max-width: 1024px) {
 
-	body{
-		margin: 0;
-		padding: 0;
-		background-color: #ececed;
-	}
 
-	p{
-		margin: 0 0 20px 0;	
-	}
-	
-	p, ul{
-		font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-		font-size-adjust:0.488;
-		font-weight:200;
-		font-style:normal;
-	}
-	
-	img{
-		border: 0;
-	}
-	
-	h1, #pixels{
-		font-family:"Museo 900", Verdana, serif;
-		font-size-adjust:0.40;
-		font-weight:700;
-		font-style:normal;
-	}
-	
-	h2{
-		font-family:"Beau Sans Pro Book", Verdana, sans-serif;
-		font-size-adjust:0.531;
-		font-weight:500;
-		font-style:normal;
-		border: none;
-	}
-	
-	#mainmenu {
-		list-style: none;
-		overflow: hidden;
-		position: fixed;
-		z-index: 9999;
-		width: 100%;
-		padding: 100px 0px;
-		pointer-events: none;
-	}
-	
-	#chooseLang{
-		text-align: left;
-		margin-left: 0px;
-		font-size: 14px;		
-		width: 260px;
-		margin: 0 auto 20px auto;
-		float: none;
-	}
-	#chooseLang ul{
-		
-	}
-	#chooseLang ul li{
-		display: inline-block;
-		margin: 0 5px;
-		padding: 0 10px;
-	}
-	#chooseLang a{
-		color: #636466;
-		text-decoration: none;
-		pointer-events: auto;
-		border-top: 1px solid #636466;
-	}
-	#chooseLang a:hover{
-		color: #cc3333;
-	}
-	#chooseLang .current a{
-		color: #cc3333;
-	}
-
-	/*#nav .current a:hover {
-		color: yellow;
-	}*/
-	
-	nav#menu{
-		float: none;
-		margin: 0 auto;
-		width: 550px;
-		
-	}
-	
-	nav#menu ul{
-	
-	}
-	
-	nav#menu ul li{
-		display: inline-block;
-		border-top: 1px solid #767a7d;	
-		margin: 0 5px;
-	}
-	
-	nav#menu ul li a {
-		color: #636466;
-		display: block;
-		font-size: 18px;
-		padding: 5px 20px 5px 0;
-		text-decoration: none;
-		text-transform: lowercase;
-		pointer-events: auto;
-		
-	}
-	
-	nav#menu ul li a:active, nav#menuv ul li a:focus {
-		outline: 0
-	}
-	
-	nav#menu ul li a:hover {
-		color: #cc3333;
-	}
-	
-	#nav .current a {
-		color: #cc3333;
-	}
-	
-	/*#nav .current a:hover {
-		color: yellow;
-	}*/
-	
-	img.logo{
-		position: absolute;
-		left: 50%;
-		top: 70px;
-	}
-	
-	#header, #intro, #second{
-		width: 100%;
-	}
-	
-	
-	
-	#home{
-		background: url(../../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
-		color: black;
-		height: 1300px;
-	}
-	
-/*	#home .pahome{
-		height: 1300px;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 500px;
-		z-index: 200;
-		pointer-events: none;
-	}*/
-	
-	#home h1, #home h2, #home p{
-		font-family: 'Myriad Pro';
-	}
-	
-	#home #nonshadow{
-		position: relative;
-	}
-	
-	#home #nonshadow img {
-		margin: 0;
-	/*	z-index: 50;*/
-		position: absolute;
-		top: 500ox;
-		left: 100px;
-		display: block;
-		top: 500px;
-		left: 200px;
-		z-index: 2;
-	}
-	
-	#home #nonshadow h1 {
-		font-size: 5em;
-		color: #888;
-		z-index: 50;
-		position: absolute;
-		margin: 0;
-		left: 400px;
-		top: 500px;
-	}
-	
-	#home #nonshadow h2 {
-		font-size: 5em;
-		color: #555;
-		position: absolute;
-		margin: 0;
-		top: 570px;
-		left: 470px;
-		z-index: 50;
-	}
-	
-	/*beter use bottom for most resolutions?*/
-	#home #nonshadow p {
-		color: #888;
-		font-size: 1.7em;
-		top: 660px;
-		left: 530px;
-		position: absolute;
-		z-index: 30;
-	}
-	
-	#home .story {
-		height: 1000px;
-	}
-	
-	#home #shadow{
-		position: relative;
-		width: 50%;
-	}
-	
-	#home #shadow p {
-		position: absolute;
-		font-size: 15em;
-		color: rgba(255, 255, 255, .0);
-		text-shadow: 1px 1px 15px rgba(0, 0, 0, .2);
-		cursor: default;
-		margin: 0;
-		z-index: 1;
-	}
-	
-	#home #shadow p:first-child{
-		top: 350px;
-		left: 20px;
-	}
-	
-	#home #shadow p:last-child{
-		top: 500px;
-		left: 90px; /*100px = horizonal scroll*/
-	}
-	
-	nav#gebouwnav{
-		position: relative;
-		padding: 20px 30px;
-		margin: 50px 0 20px 0;
-	}
-	
-	nav#gebouwnav ul{
-		float: right;
-	}
-	
-	nav#gebouwnav ul li{
-		float: left;
-		margin-left: 85px;
-	}
-	
-	nav#gebouwnav ul li a{
-		text-decoration: none;
-		color: black;
-	}
-	
-	#gebouw{	
-	/*	background: url(../../_images/bg02c.png); /*gradient*!/*/
-		background-repeat: repeat-x;
-		height: 1300px;
-		margin: 0 auto;
-		overflow: hidden;
-		padding: 0;
-		color: black;
-		position: relative;
-		border-bottom-color: red;
-	}
-	
-	#gebouw .story{
-		width: 980px;
-		height: 1300px;
-	}
-	
-	#gebouw .story section{
-	}
-	
-	#gebouw .story #gerechtsgebouw{
-	
-	}
-	
-	#gebouw .story #gerechtsgebouw #pagerechtsgebouw{
-		background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
-		height: 1300px;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 1024px;
-		z-index: 200;
-		pointer-events: none;
-		border-bottom-color: blue;
-		display: none;
-	}
-	
-	#gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
-		margin-top: 100px;
-		width: 600px;
-		float: left;
-		border: 1px solid red;
-	}
-	
-	#gebouw .story .tekst{
-		text-align: right;
-		margin: 0 20px 0 600px;
-		height: 500px;
-		overflow: hidden;
-	}
-	
-	#gebouw .story .gebouwen .tekst #scrollarrow{
-		height: 50px;
-		width: 50px;
-		margin: 20px auto 0 auto;
-	}
-	
-	/*#gebouw .story .gebouwen #tekstgerechtsgebouw{
-		
-	}
-	
-	#gebouw .story .gebouwen #parkeergebouw{
-	
-	}*/
-	
-	#gebouw .story #paparkeergebouw{
-		background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
-		height: 1300px;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 1024px;
-		z-index: 200;
-		pointer-events: none;
-		border-bottom-color: blue;
-		display: none;
-	}
-	
-	#fotos{
-		background: url(../../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
-		color: white;
-		height: 1300px;
-		padding: 0px 0 0 0;	
-		position: relative;
-	}
-	
-	#fotos #flexocontainer {
-		width: 80%;
-		max-width: 800px;
-		margin: 200px auto;
-	}
-	
-	#fotos .story{
-		height: 1000px;
-	}
-	
-	#fotos .story .pafotos{
-		background: url(../../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
-		height: 1300px;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 1024px;
-		z-index: 600;
-		pointer-events: none;
-		display: none;
-	}
-	
-	#praktisch{
-		background: url(../../_images/bg04.png) repeat fixed; /*tiles texture*/
-		color: white;
-		height: 1300px;
-		margin: 0 auto;
-		overflow: hidden;
-		padding: 0;
-		color: black;
-		position: relative;
-	}
-	
-	#praktisch nav#praktischnav{
-		float: left;
-		margin: 100px 0 0 50px;
-	}
-	
-	#praktisch nav#praktischnav ul{
-		
-	}
-	
-	#praktisch nav#praktischnav ul li{
-		text-align: right;	
-	}
-	
-	#praktisch nav#praktischnav ul li a{
-		text-decoration: none;
-		color: #636466;
-		padding: 5px;
-		display: block;
-	}
-	
-	#praktisch .papraktisch{
-		background: url(../../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
-		height: 1300px;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		top: 0;
-		width: 960px;
-		z-index: 200;
-		pointer-events: none; /*add IE hack*/
-		display:none;
-	}
-	
-	#praktisch section{
-		height: auto;
-	}
-	
-	#praktisch .story {
-		height: 1300px;
-	}
-	
-	#praktisch section#contactmap{
-		
-	}
-	
-	#praktisch section#contactform{
-		
-	}
-	
-	#praktisch .praktisch .praktischbox{
-		background: url(../../_images/project_papper.png);
-		width: 665px;
-		padding: 20px 20px 20px 0;
-		margin: 100px auto 0 auto;	
-		border: 2px solid #ddd;
-		-moz-border-radius: 15px;
-		-webkit-border-radius: 15px;
-		border-radius: 15px;
-		position: relative;
-		box-shadow: 0px 0px 7px #888;
-		height: 480px;
-	}
-	
-	#map{
-		padding: 30px;
-		background-color: #DDD;
-		border-radius: 30px;
-	/*	margin: 200px 0 0 100px;*/
-	}
-	
-	#map iframe{
-		margin: 0 22px;
-		border: none;
-	}
-	
-	#video{
-		background: url(../../_images/bg05.jpg) repeat fixed; /*tiles texture*/
-		background-size: 100%;
-		color: white;
-		height: 1300px;
-		margin: 0 auto;
-		overflow: hidden;
-		padding: 0;
-		color: black;
-		position: relative;
-	}
-	
-	#video .story{
-		height: 1300px;
-	}
-	
-	#video .story a img {
-		position: relative;
-		top: 30%;
-		left: 48%;
-	}
-	
-	#video .pavideo{
-		background: url(../../_images/pa05.png) 50% 0 no-repeat fixed; /*pensils*/
-		height: 1300px;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 1024px;
-		z-index: 200;
-		pointer-events: none; /*add IE hack*/
-		display: none;
-	}
-	
-	#nieuws{
-		background: url(../../_images/fabric_plaid.png); /*fabric-texture*/
-		height: 1300px;
-		margin: 0 auto;
-		overflow: hidden;
-		padding: 0;
-		position: relative;
-		color: #000;
-	}
-	
-	#nieuws .panieuws{
-		background: url(../../_images/pa06.png) 50% 0 fixed; /*newspapers*/
-		background-repeat: no-repeat;
-		height: 1300px;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 960px;
-		z-index: 200;
-		pointer-events: none;
-		display: none;
-	}
-	
-	#nieuws .story .tekst{
-	}
-	
-	#nieuws .story #nieuwstekst{
-		float: left; 
-	}
-	
-	#nieuws .story #archieftekst{
-		float: right;
-	}
-	
-	#nieuws .story #archieftekst h1{
-		border-top: none;
-		border-bottom: 1px solid black;
-		text-align: right;
-	}
-	
-	/*#nieuws .story .float-left{
-		border: 1px solid #333;
-	}
-	
-	#nieuws .story .float-right h1{
-		border-bottom: 1px solid #333;
-		border-top: none;
-		text-align: right;
-	}
-	
-	#nieuws .story .float-right table{
-		text-align: right;
-	}
-	
-	#nieuws .story .float-right table tr td:nth-child(2){
-		width: 310px;
-	}*/
-	
-	/*the story containers*/
-	.story{
-		margin: 0 auto;
-		min-width: 980px;
-		overflow: auto;
-		width: 980px;
-	}
-	
-	.story .tekst{
-	/*	padding: 150px 0 0 0;*/
-		position: relative;
-		width: 350px;
-	}
-	
-	/*the textboxes*/
-	.tekst h1{
-		text-transform: uppercase;
-		border-top: 1px solid #333;
-		padding: 15px 0;
-		margin: 0;
-	}
-	
-	.tekst p{
-		font-size: 14px;
-		line-height: 24px;
-	}
-	
-	/*bulletnav*/
-	#gebouwennav{
-	}
-	
-	#praktischnav{
-		margin-top: 30px;
-	}
-	
-	.bullet{
-		display: inline-block;
-		width: 30px;
-		height: 30px;
-	}
-	
-	.bullet a{
-		width: 13px; 
-		height: 13px; 
-		background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
-		text-indent: -999em;
-		background-position: 0 -26px;
-		display: block;
-		margin: 10px auto;
-	}
-	
-	/*contact*/
-	#contact{
-		font-size: 10px;
-		position: fixed;
-		background-color: #cc3333;
-		cursor: default;
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
-		z-index: 1000;
-		color: white;
-	}
-	
-	#contact p{
-		margin-left: 10px;
-	}
-	
-	#contact img{
-		float: left;
-		margin: 4px 5px;
-	}
-	
-	.contactsmall{
-		right: 50px;
-		bottom: 0;
-		height: 15px;
-		padding: 5px 5px 5px 5px;
-		width: 60px;
-	}
-	
-	.contactbig{
-		width: 100%;
-		height: 50px;
-		bottom: 0;
-		right: 0;
-	}
-	
-	#contactinfo {
-		margin: 0 40px;
-	}
-	
-	#contactinfo section#contactauthors, #contactinfo section#contactjustitie {
-		width: 980px;
-		margin: 0 auto;
-	/*	display: inline-block;*/
-		position: relative;
-	}
-	
-	.table1 td{
-		width: 150px;
-	}
-	
-	.table2{
-		width: 450px;
-		position: absolute;
-		top: 0;
-		left: 450px;
-	}
-	
-	.table2 td{
-		width: 150px;
-	}
-	
-	tr:first-child td:first-child{
-		color: black;
-	}
-	
-	#contactbig #contactmenu{
-		width: 100px;
-		float: right;
-		color: white;
-		font-size: 15px;
-	}
-	
-	#contactbig #contactmenu #collapse{
-	}
-	
-	#contactbig #contactmenu #collapse img{
-		float: left;
-		margin: 4px 5px;
-		border: 1px solid #333;
-		
-	}
-	
-	#contactbig #contactmenu #collapse p{
-		margin: 0;
-	}
-	
-	#contactbig #contactmenu #more{
-	}
-	
-	#contactbig #contactmenu #more p{
-	}
-	
-	.contactshown{
-	}
-	
-	.contacthidden{
-	}
-	
-	/*contact from*/
-	#contact-form {
-	}
-	
-	#contact-form #more{
-		
-	}
-	
-	#contact-form #lblName::before{
-		background: url(../_images/contactIcons/user.png);
-	}
-	
-	#contact-form form label{
-		padding: 10px 0px 10px 40px;
-		margin: 0;
-		background-color: rgba(0, 0, 0, .1);
-		font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	}
-	/*#contact-form form label:nth-child(3){
-		padding: 10px 0px 10px 40px;
-		padding-left: 40px;
-		background-color: rgba(0, 0, 0, .1);
-	}
-	#contact-form form label:nth-child(5){
-		padding: 10px 0px 10px 40px;
-		padding-left: 40px;
-		background-color: rgba(0, 0, 0, .1);
-	}
-	#contact-form form label:nth-child(7){
-		padding: 10px 0px 10px 40px;
-		padding-left: 40px;
-		background-color: rgba(0, 0, 0, .1);
-	}*/
-	#contact-form form label:nth-child(9){
-		margin: 0px 0 0 0;	
-	}
-	
-	#contact-form form input{
-		/*padding: 0 0 0 0;*/
-	}
-	
-	/*#contact-form h1 {
-		font-size:42px;
-	}
-	
-	#contact-form h2 {
-		margin-bottom:15px;
-		font-style:italic;
-		font-weight:normal;
-	}*/
-	
-	#contact-form input, 
-	#contact-form select, 
-	#contact-form textarea, 
-	#contact-form label {
-		font-size: 15px;
-		margin-bottom: 2px;
-	}
-	
-	#contact-form input, 
-	#contact-form select, 
-	#contact-form textarea {
-		width: 450px;
-		border: none;
-		margin: 0 0 20px 115px;
-		padding: 12px 4px 12px 4px;
-		display: block;
-		background-color: rgba(0, 0, 0, .05);
-		border-top-right-radius: 7px;
-		border-bottom-right-radius: 7px;
-	}
-	
-	#contact-form input:focus, 
-	#contact-form select:focus, 
-	#contact-form textarea:focus {
-		border: none;
-		background-color: rgba(255, 255, 255, .0);
-		outline: none;
-		
-	}
-	
-	#contact-form textarea {
-		height:150px;
-		resize: none;
-	}
-	
-	#contact-form label {
-		float: left;
-		width: 110px;
-	}
-	
-	#contact-form .required {
-		font-weight:bold;
-		color:#F00;	
-	}
-	
-	#contact-form #submit-button {
-		width: 100px;
-		margin-left: 150px;
-		color:#000;
-		border: 1px solid #bbb;
-		font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;	font-weight: bold;
-		display:block;
-		
-		-webkit-border-radius: 8px;
-		-moz-border-radius: 8px;
-		border-radius: 8px;
-	
-		text-shadow: 1px 1px 1px #fff;	
-		/* Safari 4-5, Chrome 1-9 */
-		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#ccc));
-		
-		/* Safari 5.1, Chrome 10+ */
-		background: -webkit-linear-gradient(top, #eee, #ccc);
-		
-		/* Firefox 3.6+ */
-		background: -moz-linear-gradient(top, #eee, #ccc);
-		
-		/* IE 10 */
-		background: -ms-linear-gradient(top, #eee, #ccc);
-		
-		/* Opera 11.10+ */
-		background: -o-linear-gradient(top, #eee, #ccc);
-	}
-	
-	#contact-form #submit-button:hover {
-		/* Safari 4-5, Chrome 1-9 */
-		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#eee));
-		
-		/* Safari 5.1, Chrome 10+ */
-		background: -webkit-linear-gradient(top, #ccc, #eee);
-		
-		/* Firefox 3.6+ */
-		background: -moz-linear-gradient(top, #ccc, #ee);
-		
-		/* IE 10 */
-		background: -ms-linear-gradient(top, #ccc, #eee);
-		
-		/* Opera 11.10+ */
-		background: -o-linear-gradient(top, #ccc, #eee);
-	}
-	
-	#contact-form #submit-button:active {
-		position:relative;
-		top:1px;
-	}
-	
-	#contact-form #loading {
-		width:32px;
-		height:32px;
-		background-image:url(../img/loading.gif);
-		display:block;
-		position:absolute;
-		right:130px;
-		bottom:16px;
-		display:none;
-	}
-	
-	#errors {
-		border:solid 1px #E58E8E;
-		padding:10px;
-		margin:25px 0px;
-		display:block;
-		width:437px;
-		-webkit-border-radius:8px;
-		-moz-border-radius:8px;
-		border-radius:8px;
-		background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
-		display:none;
-	}
-	
-	#errors li {
-		padding:2px;
-		list-style:none;	
-	}
-	
-	#errors li:before {
-		content: ' - ';	
-	}
-	
-	#errors #info {
-		font-weight:bold;
-	}
-	
-	#errors #info:before {
-		content: '';	
-	}
-	
-	#success {
-		border:solid 1px #83D186;
-		padding:25px 10px;
-		margin:25px 0px;
-		display:block;
-		width:437px;
-		-webkit-border-radius:8px;
-		-moz-border-radius:8px;
-		border-radius:8px;
-		background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
-		font-weight:bold;
-		display:none;
-	}
-	
-	#errors.visible, #success.visible {
-		display:block;	
-	}
-	
-	#req-field-desc {
-		font-style:italic;
-	}
-	
-	/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
-	input:required, textarea:required {
-		-moz-box-shadow:none;
-		-webkit-box-shadow:none;
-		-o-box-shadow:none;
-		box-shadow:none;
-	}
-	
-	/* Normalize placeholder styles */
-	
-	/* chrome, safari */
-	::-webkit-input-placeholder {
-		color:#CCC;
-		font-style:italic;
-		font-family: serif;
-		text-shadow: 1px 1px #fff;
-	}
-	
-	/* mozilla */
-	input:-moz-placeholder, textarea:-moz-placeholder {
-		color:#CCC;
-		font-style:italic;
-		font-family: serif;
-		text-shadow: 1px 1px #fff;
-	}
-	
-	/* ie (faux placeholder) */
-	input.placeholder-text, textarea.placeholder-text  { 
-		color:#CCC;
-		font-style:italic;
-		font-family: serif;
-		text-shadow: 1px 1px #fff;
-	}
 
 }
 
 @media only screen and (max-width: 480px) {
+
+/**{
+	border: 1px solid red;
+}*/
+
+#mainmenu {
+	list-style: none;
+	overflow: hidden;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	padding: 30px 0px;
+	pointer-events: none;
+}
+
+#chooseLang{
+	text-align: left;
+	margin: 0 10px 15px;
+	font-size: 14px;
+	float: right;
+}
+
+#chooseLang ul{
+
+}
+
+#chooseLang ul li{
+	display: inline-block;
+	margin: 0 5px;
+	padding-right: 10px;
+}
+
+#chooseLang a{
+	color: #636466;
+	text-decoration: none;
+	pointer-events: auto;
+	border-top: 1px solid #636466;
+}
+#chooseLang a:hover{
+	color: #cc3333;
+}
+#chooseLang .current a{
+	color: #cc3333;
+}
+
+nav#menu{
+	float: right;
+	margin: 0px 0 0 0;
+	width: 260px;
+}
+
+nav#menu ul{
+
+}
+
+nav#menu ul li{
+	display: inline-block;
+	border-top: 1px solid #767a7d;	
+	margin: 0 5px;
+}
+
+nav#menu ul li a {
+	color: #636466;
+	display: block;
+	font-size: 18px;
+	padding: 5px 20px 5px 0;
+	text-decoration: none;
+	text-transform: lowercase;
+	pointer-events: auto;
+}
+
+a:active, a:focus {
+	outline: 0
+}
+
+img.logo{
+	position: absolute;
+	left: 15px;
+	top: 30px;
+	width: 100px;
+}
+
+#header, #intro, #second{
+	width: 100%;
+}
+
+#home{
+	background: url(../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
+	color: black;
+	height: 1300px;
+}
+
+#home .story{
+	overflow: hidden;
+}
+
+/*#home .pahome{
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 1024px;
+	z-index: 200;
+	pointer-events: none;
+}*/
+
+#home h1, #home h2, #home p{
+	font-family: 'Myriad Pro';
+}
+
+#home #nonshadow{
+	position: relative;
+}
+
+#home #nonshadow img {
+	margin: 0;
+/*	z-index: 50;*/
+	position: absolute;
+	top: 30px;
+	left: 15px;
+	display: block;
+	z-index: 2;
+}
+
+#home #nonshadow h1 {
+	font-size: 6em;
+	color: #888;
+	z-index: 50;
+	position: absolute;
+	margin: 0;
+	left: 40px;
+	top: 200px;
+}
+
+#home #nonshadow h2 {
+	font-size: 5em;
+	color: #555;
+	position: absolute;
+	margin: 0;
+	top: 300px;
+	left: 40px;
+	z-index: 50;
+}
+
+/*beter use bottom for most resolutions?*/
+#home #nonshadow p {
+	color: #888;
+	font-size: 1.7em;
+	top: 400px;
+	left: 40px;
+	position: absolute;
+	z-index: 30;
+}
+
+#home .story {
+	height: 1000px;
+}
+
+#home #shadow{
+	position: relative;
+	width: 50%;
+}
+
+#home #shadow p {
+	display: none;
+}
+
+#home #shadow p:first-child{
+	top: 350px;
+	left: 20px;
+}
+
+#home #shadow p:last-child{
+	top: 500px;
+	left: 90px; /*100px = horizonal scroll*/
+}
+
+nav#gebouwnav{
+	position: relative;
+	padding: 20px 30px;
+	margin: 50px 0 20px 0;
+}
+
+nav#gebouwnav ul{
+	float: right;
+}
+
+nav#gebouwnav ul li{
+	float: left;
+	margin-left: 85px;
+}
+
+nav#gebouwnav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+#gebouw{	
+	background: url(../_images/bg02c.png); /*gradient*/
+	background-repeat: repeat-x;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	color: black;
+	position: relative;
+	border-bottom-color: red;
+}
+
+#gebouw .story{
+	width: 980px;
+	height: 1300px;
+}
+
+#gebouw .story section{
+}
+
+#gebouw .story #gerechtsgebouw{
+
+}
+
+#gebouw .story #pagerechtsgebouw{
+	display: none;
+}
+
+#gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
+	margin-top: 700px;
+	width: 600px;
+}
+
+#gebouw .story .tekst{
+	text-align: right;
+	margin: 0 20px 0 0px;
+	height: 500px;
+	overflow: auto;
+/*	scroll: hidden;*/
+}
+
+#gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
+	height: 300px;
+/*	overflow: auto;*/
+	margin: 0;
+}
+
+#gebouw .story #scrollarrow{
+	clear: right;
+}
+
+#gebouw .story #paparkeergebouw{
+	background: url(../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 200;
+	pointer-events: none;
+	display: none;
+}
+
+#fotos{
+	background: url(../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
+	color: white;
+	height: 1300px;
+	padding: 0px 0 0 0;	
+	position: relative;
+}
+
+#fotos #flexocontainer {
+	width: 80%;
+	max-width: 800px;
+	margin: 200px auto;
+}
+
+#fotos .story{
+	height: 1000px;
+}
+
+#fotos .story .pafotos{
+	background: url(../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 600;
+	pointer-events: none;
+	display: none;
+}
+
+#praktisch{
+	background: url(../_images/bg04.png) repeat fixed; /*tiles texture*/
+	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	color: black;
+	position: relative;
+}
+
+#praktisch nav#praktischnav{
+	float: left;
+	margin: 250px 0 0 90px;
+}
+
+#praktisch nav#praktischnav ul{
+	
+}
+
+#praktisch nav#praktischnav ul li{
+	text-align: right;	
+}
+
+#praktisch nav#praktischnav ul li a{
+	text-decoration: none;
+	color: #636466;
+	padding: 5px;
+	display: block;
+}
+
+#praktisch .papraktisch{
+	background: url(../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	width: 960px;
+	z-index: 200;
+	pointer-events: none; /*add IE hack*/
+	display: none;
+}
+
+#praktisch section{
+	height: auto;
+}
+
+#praktisch .story {
+	height: 1300px;
+}
+
+#praktisch section#contactmap{
+	
+}
+
+#praktisch section#contactform{
+	
+}
+
+#praktisch .praktisch .praktischbox{
+	background: url(../_images/project_papper.png);
+	width: 665px;
+	padding: 20px 20px 20px 20px;
+	margin: 100px auto 0 auto;	
+	border: 2px solid #ddd;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: relative;
+	box-shadow: 0px 0px 7px #888;
+	height: 480px;
+	overflow: hidden;
+}
+
+#map{
+	padding: 30px;
+	background-color: #DDD;
+	border-radius: 30px;
+/*	margin: 200px 0 0 100px;*/
+}
+
+#map iframe{
+	margin: 0 22px;
+	border: none;
+}
+
+#video{
+	background: url(../_images/bg05.jpg) repeat fixed; /*tiles texture*/
+	background-size: 100%;
+	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	color: black;
+	position: relative;
+}
+
+#video .story{
+	height: 1300px;
+}
+
+#video .story a img {
+	position: relative;
+	top: 30%;
+	left: 48%;
+}
+
+#video .pavideo{
+	background: url(../_images/pa05.png) 50% 0 no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 200;
+	pointer-events: none; /*add IE hack*/
+	display: none;
+}
+
+#nieuws{
+	background: url(../_images/fabric_plaid.png); /*fabric-texture*/
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	color: #000;
+}
+
+#nieuws .panieuws{
+	background: url(../_images/pa06.png) 50% 0 fixed; /*newspapers*/
+	background-repeat: no-repeat;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+	z-index: 200;
+	pointer-events: none;
+	display: none;
+}
+
+#nieuws .story .tekst{
+}
+
+#nieuws .story #nieuwstekst{
+	float: left; 
+	margin-top: 290px;
+}
+
+#nieuws .story #archieftekst{
+	float: right;
+	margin-top: 140px;
+	width: 500px;
+}
+
+#nieuws .story #archieftekst h1{
+	border-top: none;
+	border-bottom: 1px solid black;
+	text-align: right;
+}
+table#newz{
+	text-align: right;
+}
+table#newz tr td:first-child{
+	padding-right: 60px;
+}
+table#newz tr td p{
+}
+/*#nieuws .story .float-left{
+	border: 1px solid #333;
+}
+
+#nieuws .story .float-right h1{
+	border-bottom: 1px solid #333;
+	border-top: none;
+	text-align: right;
+}
+
+#nieuws .story .float-right table{
+	text-align: right;
+}
+
+#nieuws .story .float-right table tr td:nth-child(2){
+	width: 310px;
+}*/
+
+/*the story containers*/
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 980px;
+}
+
+.story .tekst{
+/*	padding: 150px 0 0 0;*/
+	position: relative;
+	width: 350px;
+}
+
+/*the textboxes*/
+.tekst h1{
+	text-transform: uppercase;
+	border-top: 1px solid #333;
+	padding: 15px 0;
+	margin: 0;
+}
+
+.tekst p{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.tekst li{
+	text-align: left;
+}
+
+#afdeling .tekst{
+	text-align: left;
+}
+
+/*bulletnav*/
+#gebouwennav{
+}
+
+#praktischnav{
+	margin-top: 30px;
+}
+
+.bullet{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.bullet a{
+	width: 13px; 
+	height: 13px; 
+	background: url(../_images/flexslider/bg_control_nav.png) no-repeat; 
+	text-indent: -999em;
+	background-position: 0 -26px;
+	display: block;
+	margin: 10px auto;
+}
 
 
 }
