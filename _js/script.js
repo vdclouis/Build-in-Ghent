@@ -124,7 +124,7 @@ $(function () {
 	});
 	
 	//hook parallax
-	$('#nav').onePageNav();
+	$('#menu').onePageNav();
 	//$('#nav').localScroll(800);
 	//.parallax(xPosition, adjuster, inertia, outerHeight) options:
 	//xPosition - Horizontal position of the element
