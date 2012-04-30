@@ -41,8 +41,6 @@ function parseTexts(xml){
   var htmlAfdeling = "";
   var htmlList = "";
   var htmlList2 = "";
-  var htmlNews = "";
-  var htmlNewsContent = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
 	
@@ -112,29 +110,11 @@ function parseTexts(xml){
     
     });
     
-    //news
-    $(xml).find(textlang).each(function () {
-    
-    	$(this).find('item').each(function () {
-    		title = $(this).find('title').text();
-    		date = $(this).find('date').text();
-    		
-    		c1 = $(this).find('content1').text();
-    		c2 = $(this).find('content2').text();
-    		c3 = $(this).find('content3').text();
-    		c4 = $(this).find('content4').text();
-    		
-    		htmlNews += '<tr><td><p>' + date + '</p></td><td><p>' + title + '</p></td></tr>';
-    	});
-    });
-	
-	
     //Write to container
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
     $(".arch").html(htmlArchitecten);
     $(".afd").html(htmlAfdeling);
-    $("table#newz").html(htmlNews);
 }
 
 /* document ready */

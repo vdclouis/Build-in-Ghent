@@ -316,7 +316,7 @@ nav#gebouwnav ul li a{
 	margin: 0;
 }
 
-#gebouw .story #scrollarrow{
+#gebouw .story .scrollarrow{
 	background: url(../_images/down.png);  /*downarrow*/
 	background-position: center;
 	background-repeat: no-repeat;

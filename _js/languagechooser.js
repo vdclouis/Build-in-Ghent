@@ -2,7 +2,7 @@ var selectedLanguage = "nl";
 
 function setLanguageFromLink(languageLink){
 
-	var language = $(languageLink).attr('rel');
+	var language = $(languageLink).attr('class');
 	setLanguage(language);
 		
 }

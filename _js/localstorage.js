@@ -7,10 +7,8 @@ if ($('html').attr('title') == 'Welcome!') {
 var selectedLanguage = "nl";
 
 function setLanguageFromLink(languageLink){
-	/* GET LANGUAGE FROM REL */
-	var language = $(languageLink).attr('rel');
+	var language = $(languageLink).attr('class');
 	
-	/* SET LANGUAGE FROM REL --> LINK */
 	setLanguage(language);
 }
 /* SET LANGUAGE FOR THE WEBAPP

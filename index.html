@@ -19,9 +19,9 @@
 		<div id="mainmenu">
 			<nav id="chooseLang">
 				<ul>
-					<li id="nl"><a onclick="setLanguageFromLink(this);" href="index.html" rel="nl">nederlands</a></li>
-					<li id="en"><a onclick="setLanguageFromLink(this);" href="index.html" rel="en">english</a></li>
-					<li id="fr"><a onclick="setLanguageFromLink(this);" href="index.html" rel="fr">français</a></li>
+					<li id="nl"><a onclick="setLanguageFromLink(this);" href="index.html" class="nl">nederlands</a></li>
+					<li id="en"><a onclick="setLanguageFromLink(this);" href="index.html" class="en">english</a></li>
+					<li id="fr"><a onclick="setLanguageFromLink(this);" href="index.html" class="fr">français</a></li>
 				</ul>
 			</nav>
 			<nav id="menu">
@@ -31,7 +31,7 @@
 					<li><a href="#fotos" title="Next Section">photo's</a></li>
 					<li><a href="#praktisch" title="Next Section">practical</a></li>
 					<li><a href="#video" title="Next Section">video</a></li>
-					<li><a href="#nieuws" title="Next Section">news</a></li>
+					<li><a href="#awesome-o" title="Next Section">awesome-o</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -67,7 +67,7 @@
 	           	<div class="main"></div>
 	            <div class="text"></div>
 			    	</div>
-			    	<div id="scrollarrow"></div>
+			    	<div class="scrollarrow"></div>
 			    	<img src="_images/bg02a.png" alt="gerechtsgebouw" />
 					</div>
 					<div class="gebouwen" id="parkeergebouw">	
@@ -76,7 +76,7 @@
 						    <div class="sub"></div>
 						    <div class="text"></div>
 						</div>
-						<div id="scrollarrow"></div>
+						<div class="scrollarrow"></div>
 					</div>
 					<div id="gebouwennav">
 						<div class="bullet leftbullet">
@@ -92,14 +92,14 @@
 					<div class="tekst">
 						<div class="arch"></div>
 					</div>
-					<div id="scrollarrow"></div>
+					<div class="scrollarrow"></div>
 	    		</section>
 	    		<section id="afdeling">
 					<img src="_images/bg02a.png" alt="gerechtsgebouw" />
 					<div class="tekst">
 						<div class="afd"></div>
 					</div>
-					<div id="scrollarrow"></div>
+					<div class="scrollarrow"></div>
 	    		</section>
 		    </div> <!--.story-->
 		</div> <!--#gebouw-->
@@ -197,12 +197,12 @@
 					        <label for="telephone">Telephone: </label>
 					        <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
 					        
-					       <!-- <label for="enquiry">Enquiry: </label>
+					        <label for="enquiry">Enquiry: </label>
 					        <select id="enquiry" name="enquiry">
 					            <option value="General" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'General') ? "selected='selected'" : '' ?>General</option>
 					            <option value="Sales" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Sales') ? "selected='selected'" : '' ?>Sales</option>
 					            <option value="Support" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Support') ? "selected='selected'" : '' ?>Support</option>
-					        </select>--*>
+					        </select>
 					        
 					        <label for="message">Message: <span class="required">*</span></label>
 					        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required data-minlength="20"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
@@ -223,21 +223,18 @@
 				<a class="various fancybox.iframe" href="http://player.vimeo.com/video/40165286"><img src="_images/play.png" alt="play" /></a>
 		    </div> <!--.story-->
 		</div> <!--#video-->
-		<div id="nieuws">
+		
+		<div id="awesome-o">
 			<div class="story">
-				<img class="logo" src="_images/logo01.png" alt="logo" />
-				<div class="panieuws"></div>
-		    	<!--<div class="tekst" id="nieuwstekst">
-		            <h1>Nieuws</h1>
-		            <div id="newsContent">
-		            </div>
-		        </div>-->
-		        <div class="tekst" id="archieftekst">
-		            <table id="newz"></table>
-		            <h1>Archief</h1>
-		        </div>
-		    </div> <!--.story-->
-		</div> <!--#nieuws-->
+				<div id="folder">
+				</div>
+				<div id="poster">
+				</div>
+				<div id="invitation">
+				</div>
+			</div>
+		</div> <!--#awesome-o-->
+		
 		<div id="contact" class="contactsmall">
 			<div id="contactup">
 				<img src="_images/uparrow.png" alt="arrow" />
@@ -294,7 +291,7 @@
 					<div class="table1">
 						<table>
 							<tr>
-								<td>Graphic Designers
+								<td>Designers
 								<td>David Spiessens
 								<td>An Van Houte
 							<tr>
@@ -310,7 +307,7 @@
 					<div class="table2">
 						<table>
 							<tr>
-								<td>Web Designers
+								<td>Developers
 								<td>Louis Van de Calseyde
 								<td>Pierre Van der Eecken
 							<tr>

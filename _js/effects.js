@@ -163,7 +163,7 @@ $(function () {
 	var step = 25;
 	var scrolling = false;
 	
-	$("#scrollarrow").bind("click", function(event) {
+	$(".scrollarrow").bind("click", function(event) {
 	    event.preventDefault();
 	    console.log('scroll clicked');
 	    $(".tekst").animate({
