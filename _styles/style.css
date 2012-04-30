@@ -496,7 +496,7 @@ nav#gebouwnav ul li a{
 	pointer-events: none; /*add IE hack*/
 }
 
-#nieuws{
+#awesome-o{
 	background: url(../_images/fabric_plaid.png); /*fabric-texture*/
 	height: 1300px;
 	margin: 0 auto;
@@ -506,7 +506,7 @@ nav#gebouwnav ul li a{
 	color: #000;
 }
 
-#nieuws .panieuws{
+#awesome-o .panieuws{
 	background: url(../_images/pa06.png) 50% 0 fixed; /*newspapers*/
 	background-repeat: no-repeat;
 	height: 1300px;
@@ -518,50 +518,13 @@ nav#gebouwnav ul li a{
 	pointer-events: none;
 }
 
-#nieuws .story .tekst{
+#awesome-o .story .tekst{
 }
 
-#nieuws .story #nieuwstekst{
+#awesome-o .story #nieuwstekst{
 	float: left; 
 	margin-top: 290px;
 }
-
-#nieuws .story #archieftekst{
-	float: right;
-	margin-top: 140px;
-	width: 500px;
-}
-
-#nieuws .story #archieftekst h1{
-	border-top: none;
-	border-bottom: 1px solid black;
-	text-align: right;
-}
-table#newz{
-	text-align: right;
-}
-table#newz tr td:first-child{
-	padding-right: 60px;
-}
-table#newz tr td p{
-}
-/*#nieuws .story .float-left{
-	border: 1px solid #333;
-}
-
-#nieuws .story .float-right h1{
-	border-bottom: 1px solid #333;
-	border-top: none;
-	text-align: right;
-}
-
-#nieuws .story .float-right table{
-	text-align: right;
-}
-
-#nieuws .story .float-right table tr td:nth-child(2){
-	width: 310px;
-}*/
 
 /*the story containers*/
 .story{
