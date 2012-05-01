@@ -158,6 +158,15 @@ $(function () {
 		closeEffect	: 'none'
 	});
 	
+	//fancybox image
+	$("#single_1").fancybox({
+	          helpers: {
+	              title : {
+	                  type : 'float'
+	              }
+	          }
+	      });
+	
 	//hook flexslider
 	$('.flexslider').flexslider();
 	
