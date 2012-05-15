@@ -139,9 +139,9 @@ $(function () {
 	$('#fotos').parallax("50%", 0, 0.3, true);
 	$('.pafotos').parallax("50%", 4000, 0.4, true);
 	$('#praktisch').parallax("50%", 0, 0.3, true);
-	$('.papraktisch').parallax("50%", 5500, 0.4, true);
-	$('#video').parallax("50%", 600, 0.3, true);
-	$('.pavideo').parallax("50%", 6600, 0.4, true);
+	$('.papraktisch').parallax("50%", 5300, 0.4, true);
+	$('#video').parallax("0", 600, 0.3, true);
+	$('.pavideo').parallax("20%", 6600, 0.4, true);
 	$('#nieuws').parallax("50%", 2750, 0.3, true);
 	$('.panieuws').parallax("270px", 7900, 0.4, true);
 	

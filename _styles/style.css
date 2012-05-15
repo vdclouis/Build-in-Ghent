@@ -440,7 +440,7 @@ nav#gebouwnav ul li a{
 	background: url(../_images/project_papper.png);
 	width: 665px;
 	padding: 20px 20px 20px 20px;
-	margin: 100px auto 0 auto;	
+	margin: 150px auto 0 auto;	
 	border: 2px solid #ddd;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
@@ -465,7 +465,7 @@ nav#gebouwnav ul li a{
 
 #video{
 	background: url(../_images/bg05.jpg) repeat fixed; /*tiles texture*/
-	background-size: 100%;
+	background-size: 1440px;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
