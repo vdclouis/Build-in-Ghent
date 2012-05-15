@@ -41,6 +41,7 @@ function parseTexts(xml){
   var htmlAfdeling = "";
   var htmlList = "";
   var htmlList2 = "";
+  var htmlFolder = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
 	
@@ -110,11 +111,28 @@ function parseTexts(xml){
     
     });
     
+    //folder
+    $(xml).find(textlang).each(function () {
+    	$(this).find('folder').each(function () {
+    		t1 = $(this).find('t1').text();
+    		f1 = $(this).find('f1').text();
+    		
+    		t2 = $(this).find('t2').text();
+    		f2 = $(this).find('f2').text();
+    	});
+
+    	htmlFolder += '<a class="fancybox" rel="gallery1" href="_images/folder/'+ f1 +'" title=""><img src="_images/folder/'+ t1 +'" alt="" /></a>';
+    	htmlFolder +=	'<a class="fancybox" rel="gallery1" href="_images/folder/'+ f2 +'" title=""><img src="_images/folder/'+ t2 +'" alt="" /></a>';
+    });
+    
+
+    
     //Write to container
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
     $(".arch").html(htmlArchitecten);
     $(".afd").html(htmlAfdeling);
+    $("#folder").html(htmlFolder);
 }
 
 /* document ready */
@@ -158,6 +176,13 @@ $(function () {
 		closeEffect	: 'none'
 	});
 	
+	
+	//fancybox multiple img
+	$(".fancybox").fancybox({
+			openEffect	: 'none',
+			closeEffect	: 'none'
+		});
+		
 	//fancybox image
 	$("#single_1").fancybox({
 	          helpers: {
