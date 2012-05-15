@@ -518,13 +518,20 @@ nav#gebouwnav ul li a{
 	pointer-events: none;
 }
 
-#awesome-o .story .tekst{
+#awesome-o .story{
+	margin: 100px;
 }
 
-#awesome-o .story #nieuwstekst{
-	float: left; 
-	margin-top: 290px;
+#awesome-o #folder img:nth-child(1){
+	box-shadow: 0px 3px 5px #999;
+	margin-right: 15px;
+	margin-bottom: 15px;
 }
+
+#awesome-o #poster img{
+	box-shadow: 0px 3px 5px #444;
+}
+
 
 /*the story containers*/
 .story{
