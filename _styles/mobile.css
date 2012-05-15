@@ -1,14 +1,65 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 979px) {
 
+#gebouw > div{
+	border: 1px solid green;
+}
 
+#mainmenu{
+	background-color: red;
+}
+
+#gebouw .story{
+	width: 480px;
+}
+
+/*hammers*/
+#gebouw .story #pagerechtsgebouw{
+	display: none;
+}
+
+#gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
+	width: 480px;
+
+}
+
+#gebouw .story #paparkeergebouw{
+	width: 480px;
+}
+
+#fotos #flexocontainer {
+	width: 80%;
+	max-width: 600px;
+}
+
+#fotos .story .pafotos{
+	width: 480px;
+
+}
+
+#praktisch .papraktisch{
+	width: 480px;
+}
+
+#praktisch .praktisch .praktischbox{
+	width: 440px;
+}
+
+#video .pavideo{
+	width: 480px;
+
+}
+
+#awesome-o .panieuws{
+	width: 480px;
+}
+
+.story{
+	width: 480px;
+}
 
 }
 
 @media only screen and (max-width: 480px) {
-
-/**{
-	border: 1px solid red;
-}*/
 
 #mainmenu {
 	list-style: none;
