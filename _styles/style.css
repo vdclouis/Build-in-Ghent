@@ -129,10 +129,6 @@ nav#menu ul li a:hover {
 	color: #cc3333;
 }
 
-/*#nav .current a:hover {
-	color: yellow;
-}*/
-
 img.logo{
 	position: absolute;
 	left: 40px;
@@ -279,13 +275,6 @@ nav#gebouwnav ul li a{
 	height: 1300px;
 }
 
-#gebouw .story section{
-}
-
-#gebouw .story #gerechtsgebouw{
-
-}
-
 #gebouw .story #pagerechtsgebouw{
 	background: url(../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
 	height: 1300px;
@@ -328,14 +317,6 @@ nav#gebouwnav ul li a{
 	clear: right;
 /*	background-color: red;*/
 }
-
-/*#gebouw .story .gebouwen #tekstgerechtsgebouw{
-	
-}
-
-#gebouw .story .gebouwen #parkeergebouw{
-
-}*/
 
 #gebouw .story #paparkeergebouw{
 	background: url(../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/

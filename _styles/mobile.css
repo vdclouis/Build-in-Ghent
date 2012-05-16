@@ -1,11 +1,167 @@
 @media only screen and (max-width: 979px) {
 
-#gebouw > div{
-	border: 1px solid green;
+body{
+
 }
 
-#mainmenu{
-	background-color: red;
+p{
+
+}
+
+p, ul{
+
+}
+
+img{
+
+}
+
+h1, #pixels{
+
+}
+
+h2{
+
+}
+
+#mainmenu {
+
+}
+
+#chooseLang{
+	font-size: 14px;
+	float: none;
+	margin: 0 auto;
+	width: 230px;
+}
+
+#chooseLang ul{
+
+}
+
+#chooseLang ul li{
+
+}
+
+#chooseLang a{
+
+}
+
+#chooseLang a:hover{
+
+}
+
+#chooseLang .current a{
+
+}
+
+nav#menu{
+	float: none;
+	width: 520px;
+	margin: 10px auto;
+}
+
+nav#menu ul{
+
+}
+
+nav#menu ul li{
+
+}
+
+nav#menu ul li a {
+	
+}
+
+/*nav#menu ul li a:active, nav#menuv ul li a:focus {*/
+
+a:active, a:focus {
+}
+
+nav#menu ul li a:hover {
+
+}
+
+#nav .current a {
+
+}
+
+img.logo{
+
+}
+
+#header, #intro, #second{
+
+}
+
+#home{
+
+}
+
+#home .story{
+
+}
+
+#home h1, #home h2, #home p{
+
+}
+
+#home #nonshadow{
+	position: relative;
+	margin-top: 100px;
+}
+
+#home #nonshadow img {
+	top: 30px;
+	left: 23px;
+}
+
+#home #nonshadow h1 {
+	font-size: 6em;
+	left: 40px;
+	top: 200px;
+}
+
+#home #nonshadow h2 {
+	top: 300px;
+	left: 40px;
+}
+
+/*beter use bottom for most resolutions?*/
+#home #nonshadow p {
+	top: 400px;
+	left: 40px;
+}
+
+#home .story {
+}
+
+#home #shadow{
+
+}
+
+#home #shadow p {
+	display: none;
+}
+
+nav#gebouwnav{
+
+}
+
+nav#gebouwnav ul{
+
+}
+
+nav#gebouwnav ul li{
+
+}
+
+nav#gebouwnav ul li a{
+
+}
+
+#gebouw{	
+
 }
 
 #gebouw .story{
@@ -22,8 +178,24 @@
 
 }
 
+#gebouw .story .tekst{
+
+}
+
+#gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
+
+}
+
+#gebouw .story .scrollarrow{
+
+}
+
 #gebouw .story #paparkeergebouw{
 	width: 480px;
+}
+
+#fotos{
+
 }
 
 #fotos #flexocontainer {
@@ -31,9 +203,12 @@
 	max-width: 600px;
 }
 
+#fotos .story{
+
+}
+
 #fotos .story .pafotos{
 	width: 480px;
-
 }
 
 #praktisch .papraktisch{
@@ -55,544 +230,11 @@
 
 .story{
 	width: 480px;
+	min-width: 480px;
 }
 
 }
 
-@media only screen and (max-width: 480px) {
-
-#mainmenu {
-	list-style: none;
-	overflow: hidden;
-	position: fixed;
-	z-index: 9999;
-	width: 100%;
-	padding: 30px 0px;
-	pointer-events: none;
-}
-
-#chooseLang{
-	text-align: left;
-	margin: 0 10px 15px;
-	font-size: 14px;
-	float: right;
-}
-
-#chooseLang ul{
-
-}
-
-#chooseLang ul li{
-	display: inline-block;
-	margin: 0 5px;
-	padding-right: 10px;
-}
-
-#chooseLang a{
-	color: #636466;
-	text-decoration: none;
-	pointer-events: auto;
-	border-top: 1px solid #636466;
-}
-#chooseLang a:hover{
-	color: #cc3333;
-}
-#chooseLang .current a{
-	color: #cc3333;
-}
-
-nav#menu{
-	float: right;
-	margin: 0px 0 0 0;
-	width: 260px;
-}
-
-nav#menu ul{
-
-}
-
-nav#menu ul li{
-	display: inline-block;
-	border-top: 1px solid #767a7d;	
-	margin: 0 5px;
-}
-
-nav#menu ul li a {
-	color: #636466;
-	display: block;
-	font-size: 18px;
-	padding: 5px 20px 5px 0;
-	text-decoration: none;
-	text-transform: lowercase;
-	pointer-events: auto;
-}
-
-a:active, a:focus {
-	outline: 0
-}
-
-img.logo{
-	position: absolute;
-	left: 15px;
-	top: 30px;
-	width: 100px;
-}
-
-#header, #intro, #second{
-	width: 100%;
-}
-
-#home{
-	background: url(../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
-	color: black;
-	height: 1300px;
-}
-
-#home .story{
-	overflow: hidden;
-}
-
-/*#home .pahome{
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 1024px;
-	z-index: 200;
-	pointer-events: none;
-}*/
-
-#home h1, #home h2, #home p{
-	font-family: 'Myriad Pro';
-}
-
-#home #nonshadow{
-	position: relative;
-}
-
-#home #nonshadow img {
-	margin: 0;
-/*	z-index: 50;*/
-	position: absolute;
-	top: 30px;
-	left: 15px;
-	display: block;
-	z-index: 2;
-}
-
-#home #nonshadow h1 {
-	font-size: 6em;
-	color: #888;
-	z-index: 50;
-	position: absolute;
-	margin: 0;
-	left: 40px;
-	top: 200px;
-}
-
-#home #nonshadow h2 {
-	font-size: 5em;
-	color: #555;
-	position: absolute;
-	margin: 0;
-	top: 300px;
-	left: 40px;
-	z-index: 50;
-}
-
-/*beter use bottom for most resolutions?*/
-#home #nonshadow p {
-	color: #888;
-	font-size: 1.7em;
-	top: 400px;
-	left: 40px;
-	position: absolute;
-	z-index: 30;
-}
-
-#home .story {
-	height: 1000px;
-}
-
-#home #shadow{
-	position: relative;
-	width: 50%;
-}
-
-#home #shadow p {
-	display: none;
-}
-
-#home #shadow p:first-child{
-	top: 350px;
-	left: 20px;
-}
-
-#home #shadow p:last-child{
-	top: 500px;
-	left: 90px; /*100px = horizonal scroll*/
-}
-
-nav#gebouwnav{
-	position: relative;
-	padding: 20px 30px;
-	margin: 50px 0 20px 0;
-}
-
-nav#gebouwnav ul{
-	float: right;
-}
-
-nav#gebouwnav ul li{
-	float: left;
-	margin-left: 85px;
-}
-
-nav#gebouwnav ul li a{
-	text-decoration: none;
-	color: black;
-}
-
-#gebouw{	
-	background: url(../_images/bg02c.png); /*gradient*/
-	background-repeat: repeat-x;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	color: black;
-	position: relative;
-	border-bottom-color: red;
-}
-
-#gebouw .story{
-	width: 980px;
-	height: 1300px;
-}
-
-#gebouw .story section{
-}
-
-#gebouw .story #gerechtsgebouw{
-
-}
-
-#gebouw .story #pagerechtsgebouw{
-	display: none;
-}
-
-#gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
-	margin-top: 700px;
-	width: 600px;
-}
-
-#gebouw .story .tekst{
-	text-align: right;
-	margin: 0 20px 0 0px;
-	height: 500px;
-	overflow: auto;
-/*	scroll: hidden;*/
-}
-
-#gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
-	height: 300px;
-/*	overflow: auto;*/
-	margin: 0;
-}
-
-#gebouw .story #scrollarrow{
-	clear: right;
-}
-
-#gebouw .story #paparkeergebouw{
-	background: url(../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
-	pointer-events: none;
-	display: none;
-}
-
-#fotos{
-	background: url(../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
-	color: white;
-	height: 1300px;
-	padding: 0px 0 0 0;	
-	position: relative;
-}
-
-#fotos #flexocontainer {
-	width: 80%;
-	max-width: 800px;
-	margin: 200px auto;
-}
-
-#fotos .story{
-	height: 1000px;
-}
-
-#fotos .story .pafotos{
-	background: url(../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 600;
-	pointer-events: none;
-	display: none;
-}
-
-#praktisch{
-	background: url(../_images/bg04.png) repeat fixed; /*tiles texture*/
-	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	color: black;
-	position: relative;
-}
-
-#praktisch nav#praktischnav{
-	float: left;
-	margin: 250px 0 0 90px;
-}
-
-#praktisch nav#praktischnav ul{
-	
-}
-
-#praktisch nav#praktischnav ul li{
-	text-align: right;	
-}
-
-#praktisch nav#praktischnav ul li a{
-	text-decoration: none;
-	color: #636466;
-	padding: 5px;
-	display: block;
-}
-
-#praktisch .papraktisch{
-	background: url(../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	top: 0;
-	width: 960px;
-	z-index: 200;
-	pointer-events: none; /*add IE hack*/
-	display: none;
-}
-
-#praktisch section{
-	height: auto;
-}
-
-#praktisch .story {
-	height: 1300px;
-}
-
-#praktisch section#contactmap{
-	
-}
-
-#praktisch section#contactform{
-	
-}
-
-#praktisch .praktisch .praktischbox{
-	background: url(../_images/project_papper.png);
-	width: 665px;
-	padding: 20px 20px 20px 20px;
-	margin: 100px auto 0 auto;	
-	border: 2px solid #ddd;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	border-radius: 15px;
-	position: relative;
-	box-shadow: 0px 0px 7px #888;
-	height: 480px;
-	overflow: hidden;
-}
-
-#map{
-	padding: 30px;
-	background-color: #DDD;
-	border-radius: 30px;
-/*	margin: 200px 0 0 100px;*/
-}
-
-#map iframe{
-	margin: 0 22px;
-	border: none;
-}
-
-#video{
-	background: url(../_images/bg05.jpg) repeat fixed; /*tiles texture*/
-	background-size: 100%;
-	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	color: black;
-	position: relative;
-}
-
-#video .story{
-	height: 1300px;
-}
-
-#video .story a img {
-	position: relative;
-	top: 30%;
-	left: 48%;
-}
-
-#video .pavideo{
-	background: url(../_images/pa05.png) 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
-	pointer-events: none; /*add IE hack*/
-	display: none;
-}
-
-#nieuws{
-	background: url(../_images/fabric_plaid.png); /*fabric-texture*/
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-	position: relative;
-	color: #000;
-}
-
-#nieuws .panieuws{
-	background: url(../_images/pa06.png) 50% 0 fixed; /*newspapers*/
-	background-repeat: no-repeat;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 960px;
-	z-index: 200;
-	pointer-events: none;
-	display: none;
-}
-
-#nieuws .story .tekst{
-}
-
-#nieuws .story #nieuwstekst{
-	float: left; 
-	margin-top: 290px;
-}
-
-#nieuws .story #archieftekst{
-	float: right;
-	margin-top: 140px;
-	width: 500px;
-}
-
-#nieuws .story #archieftekst h1{
-	border-top: none;
-	border-bottom: 1px solid black;
-	text-align: right;
-}
-table#newz{
-	text-align: right;
-}
-table#newz tr td:first-child{
-	padding-right: 60px;
-}
-table#newz tr td p{
-}
-/*#nieuws .story .float-left{
-	border: 1px solid #333;
-}
-
-#nieuws .story .float-right h1{
-	border-bottom: 1px solid #333;
-	border-top: none;
-	text-align: right;
-}
-
-#nieuws .story .float-right table{
-	text-align: right;
-}
-
-#nieuws .story .float-right table tr td:nth-child(2){
-	width: 310px;
-}*/
-
-/*the story containers*/
-.story{
-	margin: 0 auto;
-	min-width: 980px;
-	overflow: auto;
-	width: 980px;
-}
-
-.story .tekst{
-/*	padding: 150px 0 0 0;*/
-	position: relative;
-	width: 350px;
-}
-
-/*the textboxes*/
-.tekst h1{
-	text-transform: uppercase;
-	border-top: 1px solid #333;
-	padding: 15px 0;
-	margin: 0;
-}
-
-.tekst p{
-	font-size: 14px;
-	line-height: 24px;
-}
-
-.tekst li{
-	text-align: left;
-}
-
-#afdeling .tekst{
-	text-align: left;
-}
-
-/*bulletnav*/
-#gebouwennav{
-}
-
-#praktischnav{
-	margin-top: 30px;
-}
-
-.bullet{
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-}
-
-.bullet a{
-	width: 13px; 
-	height: 13px; 
-	background: url(../_images/flexslider/bg_control_nav.png) no-repeat; 
-	text-indent: -999em;
-	background-position: 0 -26px;
-	display: block;
-	margin: 10px auto;
-}
 
 
 }

@@ -126,6 +126,7 @@ function parseTexts(xml){
     	htmlFolder +=	'<a class="fancybox" rel="gallery1" href="_images/folder/'+ f2 +'" title="Brochure > Page 2"><img src="_images/folder/'+ t2 +'" alt="" /></a>';
     });
     
+<<<<<<< HEAD
     //praktisch
     $(xml).find(textlang).each(function () {
     	p = $(this).find('praktisch').text();
@@ -133,13 +134,21 @@ function parseTexts(xml){
     	htmlPrak += p;
     });
     
+=======
+>>>>>>> new style handheld
     //Write to container
     $(".main").html(htmlMain);
     $(".sub").html(htmlSub);
     $(".arch").html(htmlArchitecten);
     $(".afd").html(htmlAfdeling);
     $("#folder").html(htmlFolder);
+<<<<<<< HEAD
     $("#openingsuren").html(htmlPrak);
+=======
+
+	//
+
+>>>>>>> new style handheld
 }
 
 /* document ready */
