@@ -230,7 +230,9 @@ section#algemeen{
 }
 
 #praktisch nav#praktischnav{
-
+	float: none;
+	margin: 0;
+	margin-top: 130px;
 }
 
 #praktisch nav#praktischnav ul{
@@ -238,7 +240,8 @@ section#algemeen{
 }
 
 #praktisch nav#praktischnav ul li{
-	
+	text-align: center;
+	font-size: 15pt;
 }
 
 #praktisch nav#praktischnav ul li a{
@@ -267,6 +270,11 @@ section#algemeen{
 
 #praktisch .praktisch .praktischbox{
 	width: 440px;
+	margin: 10px 0 0 0;
+}
+
+#praktisch .praktischbox{
+
 }
 
 #map{
