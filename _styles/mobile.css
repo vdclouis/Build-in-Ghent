@@ -172,6 +172,10 @@ nav#gebouwnav ul li a{
 
 }
 
+section#algemeen{
+	margin-top: 150px;
+}
+
 #gebouw .story{
 	width: 480px;
 }
@@ -218,6 +222,7 @@ nav#gebouwnav ul li a{
 
 #fotos .story .pafotos{
 	width: 480px;
+	display: none;
 }
 
 #praktisch{
@@ -242,6 +247,7 @@ nav#gebouwnav ul li a{
 
 #praktisch .papraktisch{
 	width: 480px;
+	display: none;
 }
 
 #praktisch section{
@@ -285,6 +291,7 @@ nav#gebouwnav ul li a{
 
 #video .pavideo{
 	width: 480px;
+	display: none;
 }
 
 #awesome-o #folder{

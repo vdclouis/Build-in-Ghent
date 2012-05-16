@@ -157,7 +157,7 @@ nav#gebouwnav ul{
 }
 
 nav#gebouwnav ul li{
-
+	margin: 0 30px;
 }
 
 nav#gebouwnav ul li a{
@@ -168,8 +168,13 @@ nav#gebouwnav ul li a{
 	height: 800px;
 }
 
+section#algemeen{
+	margin-top: 180px;
+}
+
 #gebouw .story{
 	height: 800px;
+	width: 400px;
 }
 
 #gebouw .story section{
@@ -189,7 +194,6 @@ nav#gebouwnav ul li a{
 
 #gebouw .story .tekst{
 	height: 800px;
-
 }
 
 #gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
@@ -210,7 +214,7 @@ nav#gebouwnav ul li a{
 }
 
 #fotos #flexocontainer {
-
+	max-width: 400px;
 }
 
 #fotos .story{
@@ -243,7 +247,6 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch .papraktisch{
-
 	display: none;
 }
 
@@ -264,7 +267,7 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch .praktisch .praktischbox{
-
+	width: 400px;
 }
 
 #map{
@@ -312,11 +315,12 @@ nav#gebouwnav ul li a{
 
 /*the story containers*/
 .story{
-
+width: 400px;
+min-width: 400px;
 }
 
 .story .tekst{
-
+	width: 400px;
 }
 
 /*the textboxes*/
