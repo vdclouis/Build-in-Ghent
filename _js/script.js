@@ -35,14 +35,14 @@ function parseTexts(xml){
 	var c4;
 	
 	var htmlNav = "";
-  var htmlMain = "";
-  var htmlSub = "";
-  var htmlArchitecten = "";
-  var htmlAfdeling = "";
-  var htmlList = "";
-  var htmlList2 = "";
-  var htmlFolder = "";
-  var htmlPrak = "";
+  	var htmlMain = "";
+  	var htmlSub = "";
+  	var htmlArchitecten = "";
+  	var htmlAfdeling = "";
+  	var htmlList = "";
+  	var htmlList2 = "";
+  	var htmlFolder = "";
+  	var htmlPrak = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
 	
