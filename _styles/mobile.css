@@ -1,4 +1,4 @@
-@media only screen and (max-width: 979px) &  {
+@media only screen and (max-width: 979px) {
 
 body{
 
@@ -284,6 +284,7 @@ nav#gebouwnav ul li a{
 
 #awesome-o .panieuws{
 	width: 480px;
+	display: none;
 }
 
 #awesome-o h2{
