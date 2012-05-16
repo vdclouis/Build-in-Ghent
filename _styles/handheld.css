@@ -65,12 +65,10 @@ img.logo{
 #home{
 	background: url(../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 	color: black;
-	height: 800px;
 }
 
 #home .story{
 	overflow: hidden;
-	height: 800px;
 }
 
 /*#home .pahome{
@@ -175,7 +173,6 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #gebouw .story{
-	height: 800px;
 	width: 400px;
 }
 
@@ -212,7 +209,6 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #fotos{
-	height: 800px;
 
 }
 
@@ -229,7 +225,6 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #praktisch{
-	height: 800px;
 
 }
 
