@@ -129,6 +129,10 @@ nav#menu ul li a:hover {
 	color: #cc3333;
 }
 
+.current{
+	color: #cc3333;
+}
+
 img.logo{
 	position: absolute;
 	left: 40px;
@@ -464,7 +468,7 @@ nav#gebouwnav ul li a{
 #video .story a img {
 	position: relative;
 	top: 30%;
-	left: 44%;
+	left: 48%;
 }
 
 #video .pavideo{

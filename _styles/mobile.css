@@ -172,7 +172,7 @@ nav#gebouwnav ul li a{
 
 }
 
-section#algemeen{
+section#algemeen, section#architect, section#afdeling{
 	margin-top: 150px;
 }
 
