@@ -123,20 +123,20 @@ img.logo{
 }
 
 #home #nonshadow h1 {
-	font-size: 6em;
-	left: 40px;
+	font-size: 8em;
+	left: 30px;
 	top: 200px;
 }
 
 #home #nonshadow h2 {
 	top: 300px;
-	left: 40px;
+	left: 80px;
 }
 
 /*beter use bottom for most resolutions?*/
 #home #nonshadow p {
 	top: 400px;
-	left: 40px;
+	left: 70px;
 }
 
 #home .story {
@@ -151,15 +151,17 @@ img.logo{
 }
 
 nav#gebouwnav{
-
+	padding: 0px;
+	margin-top: 120px;
 }
 
 nav#gebouwnav ul{
-
+	float: left;
 }
 
 nav#gebouwnav ul li{
-
+	margin-left: 0;
+	margin: 0 49px;
 }
 
 nav#gebouwnav ul li a{
@@ -181,7 +183,7 @@ nav#gebouwnav ul li a{
 
 #gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
 	width: 480px;
-
+	display: none;
 }
 
 #gebouw .story .tekst{
@@ -190,7 +192,6 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
-
 }
 
 #gebouw .story .scrollarrow{
@@ -199,6 +200,7 @@ nav#gebouwnav ul li a{
 
 #gebouw .story #paparkeergebouw{
 	width: 480px;
+	display: none;
 }
 
 #fotos{
@@ -324,7 +326,7 @@ nav#gebouwnav ul li a{
 }
 
 .story .tekst{
-
+	width: 480px;
 }
 
 /*the textboxes*/

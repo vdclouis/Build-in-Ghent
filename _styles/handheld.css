@@ -32,6 +32,7 @@
 nav#menu{
 	margin: 0px 0 0 0px;
 	width: 260px;
+	float: right;
 }
 
 nav#menu ul{
@@ -64,11 +65,12 @@ img.logo{
 #home{
 	background: url(../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 	color: black;
-	height: 1300px;
+	height: 800px;
 }
 
 #home .story{
 	overflow: hidden;
+	height: 800px;
 }
 
 /*#home .pahome{
@@ -163,18 +165,18 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw{	
-
+	height: 800px;
 }
 
 #gebouw .story{
-
+	height: 800px;
 }
 
 #gebouw .story section{
 }
 
 #gebouw .story #gerechtsgebouw{
-
+	height: 800px;
 }
 
 #gebouw .story #pagerechtsgebouw{
@@ -186,6 +188,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw .story .tekst{
+	height: 800px;
 
 }
 
@@ -198,10 +201,11 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw .story #paparkeergebouw{
-
+	display: none;
 }
 
 #fotos{
+	height: 800px;
 
 }
 
@@ -214,10 +218,11 @@ nav#gebouwnav ul li a{
 }
 
 #fotos .story .pafotos{
-
+	display: none;
 }
 
 #praktisch{
+	height: 800px;
 
 }
 
