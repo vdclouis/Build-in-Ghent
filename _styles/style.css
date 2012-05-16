@@ -41,7 +41,7 @@ img{
 h1, #pixels{
 	font-family:"Museo 900", Verdana, serif;
 	font-size-adjust:0.40;
-	font-weight: 700;
+	font-weight:700;
 	font-style:normal;
 }
 
@@ -497,15 +497,31 @@ nav#gebouwnav ul li a{
 }
 
 #awesome-o h2{
+	/*padding-top: 100px;*/
+	margin-left: 230px;
+	font-family:"Museo 900", Verdana, serif;
+	font-size-adjust:0.40;
+	font-weight:700;
+	font-style:normal;
+	text-transform: uppercase;
+}
+
+#awesome-o h2:nth-child(2){
 	padding-top: 100px;
 }
 
-#awesome-o #folder img:nth-child(1){
+#awesome-o #folder img{
 	box-shadow: 0px 3px 5px #999;
 	margin-right: 15px;
-	margin-bottom: 15px;
 }
 
+#awesome-o #folder{
+	padding-left: 230px;
+}
+
+#awesome-o #poster{
+	padding-left: 230px;
+}
 #awesome-o #poster img{
 	box-shadow: 0px 3px 5px #444;
 }
