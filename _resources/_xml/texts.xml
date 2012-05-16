@@ -62,6 +62,22 @@
 			<t2>Folder_NL_t2.jpg</t2>
 			<f2>Folder_NL2.jpg</f2>
 		</folder>
+		<praktisch>
+			<![CDATA[
+				<h1>Politierechtbank</h1>
+				<p>Opgeëistenlaan 401</p>
+				<p>9000 Gent</p>
+				<p>Tel.: 09 234 53 50</p> 
+				<p>Fax: 09 234 53 51</p>
+				<p>Openingsuren:</p>
+				<p>maandag van 8:30 tot 12:30 uur en van 13:30 tot 16:00 uur</p>
+				<p>dinsdag van 8:30 tot 12:30 uur en van 13:30 tot 16:00 uur</p>
+				<p>woensdag van 8:30 tot 12:30 uur en van 13:30 tot 16:00 uur</p>
+				<p>donderdag van 8:30 tot 12:30 uur en van 13:30 tot 16:00 uur</p>
+				<p>vrijdag van 8:30 tot 12:30 uur en van 13:30 tot 16:00 uur</p>
+			]]>
+		</praktisch>
+		
 	</nl>
 	
 	<fr>
@@ -121,6 +137,21 @@
 			<t2>Folder_FR_t2.jpg</t2>
 			<f2>Folder_FR2.jpg</f2>
 		</folder>
+		<praktisch>
+			<![CDATA[
+				<h1>Tribunal de Police</h1>
+				<p>Opgeëistenlaan 401</p>
+				<p>9000 Gand</p>
+				<p>Tel.: 09 234 53 50</p> 
+				<p>Fax: 09 234 53 51</p>
+				<p>Heures d'ouverture:</p>
+				<p>lundi de 8:30 à 12:30 heure et de 13:30 à 16:00 heure</p>
+				<p>mardi de 8:30 à 12:30 heure et de 13:30 à 16:00 heure</p>
+				<p>mercredi de 8:30 à 12:30 heure et de 13:30 à 16:00 heure</p>
+				<p>jeudi de 8:30 à 12:30 heure et de 13:30 à 16:00 heure</p>
+				<p>venredi de 8:30 à 12:30 heure et de 13:30 à 16:00 heure</p>
+			]]>
+		</praktisch>
 	</fr>
 	
 	<en>
@@ -181,5 +212,20 @@
 			<t2>Folder_EN_t2.jpg</t2>
 			<f2>Folder_EN2.jpg</f2>
 		</folder>
+		<praktisch>
+			<![CDATA[
+				<h1>Police Court</h1>
+				<p>Opgeëistenlaan 401</p>
+				<p>9000 Ghent</p>
+				<p>Tel.: 09 234 53 50</p> 
+				<p>Fax: 09 234 53 51</p>
+				<p>Opening hours:</p>
+				<p>monday from 8:30 until 12:30 o'clock and from 13:30 until 16:00 o'clock</p>
+				<p>tuesday de 8:30 until 12:30 o'clock and from 13:30 until 16:00 o'clock</p>
+				<p>wednesday de 8:30 until 12:30 o'clock and from 13:30 until 16:00 o'clock</p>
+				<p>thursday de 8:30 until 12:30 o'clock and from 13:30 until 16:00 o'clock</p>
+				<p>friday de 8:30 à until 12:30 o'clock and from 13:30 until 16:00 o'clock</p>
+			]]>
+		</praktisch>
 	</en>
 </texts>

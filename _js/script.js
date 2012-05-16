@@ -42,6 +42,7 @@ function parseTexts(xml){
   var htmlList = "";
   var htmlList2 = "";
   var htmlFolder = "";
+  var htmlPrak = "";
 		
 	var textlang = localStorage.getItem('stonesfromghent-language');
 	
@@ -125,7 +126,12 @@ function parseTexts(xml){
     	htmlFolder +=	'<a class="fancybox" rel="gallery1" href="_images/folder/'+ f2 +'" title=""><img src="_images/folder/'+ t2 +'" alt="" /></a>';
     });
     
+    //praktisch
+    $(xml).find(textlang).each(function () {
+    	p = $(this).find('praktisch').text();
 
+    	htmlPrak += p;
+    });
     
     //Write to container
     $(".main").html(htmlMain);
@@ -133,6 +139,7 @@ function parseTexts(xml){
     $(".arch").html(htmlArchitecten);
     $(".afd").html(htmlAfdeling);
     $("#folder").html(htmlFolder);
+    $("#openingsuren").html(htmlPrak);
 }
 
 /* document ready */
