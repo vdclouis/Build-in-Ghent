@@ -1,4 +1,4 @@
-@media only screen and (max-width: 979px) {
+@media only screen and (max-width: 979px) &  {
 
 body{
 
@@ -211,16 +211,74 @@ nav#gebouwnav ul li a{
 	width: 480px;
 }
 
+#praktisch{
+
+}
+
+#praktisch nav#praktischnav{
+
+}
+
+#praktisch nav#praktischnav ul{
+	
+}
+
+#praktisch nav#praktischnav ul li{
+	
+}
+
+#praktisch nav#praktischnav ul li a{
+
+}
+
 #praktisch .papraktisch{
 	width: 480px;
+}
+
+#praktisch section{
+
+}
+
+#praktisch .story {
+}
+
+#praktisch section#contactmap{
+	
+}
+
+#praktisch section#contactform{
+	
 }
 
 #praktisch .praktisch .praktischbox{
 	width: 440px;
 }
 
+#map{
+
+}
+
+#map iframe{
+
+}
+
+#video{
+
+}
+
+#video .story{
+
+}
+
+#video .story a img {
+
+}
+
 #video .pavideo{
 	width: 480px;
+}
+
+#awesome-o{
 
 }
 
@@ -228,13 +286,59 @@ nav#gebouwnav ul li a{
 	width: 480px;
 }
 
+#awesome-o h2{
+
+}
+
+#awesome-o #folder img:nth-child(1){
+
+}
+
+#awesome-o #poster img{
+
+}
+
 .story{
 	width: 480px;
 	min-width: 480px;
 }
 
-}
-
-
+.story .tekst{
 
 }
+
+/*the textboxes*/
+.tekst h1{
+
+}
+
+.tekst p{
+
+}
+
+.tekst li{
+
+}
+
+#afdeling .tekst{
+
+}
+
+/*bulletnav*/
+#gebouwennav{
+
+}
+
+#praktischnav{
+
+}
+
+.bullet{
+
+}
+
+.bullet a{
+
+}
+
+} /*eo mediaquery*/

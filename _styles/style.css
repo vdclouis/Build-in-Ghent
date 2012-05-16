@@ -436,7 +436,6 @@ nav#gebouwnav ul li a{
 	padding: 30px;
 	background-color: #DDD;
 	border-radius: 30px;
-/*	margin: 200px 0 0 100px;*/
 }
 
 #map iframe{
@@ -523,7 +522,6 @@ nav#gebouwnav ul li a{
 }
 
 .story .tekst{
-/*	padding: 150px 0 0 0;*/
 	position: relative;
 	width: 350px;
 }
@@ -572,25 +570,6 @@ nav#gebouwnav ul li a{
 	display: block;
 	margin: 10px auto;
 }
-
-/*.middlebullet a{
-	width: 13px; 
-	height: 13px; 
-	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
-	text-indent: -999em;
-	background-position: 0 -26px;
-	display: block;
-	margin: 10px auto;
-}
-
-.rightbullet a{
-	width: 13px; 
-	height: 13px; 
-	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
-	text-indent: -999em;
-	display: block;
-	margin: 10px auto;
-}*/
 
 /*contact*/
 
