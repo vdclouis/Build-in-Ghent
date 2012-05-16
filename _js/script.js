@@ -122,8 +122,8 @@ function parseTexts(xml){
     		f2 = $(this).find('f2').text();
     	});
 
-    	htmlFolder += '<a class="fancybox" rel="gallery1" href="_images/folder/'+ f1 +'" title=""><img src="_images/folder/'+ t1 +'" alt="" /></a>';
-    	htmlFolder +=	'<a class="fancybox" rel="gallery1" href="_images/folder/'+ f2 +'" title=""><img src="_images/folder/'+ t2 +'" alt="" /></a>';
+    	htmlFolder += '<a class="fancybox" rel="gallery1" href="_images/folder/'+ f1 +'" title="Brochure > Page 1"><img src="_images/folder/'+ t1 +'" alt="" /></a>';
+    	htmlFolder +=	'<a class="fancybox" rel="gallery1" href="_images/folder/'+ f2 +'" title="Brochure > Page 2"><img src="_images/folder/'+ t2 +'" alt="" /></a>';
     });
     
     //praktisch
@@ -168,7 +168,7 @@ $(function () {
 	$('#video').parallax("0", 600, 0.3, true);
 	$('.pavideo').parallax("20%", 6600, 0.4, true);
 	$('#nieuws').parallax("50%", 2750, 0.3, true);
-	$('.panieuws').parallax("270px", 7900, 0.4, true);
+	$('.panieuws').parallax("50%", 7900, 0.4, true);
 	
 	//hook fancybox
 	$(".various").fancybox({

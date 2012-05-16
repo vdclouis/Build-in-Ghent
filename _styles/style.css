@@ -518,8 +518,8 @@ nav#gebouwnav ul li a{
 	pointer-events: none;
 }
 
-#awesome-o .story{
-	margin: 100px;
+#awesome-o h2{
+	padding-top: 100px;
 }
 
 #awesome-o #folder img:nth-child(1){
