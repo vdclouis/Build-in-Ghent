@@ -269,7 +269,7 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #praktisch .praktisch .praktischbox{
-	width: 440px;
+	width: 430px;
 	margin: 10px 0 0 0;
 }
 
@@ -380,6 +380,27 @@ section#algemeen, section#architect, section#afdeling{
 
 .bullet a{
 
+}
+
+#contact {
+}
+
+.contactbig{
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	right: 0;
+}
+
+.table2{
+	width: 450px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+
+.table1 td:nth-child(1), .table2 tr td:nth-child(1){
+	width: 60px;
 }
 
 } /*eo mediaquery*/
