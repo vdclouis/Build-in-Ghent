@@ -283,7 +283,7 @@ section#algemeen, section#architect, section#afdeling{
 #video .story{
 }
 
-#video .story a img {
+#video .story #playb {
 
 }
 
@@ -291,30 +291,15 @@ section#algemeen, section#architect, section#afdeling{
 
 }
 
-#awesome-o{
-
-}
-
-#awesome-o .panieuws{
-
-}
-
-#awesome-o h2{
-
-}
-
-#awesome-o #folder img:nth-child(1){
-
-}
-
-#awesome-o #poster img{
-
+/*media*/
+#awesome-o h2:nth-child(2){
+	margin-top: 20px;
 }
 
 /*the story containers*/
 .story{
-width: 400px;
-min-width: 400px;
+	width: 400px;
+	min-width: 400px;
 }
 
 .story .tekst{

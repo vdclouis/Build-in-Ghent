@@ -465,10 +465,11 @@ nav#gebouwnav ul li a{
 	height: 1300px;
 }
 
-#video .story a img {
+#video .story #playb {
 	position: relative;
-	top: 30%;
-	left: 48%;
+	top: 400px;
+	left: 43.5%;
+	border: 1px solid red;
 }
 
 #video .pavideo{

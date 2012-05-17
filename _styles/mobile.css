@@ -293,11 +293,11 @@ section#algemeen, section#architect, section#afdeling{
 
 }
 
-#video .story a img {
+#video .story #playb {
 	display: block;
 	margin: 0;
 	padding: 0;
-	top: 20%;
+	top: 304px;
 	left: 37%;
 }
 
