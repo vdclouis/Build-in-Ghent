@@ -296,7 +296,9 @@ nav#gebouwnav ul li a{
 #gebouw .story .tekst{
 	float: right;
 	text-align: right;
-	height: 600px;
+	height: 500px;
+	overflow: auto;
+/*	scroll: hidden;*/
 }
 
 #gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
