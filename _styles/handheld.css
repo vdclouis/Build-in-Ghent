@@ -192,9 +192,13 @@ section#algemeen, section#architect, section#afdeling{
 
 }
 
-#gebouw .story .tekst{
+/*#gebouw .story .tekst{
 	height: 500px;
 }
+
+#gebouw .story #afdeling .tekst{
+	height: 600px;
+}*/
 
 #gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
 
@@ -322,7 +326,7 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #afdeling .tekst{
-
+/*	height: 600px;*/
 }
 
 /*bulletnav*/
