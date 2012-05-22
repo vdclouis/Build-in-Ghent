@@ -185,6 +185,7 @@ section#algemeen, section#architect, section#afdeling{
 
 #gebouw .story #pagerechtsgebouw{
 	display: none;
+	background: none;
 }
 
 #gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
@@ -206,6 +207,7 @@ section#algemeen, section#architect, section#afdeling{
 
 #gebouw .story #paparkeergebouw{
 	display: none;
+	background: none;
 }
 
 #fotos{

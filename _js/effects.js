@@ -12,7 +12,7 @@ function scrollContent(direction) {
 
 $(function () {
 	//jquery test
-	console.log("It's Alive!");
+//	console.log("It's Alive!");
 
 	//gives the first nav element current status (red color)
 	$('#nav li:first-child').addClass('current');

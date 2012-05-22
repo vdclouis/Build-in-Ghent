@@ -469,7 +469,7 @@ nav#gebouwnav ul li a{
 	position: relative;
 	top: 400px;
 	left: 43.5%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 #video .pavideo{
@@ -526,6 +526,7 @@ nav#gebouwnav ul li a{
 
 #awesome-o #folder{
 	padding-left: 230px;
+	display: inline-block;
 }
 
 #awesome-o #poster{
