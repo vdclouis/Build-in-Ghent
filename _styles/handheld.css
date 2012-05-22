@@ -197,11 +197,11 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
-
+	height: 500px;
 }
 
 #gebouw .story #scrollarrow{
-	clear: right;
+	
 	display: none;
 }
 
