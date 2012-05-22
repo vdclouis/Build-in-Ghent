@@ -173,7 +173,7 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #gebouw .story{
-	width: 400px;
+	width: 370px;
 }
 
 #gebouw .story section{
@@ -215,7 +215,7 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #fotos #flexocontainer {
-	max-width: 400px;
+	max-width: 370px;
 }
 
 #fotos .story{
@@ -267,7 +267,8 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #praktisch .praktisch .praktischbox{
-	width: 400px;
+	width: 320px;
+	margin: 0 auto;
 }
 
 #map{
@@ -283,6 +284,7 @@ section#algemeen, section#architect, section#afdeling{
 }
 
 #video .story{
+
 }
 
 #video .story #playb {
@@ -300,12 +302,12 @@ section#algemeen, section#architect, section#afdeling{
 
 /*the story containers*/
 .story{
-	width: 400px;
-	min-width: 400px;
+	width: 370px;
+	min-width: 370px;
 }
 
 .story .tekst{
-	width: 400px;
+	width: 370px;
 }
 
 /*the textboxes*/
