@@ -6,14 +6,10 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Build in Ghent</title>
-		<meta name="description" content="">	
 		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="">	
 		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
-		<link rel="stylesheet" type="text/css" media="screen" href="_styles/style.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="_styles/mobile.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="_styles/handheld.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="_styles/jquery.fancybox.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="_styles/flexslider.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 		<script src="_js/_libs/modernizr-2.5.3.min.js"></script> 
 	</head>
 	<body>
