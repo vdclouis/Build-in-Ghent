@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -31,7 +32,7 @@
 					<li><a href="#gebouw" title="Next Section">building</a></li>
 					<li><a href="#fotos" title="Next Section">photo's</a></li>
 					<li><a href="#praktisch" title="Next Section">practical</a></li>
-					<li><a href="#video" title="Next Section">video</a></li>
+					<li><a href="#video" title="Next Section">Interview</a></li>
 					<li><a href="#awesome-o" title="Next Section">media</a></li>
 				</ul>
 			</nav>
@@ -190,12 +191,12 @@
 					        
 					        <label for="enquiry">Enquiry: </label>
 					        <select id="enquiry" name="enquiry">
-					            <option value="General" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'General') ? "selected='selected'" : '' ?>General</option>
-					            <option value="Sales" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Sales') ? "selected='selected'" : '' ?>Sales</option>
-					            <option value="Support" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Support') ? "selected='selected'" : '' ?>Support</option>
+					            <option value="General" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'General') ? "selected='selected'" : '' ?>>General</option>
+					            <option value="Sales" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Sales') ? "selected='selected'" : '' ?>>Sales</option>
+					            <option value="Support" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Support') ? "selected='selected'" : '' ?>>Support</option>
 					        </select>
 					        
-					        <label for="message">Message: <span class="required">*</span></label>
+					        <label id="lblmessage" for="message">Message: <span class="required">*</span></label>
 					        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required data-minlength="20"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
 					        
 					        <span id="loading"></span>
