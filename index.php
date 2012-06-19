@@ -35,7 +35,7 @@
 					<li><a href="#awesome-o" title="Next Section">media</a></li>
 				</ul>
 			</nav>
-		</div>
+		</div> <!--#mainmenu-->
 		<div id="home">
 			<div class="story">
 				<div id="nonshadow">
@@ -48,36 +48,36 @@
 					<p>justitia</p>
 					<p>omnibus</p>
 				</div> <!--#shadow-->
-	    </div> <!--.story-->
+			</div> <!--.story-->
 		</div> <!--#home-->
 		<div id="gebouw">
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
 				<div id="pagerechtsgebouw"></div>
 				<div id="paparkeergebouw"></div>
-	    		<nav id="gebouwnav">
-	    		 	<ul>
-	    		 		<li><a href="#">General</a></li>
-	    		 		<li><a href="#">Architect</a></li>
-	    		 		<li><a href="#">Section</a></li>
-	    		 	</ul>
-	    		</nav>
-	    		<section id="algemeen">
-		    		<div class="gebouwen" id="gerechtsgebouw">
-			    	<div class="tekst" id="tekstgerechtsgebouw">
-	           	<div class="main"></div>
-	            <div class="text"></div>
-			    	</div>
-			    	<div class="scrollarrow"></div>
-			    	<img src="_images/bg02a.png" alt="gerechtsgebouw" />
-					</div>
-					<div class="gebouwen" id="parkeergebouw">	
-						<img src="_images/bg02b.png" alt="parkeergebouw" />
-						<div class="tekst" id="tekstparkeergebouw">
-						    <div class="sub"></div>
-						    <div class="text"></div>
+				<nav id="gebouwnav">
+					<ul>
+						<li><a href="#">General</a></li>
+						<li><a href="#">Architect</a></li>
+						<li><a href="#">Section</a></li>
+					</ul>
+				</nav>
+				<section id="algemeen">
+					<div class="gebouwen" id="gerechtsgebouw">
+						<div class="tekst" id="tekstgerechtsgebouw">
+							<div class="main"></div>
+							<div class="text"></div>
 						</div>
 						<div class="scrollarrow"></div>
+						<img src="_images/bg02a.png" alt="gerechtsgebouw" />
+					</div>
+					<div class="gebouwen" id="parkeergebouw">	
+						<div class="tekst" id="tekstparkeergebouw">
+							<div class="sub"></div>
+							<div class="text"></div>
+						</div>
+						<div class="scrollarrow"></div>
+						<img src="_images/bg02b.png" alt="parkeergebouw" />
 					</div>
 					<div id="gebouwennav">
 						<div class="bullet leftbullet">
@@ -87,22 +87,22 @@
 							<a href="#"></a>
 						</div>
 					</div>
-	    		</section>
-	    		<section id="architect">
-						<img src="_images/bg02a.png" alt="gerechtsgebouw" />
-						<div class="tekst">
-							<div class="arch"></div>
-						</div>
-						<div class="scrollarrow"></div>
-	    		</section>
-	    		<section id="afdeling">
-						<img src="_images/bg02a.png" alt="gerechtsgebouw" />
-						<div class="tekst">
-							<div class="afd"></div>
-						</div>
-						<div class="scrollarrow"></div>
-	    		</section>
-		    </div> <!--.story-->
+				</section>
+				<section id="architect">
+					<img src="_images/bg02a.png" alt="gerechtsgebouw" />
+					<div class="tekst">
+						<div class="arch"></div>
+					</div>
+					<div class="scrollarrow"></div>
+				</section>
+				<section id="afdeling">
+					<img src="_images/bg02a.png" alt="gerechtsgebouw" />
+					<div class="tekst">
+						<div class="afd"></div>
+					</div>
+					<div class="scrollarrow"></div>
+				</section>
+			</div> <!--.story-->
 		</div> <!--#gebouw-->
 		<div id="fotos">
 			<div class="story">
@@ -155,64 +155,64 @@
 				</section>
 				<section class="praktisch" id="contactform">
 					<div id="contact-form" class="praktischbox">
-					    <?php
+						<?php
 						//init variables
 						$cf = array();
 						$sr = false;
 						
 						if(isset($_SESSION['cf_returndata'])){
 							$cf = $_SESSION['cf_returndata'];
-						 	$sr = true;
+							$sr = true;
 						}
-					    ?>
-					    <ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
-					        <li id="info">There were some problems with your form submission:</li>
-					        <?php 
+						?>
+						<ul id="errors" class="<?php echo ($sr && !$cf['form_ok']) ? 'visible' : ''; ?>">
+							<li id="info">There were some problems with your form submission:</li>
+							<?php 
 							if(isset($cf['errors']) && count($cf['errors']) > 0) :
 								foreach($cf['errors'] as $error) :
 							?>
-					        <li><?php echo $error ?></li>
-					        <?php
+							<li><?php echo $error ?></li>
+							<?php
 								endforeach;
 							endif;
 							?>
-					    </ul>
-					    <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
-					    <form method="post" action="process.php">
-					        <label id="lblName" for="name">Name: <span class="required">*</span></label>
-					        <input type="text" id="name" name="name" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="John Doe" required />
-					        
-					        <label for="email">Email:<span class="required">*</span></label>
-					        <input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="johndoe@example.com" required />
-					        
-					        <label for="telephone">Telephone: </label>
-					        <input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
-					        
-					        <label for="enquiry">Enquiry: </label>
-					        <select id="enquiry" name="enquiry">
-					            <option value="General" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'General') ? "selected='selected'" : '' ?>General</option>
-					            <option value="Sales" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Sales') ? "selected='selected'" : '' ?>Sales</option>
-					            <option value="Support" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Support') ? "selected='selected'" : '' ?>Support</option>
-					        </select>
-					        
-					        <label for="message">Message: <span class="required">*</span></label>
-					        <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required data-minlength="20"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
-					        
-					        <span id="loading"></span>
-					        <input type="submit" value="SUBMIT" id="submit-button" />
-					        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
-					    </form>
-					    <?php unset($_SESSION['cf_returndata']); ?>
+						</ul>
+						<p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
+						<form method="post" action="process.php">
+							<label id="lblName" for="name">Name: <span class="required">*</span></label>
+							<input type="text" id="name" name="name" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" placeholder="John Doe" required />
+							
+							<label for="email">Email:<span class="required">*</span></label>
+							<input type="email" id="email" name="email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" placeholder="johndoe@example.com" required />
+							
+							<label for="telephone">Telephone: </label>
+							<input type="tel" id="telephone" name="telephone" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['telephone'] : '' ?>" />
+							
+							<label for="enquiry">Enquiry: </label>
+							<select id="enquiry" name="enquiry">
+								<option value="General" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'General') ? "selected='selected'" : '' ?>General</option>
+								<option value="Sales" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Sales') ? "selected='selected'" : '' ?>Sales</option>
+								<option value="Support" <?php echo ($sr && !$cf['form_ok'] && $cf['posted_form_data']['enquiry'] == 'Support') ? "selected='selected'" : '' ?>Support</option>
+							</select>
+							
+							<label for="message">Message: <span class="required">*</span></label>
+							<textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required data-minlength="20"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
+							
+							<span id="loading"></span>
+							<input type="submit" value="SUBMIT" id="submit-button" />
+							<p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+						</form>
+						<?php unset($_SESSION['cf_returndata']); ?>
 					</div>
 				</section>
-		    </div> <!--.story-->
+			</div> <!--.story-->
 		</div> <!--#praktisch-->
 		<div id="video">
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
 				<div class="pavideo"></div>
 				<a class="various fancybox.iframe" href="http://player.vimeo.com/video/40165286"><img id="playb" src="_images/play.png" alt="play" /></a>
-		    </div> <!--.story-->
+			</div> <!--.story-->
 		</div> <!--#video-->
 		<div id="awesome-o">
 			<div class="story">
