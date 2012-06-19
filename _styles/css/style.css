@@ -635,7 +635,7 @@ nav#gebouwnav ul li a {
 #awesome-o h2 {
   /*padding-top: 100px;*/
   margin-left: 230px;
-  font-family: "Museo 900", Verdana, serif;
+  font-family: "Museo 900";
   font-size-adjust: 0.40;
   font-weight: 700;
   font-style: normal;
