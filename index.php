@@ -155,7 +155,7 @@
 				</section>
 				<section class="praktisch" id="contactform">
 					<div id="contact-form" class="praktischbox">
-<!--					    <?php
+					    <?php
 						//init variables
 						$cf = array();
 						$sr = false;
@@ -202,7 +202,7 @@
 					        <input type="submit" value="SUBMIT" id="submit-button" />
 					        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
 					    </form>
-					    <?php unset($_SESSION['cf_returndata']); ?>-->
+					    <?php unset($_SESSION['cf_returndata']); ?>
 					</div>
 				</section>
 		    </div> <!--.story-->
@@ -225,8 +225,7 @@
 					<a id="single_1" href="_images/poster.jpg" title="Poster Groot Gents Gerechtsgebouw">
 						<img src="_images/posterthumb.jpg" alt="" />
 					</a>
-				</div>
-				
+				</div>	
 			</div> <!--eo story-->
 		</div> <!--#awesome-o-->
 		<div id="contact" class="contactsmall">
