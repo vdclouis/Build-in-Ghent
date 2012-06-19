@@ -315,7 +315,7 @@ img.logo {
   width: 100%; }
 
 #home {
-  background: url(../_images/pa01.png) 50% 0 repeat fixed;
+  background: url(../../_images/pa01.png) 50% 0 repeat fixed;
   /*home gradient*/
   color: black;
   height: 1300px; }
@@ -416,7 +416,7 @@ nav#gebouwnav ul li a {
   color: black; }
 
 #gebouw {
-  background: url(../_images/bg02c.png);
+  background: url(../../_images/bg02c.png);
   /*gradient*/
   background-repeat: repeat-x;
   height: 1300px;
@@ -432,7 +432,7 @@ nav#gebouwnav ul li a {
   height: 1300px; }
 
 #gebouw .story #pagerechtsgebouw {
-  background: url(../_images/pa02a.png) 50% 0 no-repeat fixed;
+  background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed;
   /*hammers*/
   height: 1300px;
   margin: 0 auto;
@@ -459,7 +459,7 @@ nav#gebouwnav ul li a {
   margin: 0; }
 
 #gebouw .story .scrollarrow {
-  background: url(../_images/down.png);
+  background: url(../../_images/down.png);
   /*downarrow*/
   background-position: center;
   background-repeat: no-repeat;
@@ -472,7 +472,7 @@ nav#gebouwnav ul li a {
   /*	background-color: red;*/ }
 
 #gebouw .story #paparkeergebouw {
-  background: url(../_images/pa02b.png) 50% 0 no-repeat fixed;
+  background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed;
   /*parkingtickets*/
   height: 1300px;
   margin: 0 auto;
@@ -483,7 +483,7 @@ nav#gebouwnav ul li a {
   pointer-events: none; }
 
 #fotos {
-  background: url(../_images/bg03.png) 50% 0 repeat fixed;
+  background: url(../../_images/bg03.png) 50% 0 repeat fixed;
   /*wood texture*/
   color: white;
   height: 1300px;
@@ -499,7 +499,7 @@ nav#gebouwnav ul li a {
   height: 1000px; }
 
 #fotos .story .pafotos {
-  background: url(../_images/pa03.png) 50% 0 no-repeat fixed;
+  background: url(../../_images/pa03.png) 50% 0 no-repeat fixed;
   /*filmrol*/
   height: 1300px;
   margin: 0 auto;
@@ -510,7 +510,7 @@ nav#gebouwnav ul li a {
   pointer-events: none; }
 
 #praktisch {
-  background: url(../_images/bg04.png) repeat fixed;
+  background: url(../../_images/bg04.png) repeat fixed;
   /*tiles texture*/
   color: white;
   height: 1300px;
@@ -534,7 +534,7 @@ nav#gebouwnav ul li a {
   display: block; }
 
 #praktisch .papraktisch {
-  background: url(../_images/pa04.png) 50% 0 no-repeat fixed;
+  background: url(../../_images/pa04.png) 50% 0 no-repeat fixed;
   /*gps*/
   height: 1300px;
   margin: 0 auto;
@@ -553,7 +553,7 @@ nav#gebouwnav ul li a {
   height: 1300px; }
 
 #praktisch .praktisch .praktischbox {
-  background: url(../_images/project_papper.png);
+  background: url(../../_images/project_papper.png);
   width: 665px;
   padding: 20px 20px 20px 20px;
   margin: 150px auto 0 auto;
@@ -579,7 +579,7 @@ nav#gebouwnav ul li a {
   border: none; }
 
 #video {
-  background: url(../_images/bg05.jpg) repeat fixed;
+  background: url(../../_images/bg05.jpg) repeat fixed;
   /*tiles texture*/
   background-size: 1440px;
   color: white;
@@ -600,7 +600,7 @@ nav#gebouwnav ul li a {
   /*border: 1px solid red;*/ }
 
 #video .pavideo {
-  background: url(../_images/pa05.png) 50% 0 no-repeat fixed;
+  background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;
   height: 1300px;
   margin: 0 auto;
   padding: 0;
@@ -611,7 +611,7 @@ nav#gebouwnav ul li a {
   /*add IE hack*/ }
 
 #awesome-o {
-  background: url(../_images/fabric_plaid.png);
+  background: url(../../_images/fabric_plaid.png);
   /*fabric-texture*/
   height: 1300px;
   margin: 0 auto;
@@ -621,7 +621,7 @@ nav#gebouwnav ul li a {
   color: #000; }
 
 #awesome-o .panieuws {
-  background: url(../_images/pa06.png) 50% 0 fixed;
+  background: url(../../_images/pa06.png) 50% 0 fixed;
   /*newspapers*/
   background-repeat: no-repeat;
   height: 1300px;
@@ -698,7 +698,7 @@ nav#gebouwnav ul li a {
 .bullet a {
   width: 13px;
   height: 13px;
-  background: url(../_images/flexslider/bg_control_nav.png) no-repeat;
+  background: url(../../_images/flexslider/bg_control_nav.png) no-repeat;
   text-indent: -999em;
   background-position: 0 -26px;
   display: block;
@@ -780,7 +780,7 @@ tr:first-child td:first-child {
 
 /*contact from*/
 #contact-form #lblName::before {
-  background: url(../_images/contactIcons/user.png); }
+  background: url(../../_images/contactIcons/user.png); }
 
 #contact-form form label {
   padding: 10px 0px 10px 40px;
@@ -898,7 +898,7 @@ tr:first-child td:first-child {
 #contact-form #loading {
   width: 32px;
   height: 32px;
-  background-image: url(../img/loading.gif);
+  background-image: url(../../img/loading.gif);
   display: block;
   position: absolute;
   right: 130px;
@@ -914,7 +914,7 @@ tr:first-child td:first-child {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  background: #ffe6e6 url(../img/cancel_48.png) no-repeat 405px center;
+  background: #ffe6e6 url(../../img/cancel_48.png) no-repeat 405px center;
   display: none; }
 
 #errors li {
@@ -939,7 +939,7 @@ tr:first-child td:first-child {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  background: #d3edd3 url(../img/accepted_48.png) no-repeat 405px center;
+  background: #d3edd3 url(../../img/accepted_48.png) no-repeat 405px center;
   font-weight: bold;
   display: none; }
 
@@ -1092,7 +1092,7 @@ html[xmlns] .slides {
   height: 52px;
   margin: -13px 0 0;
   display: block;
-  background: url(../_images/flexslider/bg_direction_nav.png) no-repeat;
+  background: url(../../_images/flexslider/bg_direction_nav.png) no-repeat;
   position: absolute;
   top: 50%;
   cursor: pointer;
@@ -1130,7 +1130,7 @@ html[xmlns] .slides {
   width: 13px;
   height: 13px;
   display: block;
-  background: url(../_images/flexslider/bg_control_nav.png) no-repeat;
+  background: url(../../_images/flexslider/bg_control_nav.png) no-repeat;
   cursor: pointer;
   text-indent: -999em; }
 
@@ -1335,6 +1335,21 @@ html[xmlns] .slides {
   background: #000;
   background: rgba(0, 0, 0, 0.8); }
 
+@media only screen and (max-width: 1050px) {
+  .contactbig {
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    right: 0; }
+
+  .table2 {
+    width: 450px;
+    position: absolute;
+    top: 50px;
+    left: 0px; }
+
+  .table1 td:nth-child(1), .table2 tr td:nth-child(1) {
+    width: 60px; } }
 @media only screen and (max-width: 979px) {
   #chooseLang {
     font-size: 14px;
@@ -1536,7 +1551,7 @@ html[xmlns] .slides {
     width: 100%; }
 
   #home {
-    background: url(../_images/pa01.png) 50% 0 repeat fixed;
+    background: url(../../_images/pa01.png) 50% 0 repeat fixed;
     /*home gradient*/
     color: black; }
 
@@ -1658,55 +1673,6 @@ html[xmlns] .slides {
   /*the textboxes*/
   /*bulletnav*/ }
 /*eo mediaquery*/
-.ir {
-  display: block;
-  border: 0;
-  text-indent: -999em;
-  overflow: hidden;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  text-align: left;
-  direction: ltr;
-  *line-height: 0; }
-
-.ir br {
-  display: none; }
-
-.hidden {
-  display: none !important;
-  visibility: hidden; }
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
-
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto; }
-
-.invisible {
-  visibility: hidden; }
-
-.clearfix:before, .clearfix:after {
-  content: "";
-  display: table; }
-
-.clearfix:after {
-  clear: both; }
-
-.clearfix {
-  *zoom: 1; }
-
 @media print {
   * {
     background: transparent !important;

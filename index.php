@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="">	
 		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
-		<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="_styles/css/style.css" />
 		<script src="_js/_libs/modernizr-2.5.3.min.js"></script> 
 	</head>
 	<body>
