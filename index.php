@@ -144,7 +144,7 @@
 				<section class="praktisch" id="contactmap">
 					<div class="papraktisch"></div>
 					<div id="map" class="praktischbox">
-						<!--<iframe width="640" height="480" src="http://maps.google.be/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Opge%C3%ABistenlaan+401,+gent&amp;aq=&amp;sll=51.062493,3.717129&amp;sspn=0.002795,0.00574&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Opge%C3%ABistenlaan+401,+Gent+9000+Gent,+Oost-Vlaanderen,+Vlaams+Gewest&amp;ll=51.066482,3.716125&amp;spn=0.02589,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>-->
+						<iframe width="640" height="480" src="http://maps.google.be/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Opge%C3%ABistenlaan+401,+gent&amp;aq=&amp;sll=51.062493,3.717129&amp;sspn=0.002795,0.00574&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Opge%C3%ABistenlaan+401,+Gent+9000+Gent,+Oost-Vlaanderen,+Vlaams+Gewest&amp;ll=51.066482,3.716125&amp;spn=0.02589,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
 					</div> <!--eo map-->
 				</section>
 				<section class="praktisch" id="contacturen">
