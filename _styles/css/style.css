@@ -319,101 +319,63 @@ img.logo {
   /*home gradient*/
   color: black;
   height: 1300px; }
-
-#home .story {
-  overflow: hidden; }
-
-/*#home .pahome{
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 1024px;
-	z-index: 200;
-	pointer-events: none;
-}*/
-#home h1, #home h2, #home p {
-  font-family: 'Myriad Pro'; }
-
-#home #nonshadow {
-  position: relative; }
-
-#home #nonshadow img {
-  margin: 0;
-  /*	z-index: 50;*/
-  position: absolute;
-  display: block;
-  top: 500px;
-  left: 200px;
-  z-index: 2; }
-
-#home #nonshadow h1 {
-  font-size: 5em;
-  color: #888;
-  z-index: 50;
-  position: absolute;
-  margin: 0;
-  left: 400px;
-  top: 500px; }
-
-#home #nonshadow h2 {
-  font-size: 5em;
-  color: #555;
-  position: absolute;
-  margin: 0;
-  top: 570px;
-  left: 470px;
-  z-index: 50; }
-
-/*beter use bottom for most resolutions?*/
-#home #nonshadow p {
-  color: #888;
-  font-size: 1.7em;
-  top: 660px;
-  left: 530px;
-  position: absolute;
-  z-index: 30; }
-
-#home .story {
-  height: 1000px; }
-
-#home #shadow {
-  position: relative;
-  width: 50%; }
-
-#home #shadow p {
-  position: absolute;
-  font-size: 14em;
-  color: rgba(255, 255, 255, 0);
-  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  margin: 0;
-  z-index: 1; }
-
-#home #shadow p:first-child {
-  top: 350px;
-  left: 20px; }
-
-#home #shadow p:last-child {
-  top: 500px;
-  left: 90px;
-  /*100px = horizonal scroll*/ }
-
-nav#gebouwnav {
-  position: relative;
-  padding: 20px 30px;
-  margin: 50px 0 20px 0; }
-
-nav#gebouwnav ul {
-  float: right; }
-
-nav#gebouwnav ul li {
-  float: left;
-  margin-left: 85px; }
-
-nav#gebouwnav ul li a {
-  text-decoration: none;
-  color: black; }
+  #home .story {
+    overflow: hidden;
+    height: 1000px;
+    /* eo nonshadow */ }
+    #home .story #nonshadow {
+      position: relative; }
+      #home .story #nonshadow img {
+        margin: 0;
+        /*	z-index: 50;*/
+        position: absolute;
+        display: block;
+        top: 500px;
+        left: 200px;
+        z-index: 2; }
+      #home .story #nonshadow h1 {
+        font-size: 5em;
+        color: #888;
+        z-index: 50;
+        position: absolute;
+        margin: 0;
+        left: 400px;
+        top: 500px; }
+      #home .story #nonshadow h2 {
+        font-size: 5em;
+        color: #555;
+        position: absolute;
+        margin: 0;
+        top: 570px;
+        left: 470px;
+        z-index: 50; }
+      #home .story #nonshadow p {
+        color: #888;
+        font-size: 1.7em;
+        top: 660px;
+        left: 530px;
+        position: absolute;
+        z-index: 30; }
+    #home .story #shadow {
+      position: relative;
+      width: 50%; }
+      #home .story #shadow p {
+        position: absolute;
+        font-size: 14em;
+        color: rgba(255, 255, 255, 0);
+        text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        margin: 0;
+        z-index: 1; }
+        #home .story #shadow p:first-child {
+          top: 350px;
+          left: 20px; }
+        #home .story #shadow p:last-child {
+          top: 500px;
+          left: 90px;
+          /*100px = horizonal scroll*/ }
+  #home h1, #home h2, #home p {
+    font-family: 'Myriad Pro'; }
 
 #gebouw {
   background: url(../../_images/bg02c.png);
@@ -425,62 +387,66 @@ nav#gebouwnav ul li a {
   padding: 0;
   color: black;
   position: relative;
-  border-bottom-color: red; }
-
-#gebouw .story {
-  width: 980px;
-  height: 1300px; }
-
-#gebouw .story #pagerechtsgebouw {
-  background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed;
-  /*hammers*/
-  height: 1300px;
-  margin: 0 auto;
-  padding: 0;
-  position: absolute;
-  width: 960px;
-  z-index: 200;
-  pointer-events: none; }
-
-#gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img {
-  margin-top: 100px;
-  width: 600px; }
-
-#gebouw .story .tekst {
-  float: right;
-  text-align: right;
-  height: 500px;
-  overflow: auto;
-  /*	scroll: hidden;*/ }
+  border-bottom-color: red;
+  /* eo story */ }
+  #gebouw .story {
+    width: 980px;
+    height: 1300px;
+    /* eo section */ }
+    #gebouw .story #pagerechtsgebouw, #gebouw .story #paparkeergebouw {
+      height: 1300px;
+      margin: 0 auto;
+      padding: 0;
+      position: absolute;
+      width: 960px;
+      z-index: 200;
+      pointer-events: none; }
+    #gebouw .story #pagerechtsgebouw {
+      background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed;
+      /*hammers*/ }
+    #gebouw .story #paparkeergebouw {
+      background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed;
+      /*parkingtickets*/ }
+    #gebouw .story nav#gebouwnav {
+      position: relative;
+      padding: 20px 30px;
+      margin: 50px 0 20px 0; }
+      #gebouw .story nav#gebouwnav ul {
+        float: right; }
+        #gebouw .story nav#gebouwnav ul li {
+          float: left;
+          margin-left: 85px; }
+          #gebouw .story nav#gebouwnav ul li a {
+            text-decoration: none;
+            color: black; }
+    #gebouw .story section .tekst {
+      float: right;
+      text-align: right;
+      height: 500px;
+      overflow: auto;
+      /*	scroll: hidden;*/ }
+    #gebouw .story section img {
+      margin-top: 100px;
+      width: 600px; }
+    #gebouw .story section#algemeen #gebouwennav {
+      width: 70px; }
+    #gebouw .story section .scrollarrow {
+      background: url(../../_images/down.png);
+      /*downarrow*/
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 50px;
+      width: 50px;
+      margin: 0 auto;
+      float: right;
+      margin-right: 180px;
+      clear: right;
+      /*	background-color: red;*/ }
 
 #gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd {
   height: 300px;
   /*	overflow: auto;*/
   margin: 0; }
-
-#gebouw .story .scrollarrow {
-  background: url(../../_images/down.png);
-  /*downarrow*/
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 50px;
-  width: 50px;
-  margin: 0 auto;
-  float: right;
-  margin-right: 180px;
-  clear: right;
-  /*	background-color: red;*/ }
-
-#gebouw .story #paparkeergebouw {
-  background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed;
-  /*parkingtickets*/
-  height: 1300px;
-  margin: 0 auto;
-  padding: 0;
-  position: absolute;
-  width: 960px;
-  z-index: 200;
-  pointer-events: none; }
 
 #fotos {
   background: url(../../_images/bg03.png) 50% 0 repeat fixed;
@@ -489,25 +455,22 @@ nav#gebouwnav ul li a {
   height: 1300px;
   padding: 0px 0 0 0;
   position: relative; }
-
-#fotos #flexocontainer {
-  width: 80%;
-  max-width: 800px;
-  margin: 200px auto; }
-
-#fotos .story {
-  height: 1000px; }
-
-#fotos .story .pafotos {
-  background: url(../../_images/pa03.png) 50% 0 no-repeat fixed;
-  /*filmrol*/
-  height: 1300px;
-  margin: 0 auto;
-  padding: 0;
-  position: absolute;
-  width: 960px;
-  z-index: 600;
-  pointer-events: none; }
+  #fotos .story {
+    height: 1000px; }
+    #fotos .story .pafotos {
+      background: url(../../_images/pa03.png) 50% 0 no-repeat fixed;
+      /*filmrol*/
+      height: 1300px;
+      margin: 0 auto;
+      padding: 0;
+      position: absolute;
+      width: 960px;
+      z-index: 600;
+      pointer-events: none; }
+    #fotos .story #flexocontainer {
+      width: 80%;
+      max-width: 800px;
+      margin: 200px auto; }
 
 #praktisch {
   background: url(../../_images/bg04.png) repeat fixed;
