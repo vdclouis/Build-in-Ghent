@@ -237,7 +237,7 @@ img.logo{
 }
 
 #home{
-	background: url(../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
+	background: url(../../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 	color: black;
 	height: 1300px;
 }
@@ -354,7 +354,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw{	
-	background: url(../_images/bg02c.png); /*gradient*/
+	background: url(../../_images/bg02c.png); /*gradient*/
 	background-repeat: repeat-x;
 	height: 1300px;
 	margin: 0 auto;
@@ -371,7 +371,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw .story #pagerechtsgebouw{
-	background: url(../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
+	background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -401,7 +401,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw .story .scrollarrow{
-	background: url(../_images/down.png);  /*downarrow*/
+	background: url(../../_images/down.png);  /*downarrow*/
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 50px;
@@ -414,7 +414,7 @@ nav#gebouwnav ul li a{
 }
 
 #gebouw .story #paparkeergebouw{
-	background: url(../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
+	background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -425,7 +425,7 @@ nav#gebouwnav ul li a{
 }
 
 #fotos{
-	background: url(../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
+	background: url(../../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
 	color: white;
 	height: 1300px;
 	padding: 0px 0 0 0;	
@@ -443,7 +443,7 @@ nav#gebouwnav ul li a{
 }
 
 #fotos .story .pafotos{
-	background: url(../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
+	background: url(../../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -454,7 +454,7 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch{
-	background: url(../_images/bg04.png) repeat fixed; /*tiles texture*/
+	background: url(../../_images/bg04.png) repeat fixed; /*tiles texture*/
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -485,7 +485,7 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch .papraktisch{
-	background: url(../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
+	background: url(../../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -513,7 +513,7 @@ nav#gebouwnav ul li a{
 }
 
 #praktisch .praktisch .praktischbox{
-	background: url(../_images/project_papper.png);
+	background: url(../../_images/project_papper.png);
 	width: 665px;
 	padding: 20px 20px 20px 20px;
 	margin: 150px auto 0 auto;	
@@ -543,7 +543,7 @@ nav#gebouwnav ul li a{
 }
 
 #video{
-	background: url(../_images/bg05.jpg) repeat fixed; /*tiles texture*/
+	background: url(../../_images/bg05.jpg) repeat fixed; /*tiles texture*/
 	background-size: 1440px;
 	color: white;
 	height: 1300px;
@@ -566,7 +566,7 @@ nav#gebouwnav ul li a{
 }
 
 #video .pavideo{
-	background: url(../_images/pa05.png) 50% 0 no-repeat fixed;
+	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -577,7 +577,7 @@ nav#gebouwnav ul li a{
 }
 
 #awesome-o{
-	background: url(../_images/fabric_plaid.png); /*fabric-texture*/
+	background: url(../../_images/fabric_plaid.png); /*fabric-texture*/
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -587,7 +587,7 @@ nav#gebouwnav ul li a{
 }
 
 #awesome-o .panieuws{
-	background: url(../_images/pa06.png) 50% 0 fixed; /*newspapers*/
+	background: url(../../_images/pa06.png) 50% 0 fixed; /*newspapers*/
 	background-repeat: no-repeat;
 	height: 1300px;
 	margin: 0 auto;
@@ -681,7 +681,7 @@ nav#gebouwnav ul li a{
 .bullet a{
 	width: 13px; 
 	height: 13px; 
-	background: url(../_images/flexslider/bg_control_nav.png) no-repeat; 
+	background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; 
 	text-indent: -999em;
 	background-position: 0 -26px;
 	display: block;
@@ -802,7 +802,7 @@ tr:first-child td:first-child{
 }
 
 #contact-form #lblName::before{
-	background: url(../_images/contactIcons/user.png);
+	background: url(../../_images/contactIcons/user.png);
 }
 
 #contact-form form label{
@@ -943,7 +943,7 @@ tr:first-child td:first-child{
 #contact-form #loading {
 	width:32px;
 	height:32px;
-	background-image:url(../img/loading.gif);
+	background-image:url(../../img/loading.gif);
 	display:block;
 	position:absolute;
 	right:130px;
@@ -960,7 +960,7 @@ tr:first-child td:first-child{
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	border-radius:8px;
-	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+	background:#FFE6E6 url(../../img/cancel_48.png) no-repeat 405px center;
 	display:none;
 }
 
@@ -990,7 +990,7 @@ tr:first-child td:first-child{
 	-webkit-border-radius:8px;
 	-moz-border-radius:8px;
 	border-radius:8px;
-	background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+	background:#D3EDD3 url(../../img/accepted_48.png) no-repeat 405px center;
 	font-weight:bold;
 	display:none;
 }
@@ -1095,7 +1095,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 /* Direction Nav */
 .flex-direction-nav { height: 0; }
-.flex-direction-nav li a {width: 52px; height: 52px; margin: -13px 0 0; display: block; background: url(../_images/flexslider/bg_direction_nav.png) no-repeat; position: absolute; top: 50%; cursor: pointer; text-indent: -999em;}
+.flex-direction-nav li a {width: 52px; height: 52px; margin: -13px 0 0; display: block; background: url(../../_images/flexslider/bg_direction_nav.png) no-repeat; position: absolute; top: 50%; cursor: pointer; text-indent: -999em;}
 .flex-direction-nav li .next {background-position: -52px 0; right: -21px;}
 .flex-direction-nav li .prev {left: -20px;}
 .flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
@@ -1104,7 +1104,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center;}
 .flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-nav li:first-child {margin: 0;}
-.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url(../_images/flexslider/bg_control_nav.png) no-repeat; cursor: pointer; text-indent: -999em;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url(../../_images/flexslider/bg_control_nav.png) no-repeat; cursor: pointer; text-indent: -999em;}
 .flex-control-nav li a:hover {background-position: 0 -13px;}
 .flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
 
@@ -1338,7 +1338,28 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	background: rgba(0, 0, 0, .8);
 }
 
+@media only screen and (max-width: 1050px) {
+	#contact {
+	}
 
+	.contactbig{
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+		right: 0;
+	}
+
+	.table2{
+		width: 450px;
+		position: absolute;
+		top: 50px;
+		left: 0px;
+	}
+
+	.table1 td:nth-child(1), .table2 tr td:nth-child(1){
+		width: 60px;
+	}
+}
 
 // ================================================================== //
 
@@ -1828,7 +1849,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	#home{
-		background: url(../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
+		background: url(../../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 		color: black;
 	}
 
@@ -2115,16 +2136,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 //
 // Print css
 //
-
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
-.ir br { display: none; }
-.hidden { display: none !important; visibility: hidden; }
-.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
-.invisible { visibility: hidden; }
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
 
 @media print {
 	* { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
