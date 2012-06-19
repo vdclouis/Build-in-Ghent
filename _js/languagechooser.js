@@ -6,9 +6,7 @@ function setLanguageFromLink(languageLink){
 	setLanguage(language);
 		
 }
-/* SET LANGUAGE FOR THE WEBAPP
---> Update HTML
-*/
+//update html
 function setLanguage(language){
 
 	setLanguageToStorage(language);
