@@ -809,7 +809,16 @@ tr:first-child td:first-child {
 
 #contact-form textarea {
   height: 150px;
-  resize: none; }
+  resize: none;
+  margin-left: 150px;
+  margin-top: 40px !important; }
+
+#lblmessage {
+  margin-left: -150px !important;
+  margin-top: 20px !important; }
+
+#enquiry {
+  /*	height: 40px;*/ }
 
 #contact-form label {
   float: left;
