@@ -12,6 +12,17 @@ place a link on your website to http://www.ianlunn.co.uk/.
 
 @import "normalize.css";
 
+@font-face {
+	font-family: 'Museo 900';
+    src: url('assets/fonts/museo_slab_900-webfont.eot');
+    src: url('assets/fonts/museo_slab_900-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/museo_slab_900-webfont.woff') format('woff'),
+         url('assets/fonts/museo_slab_900-webfont.ttf') format('truetype'),
+         url('assets/fonts/museo_slab_900-webfont.svg#MuseoSlab900Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /**{
 	border: 1px solid red;
 }*/
@@ -39,7 +50,7 @@ img{
 }
 
 h1, #pixels{
-	font-family:"Museo 900", Verdana, serif;
+	font-family:"Museo 900";
 	font-size-adjust:0.40;
 	font-weight:700;
 	font-style:normal;
