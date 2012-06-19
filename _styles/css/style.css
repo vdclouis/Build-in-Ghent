@@ -1324,11 +1324,11 @@ html[xmlns] .slides {
     font-size: 14px;
     float: none;
     margin: 100px auto 0 auto;
-    width: 230px; }
+    width: 240px; }
 
   nav#menu {
     float: none;
-    width: 480px;
+    width: 510px;
     top: 0;
     left: 0;
     margin: 20px auto; }
@@ -1491,7 +1491,7 @@ html[xmlns] .slides {
 /*eo mediaquery*/
 @media only screen and (max-width: 480px) {
   #chooseLang {
-    margin: 0 25px 15px;
+    margin: 0 15px 15px;
     float: right; }
 
   nav#menu {
@@ -1553,41 +1553,30 @@ html[xmlns] .slides {
   #home h1, #home h2, #home p {
     font-family: 'Myriad Pro'; }
 
-  nav#gebouwnav {
-    margin-top: 150px; }
-
-  nav#gebouwnav ul li {
-    margin: 0 30px; }
-
   #gebouw {
     height: 1300px;
     overflow: visible; }
-
-  section#algemeen, section#architect, section#afdeling {
-    margin-top: 0px; }
-
-  #gebouw .story {
-    width: 370px; }
-
-  #gebouw .story #gerechtsgebouw {
-    height: 550px; }
-
-  #gebouw .story #pagerechtsgebouw {
-    display: none;
-    background: none; }
-
-  #gebouw .story .tekst {
-    height: 500px; }
-
-  #gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd {
-    height: 500px; }
-
-  #gebouw .story #scrollarrow {
-    display: none; }
-
-  #gebouw .story #paparkeergebouw {
-    display: none;
-    background: none; }
+    #gebouw .story {
+      width: 370px; }
+      #gebouw .story #pagerechtsgebouw {
+        display: none;
+        background: none; }
+      #gebouw .story #paparkeergebouw {
+        display: none;
+        background: none; }
+      #gebouw .story nav#gebouwnav {
+        margin-top: 150px; }
+        #gebouw .story nav#gebouwnav ul li {
+          margin: 0 30px; }
+      #gebouw .story section .tekst {
+        height: 880px; }
+      #gebouw .story section .scrollarrow {
+        display: none; }
+      #gebouw .story section#algemeen .gebouwen .tekst {
+        width: 350px;
+        padding: 0 10px; }
+      #gebouw .story section#algemeen #gerechtsgebouw {
+        height: 550px; }
 
   #fotos #flexocontainer {
     max-width: 370px; }

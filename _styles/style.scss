@@ -1426,7 +1426,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		font-size: 14px;
 		float: none;
 		margin:100px auto 0 auto;
-		width: 230px;
+		width: 240px;
 	}
 
 	#chooseLang ul{
@@ -1451,7 +1451,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 	nav#menu{
 		float: none;
-		width: 480px;
+		width: 510px;
 		top: 0;
 		left: 0;
 		margin: 20px auto;
@@ -1862,7 +1862,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	#chooseLang{
-		margin: 0 25px 15px;
+		margin: 0 15px 15px;
 		float: right;
 	}
 
@@ -1984,68 +1984,107 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		font-family: 'Myriad Pro';
 	}
 
-	nav#gebouwnav{
-		margin-top: 150px;
-
-	}
-
-	nav#gebouwnav ul{
-
-	}
-
-	nav#gebouwnav ul li{
-		margin: 0 30px;
-	}
-
-	nav#gebouwnav ul li a{
-
-	}
-
 	#gebouw{	
 		height: 1300px;
 		overflow: visible;
-	}
 
-	section#algemeen, section#architect, section#afdeling{
-		margin-top: 0px;
-	}
+		.story{
+			width: 370px;
 
-	#gebouw .story{
-		width: 370px;
-	}
+			#pagerechtsgebouw{
+				display: none;
+				background: none;
+			}
+			#paparkeergebouw{
+				display: none;
+				background: none;
+			}
 
-	#gebouw .story section{
-	}
+			nav#gebouwnav{
+				margin-top: 150px;
 
-	#gebouw .story #gerechtsgebouw{
-		height: 550px;
-	}
+				ul{
+					li{
+						margin: 0 30px;
+						a{
 
-	#gebouw .story #pagerechtsgebouw{
-		display: none;
-		background: none;
-	}
+						}
+					}
+				}
+			}
 
-	#gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
+			section{
 
-	}
+				.tekst{
+					height: 880px;
+				}
+				.scrollarrow{
+					display: none;
+				}
+				img{
 
-	#gebouw .story .tekst{
-		height: 500px;
-	}
+				}
+				&#algemeen{
 
-	#gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
-		height: 500px;
-	}
+					.gebouwen{
 
-	#gebouw .story #scrollarrow{
-		
-		display: none;
-	}
+						.tekst{
+							width: 350px;
+							padding: 0 10px;
+						}
+						.scrollarrow{
 
-	#gebouw .story #paparkeergebouw{
-		display: none;
-		background: none;
+						}
+						img{
+
+						}
+
+					}
+					#gerechtsgebouw{
+						height: 550px;
+						.tekst{
+
+						}
+						.scrollarrow{
+
+						}
+						img{
+
+						}
+
+					}
+					#parkeergebouw{
+
+						.tekst{
+
+						}
+						.scrollarrow{
+
+						}
+						img{
+
+						}
+
+					}
+
+				}	
+				&#architect{
+
+				}
+				&#afdeling{
+
+					.tekst{
+
+					}
+					.scrollarrow{
+
+					}
+					img{
+
+					}
+				}
+			}
+		}
 	}
 
 	#fotos{

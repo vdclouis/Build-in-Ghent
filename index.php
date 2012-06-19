@@ -32,7 +32,7 @@
 					<li><a href="#gebouw" title="Next Section">building</a></li>
 					<li><a href="#fotos" title="Next Section">photo's</a></li>
 					<li><a href="#praktisch" title="Next Section">practical</a></li>
-					<li><a href="#video" title="Next Section">Interview</a></li>
+					<li><a href="#video" title="Next Section">video</a></li>
 					<li><a href="#awesome-o" title="Next Section">media</a></li>
 				</ul>
 			</nav>
