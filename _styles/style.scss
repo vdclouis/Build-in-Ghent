@@ -823,10 +823,6 @@ tr:first-child td:first-child{
 	
 }
 
-#contact-form #lblName::before{
-	background: url(../../_images/contactIcons/user.png);
-}
-
 #contact-form form label{
 	padding: 10px 0px 10px 40px;
 	margin: 0;
@@ -1490,91 +1486,150 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	#home{
+		.story{
 
-	}
+			#nonshadow{
+				position: relative;
+				margin-top: 0px;
 
-	#home .story{
+				img {
+					position: relative;
+					margin: 20px auto 0 auto;	
+					top: 0;
+					left: 0;
+				}
+				h1 {
+					font-size: 8em;
+					left: 30px;
+					top: 200px;
+				}
+				h2 {
+					top: 300px;
+					left: 80px;
+				}
 
+				p {
+					top: 400px;
+					left: 70px;
+				}
+			}
+			#shadow{
+				p {
+					display: none;
+				}
+			}
+		}
 	}
 
 	#home h1, #home h2, #home p{
 
 	}
 
-	#home #nonshadow{
-		position: relative;
-		margin-top: 0px;
-	}
-
-	#home #nonshadow img {
-		position: relative;
-		margin: 20px auto 0 auto;	
-		top: 0;
-		left: 0;
-	}
-
-	#home #nonshadow h1 {
-		font-size: 8em;
-		left: 30px;
-		top: 200px;
-	}
-
-	#home #nonshadow h2 {
-		top: 300px;
-		left: 80px;
-	}
-
-	/*beter use bottom for most resolutions?*/
-	#home #nonshadow p {
-		top: 400px;
-		left: 70px;
-	}
-
-	#home .story {
-	}
-
-	#home #shadow{
-
-	}
-
-	#home #shadow p {
-		display: none;
-	}
-
-	nav#gebouwnav{
-		padding: 0px;
-		margin-top: 120px;
-	}
-
-	nav#gebouwnav ul{
-		float: left;
-	}
-
-	nav#gebouwnav ul li{
-		margin-left: 0;
-		margin: 0 49px;
-	}
-
-	nav#gebouwnav ul li a{
-
-	}
-
 	#gebouw{	
+		.story{
+			width: 480px;
 
-	}
+			#pagerechtsgebouw{
+				display: none;
+				background: none;
+			}
+			#paparkeergebouw{
+				width: 480px;
+				display: none;
+				background: none;
+			}
 
-	section#algemeen, section#architect, section#afdeling{
-		margin-top: 150px;
-	}
+			nav#gebouwnav{
+				padding: 0px;
+				margin-top: 120px;
 
-	#gebouw .story{
-		width: 480px;
-	}
+				ul{
+					float: left;
 
-	/*hammers*/
-	#gebouw .story #pagerechtsgebouw{
-		display: none;
-		background: none;
+					li{
+						margin-left: 0;
+						margin: 0 49px;
+						a{
+
+						}
+					}
+				}
+			}
+
+			section{
+				margin-top: 150px;
+
+				.tekst{
+					height: 700px;
+					text-align: left;
+				}
+				.scrollarrow{
+					display: none;
+				}
+				img{
+
+				}
+				&#algemeen{
+
+					.gebouwen{
+
+						.tekst{
+
+						}
+						.scrollarrow{
+
+						}
+						img{
+
+						}
+
+					}
+					#gerechtsgebouw{
+
+						.tekst{
+
+						}
+						.scrollarrow{
+
+						}
+						img{
+
+						}
+
+					}
+					#parkeergebouw{
+
+						.tekst{
+
+						}
+						.scrollarrow{
+
+						}
+						img{
+
+						}
+
+					}
+
+				}	
+				&#architect{
+
+				}
+				&#afdeling{
+
+					.tekst{
+
+					}
+					.scrollarrow{
+
+					}
+					img{
+
+					}
+
+				}
+			}
+		}
 	}
 
 	#gebouw .story #algemeen img, #gebouw #architect img, #gebouw #afdeling img{
@@ -1585,23 +1640,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	#gebouw .story .tekst{
 		float: none;
 		text-align: left;
-	}
-
-	#gebouw .story .tekst .main, #gebouw .story .tekst .sub, #gebouw .story .tekst .arch, #gebouw .story .tekst .afd{
-	}
-
-	#gebouw .story .scrollarrow{
-
-	}
-
-	#gebouw .story #paparkeergebouw{
-		width: 480px;
-		display: none;
-		background: none;
-	}
-
-	#fotos{
-
 	}
 
 	#fotos #flexocontainer {
@@ -1813,7 +1851,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	}
 
 	#chooseLang{
-		margin: 0 34px 15px;
+		margin: 0 25px 15px;
 		float: right;
 	}
 
@@ -1839,7 +1877,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 	nav#menu{
 		margin: 0px 0 0 0px;
-		width: 260px;
+		width: 250px;
 		float: right;
 	}
 
@@ -1873,85 +1911,66 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	#home{
 		background: url(../../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 		color: black;
-	}
 
-	#home .story{
-		overflow: hidden;
-	}
+		.story{
+				overflow: hidden;
 
-	/*#home .pahome{
-		height: 1300px;
-		margin: 0 auto;
-		padding: 0;
-		position: absolute;
-		width: 1024px;
-		z-index: 200;
-		pointer-events: none;
-	}*/
+			#nonshadow{
+				position: relative;
+				margin-top: 0;
+
+				img {
+					margin: 0;
+				/*	z-index: 50;*/
+					position: absolute;
+					top: 30px;
+					left: 20px;
+					display: block;
+					z-index: 2;
+				}
+				h1 {
+					font-size: 6em;
+					color: #888;
+					z-index: 50;
+					position: absolute;
+					margin: 0;
+					left: 40px;
+					top: 200px;
+				}
+				h2 {
+					font-size: 5em;
+					color: #555;
+					position: absolute;
+					margin: 0;
+					top: 300px;
+					left: 40px;
+					z-index: 50;
+				}
+				p {
+					top: 400px;
+					left: 40px;
+				}
+			}
+
+			#shadow{
+
+				p {
+					display: none;
+
+					&:first-child{
+
+					}
+
+					&:last-child{
+
+					}
+				}
+			}
+		}
+	}
 
 	#home h1, #home h2, #home p{
 		font-family: 'Myriad Pro';
-	}
-
-	#home #nonshadow{
-		position: relative;
-		margin-top: 0;
-	}
-
-	#home #nonshadow img {
-		margin: 0;
-	/*	z-index: 50;*/
-		position: absolute;
-		top: 30px;
-		left: 20px;
-		display: block;
-		z-index: 2;
-	}
-
-	#home #nonshadow h1 {
-		font-size: 6em;
-		color: #888;
-		z-index: 50;
-		position: absolute;
-		margin: 0;
-		left: 40px;
-		top: 200px;
-	}
-
-	#home #nonshadow h2 {
-		font-size: 5em;
-		color: #555;
-		position: absolute;
-		margin: 0;
-		top: 300px;
-		left: 40px;
-		z-index: 50;
-	}
-
-	/*beter use bottom for most resolutions?*/
-	#home #nonshadow p {
-		top: 400px;
-		left: 40px;
-	}
-
-	#home .story {
-
-	}
-
-	#home #shadow{
-
-	}
-
-	#home #shadow p {
-		display: none;
-	}
-
-	#home #shadow p:first-child{
-
-	}
-
-	#home #shadow p:last-child{
-
 	}
 
 	nav#gebouwnav{
