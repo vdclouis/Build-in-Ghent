@@ -237,7 +237,7 @@ img.logo{
 }
 
 #home{
-	background: url(../../_images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
+	background: url(../../_styles/assets/images/pa01.png) 50% 0 repeat fixed; /*home gradient*/
 	color: black;
 	height: 1300px;
 
@@ -316,7 +316,7 @@ img.logo{
 }
 
 #gebouw{	
-	background: url(../../_images/bg02c.png); /*gradient*/
+	background: url(../../_styles/assets/images/bg02c.png); /*gradient*/
 	background-repeat: repeat-x;
 	height: 1300px;
 	margin: 0 auto;
@@ -339,10 +339,10 @@ img.logo{
 			pointer-events: none;
 		}
 		#pagerechtsgebouw{
-			background: url(../../_images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
+			background: url(../../_styles/assets/images/pa02a.png) 50% 0 no-repeat fixed; /*hammers*/
 		}
 		#paparkeergebouw{
-			background: url(../../_images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
+			background: url(../../_styles/assets/images/pa02b.png) 50% 0 no-repeat fixed; /*parkingtickets*/
 		}
 
 		nav#gebouwnav{
@@ -425,7 +425,7 @@ img.logo{
 
 			}
 			.scrollarrow{
-				background: url(../../_images/down.png);  /*downarrow*/
+				background: url(../../_styles/assets/images/down.png);  /*downarrow*/
 				background-position: center;
 				background-repeat: no-repeat;
 				height: 50px;
@@ -447,7 +447,7 @@ img.logo{
 }
 
 #fotos{
-	background: url(../../_images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
+	background: url(../../_styles/assets/images/bg03.png) 50% 0 repeat fixed; /*wood texture*/
 	color: white;
 	height: 1300px;
 	padding: 0px 0 0 0;	
@@ -457,7 +457,7 @@ img.logo{
 		height: 1000px;
 
 		.pafotos{
-			background: url(../../_images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
+			background: url(../../_styles/assets/images/pa03.png) 50% 0 no-repeat fixed; /*filmrol*/
 			height: 1300px;
 			margin: 0 auto;
 			padding: 0;
@@ -476,7 +476,7 @@ img.logo{
 }
 
 #praktisch{
-	background: url(../../_images/bg04.png) repeat fixed; /*tiles texture*/
+	background: url(../../_styles/assets/images/bg04.png) repeat fixed; /*tiles texture*/
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -507,7 +507,7 @@ img.logo{
 }
 
 #praktisch .papraktisch{
-	background: url(../../_images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
+	background: url(../../_styles/assets/images/pa04.png) 50% 0 no-repeat fixed; /*gps*/
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -535,7 +535,7 @@ img.logo{
 }
 
 #praktisch .praktisch .praktischbox{
-	background: url(../../_images/project_papper.png);
+	background: url(../../_styles/assets/images/bgpraktischbox.png);
 	width: 665px;
 	padding: 20px 20px 20px 20px;
 	margin: 150px auto 0 auto;	
@@ -565,7 +565,7 @@ img.logo{
 }
 
 #video{
-	background: url(../../_images/bg05.jpg) repeat fixed; /*tiles texture*/
+	background: url(../../_styles/assets/images/bg05.jpg) repeat fixed; /*tiles texture*/
 	background-size: 1440px;
 	color: white;
 	height: 1300px;
@@ -588,7 +588,7 @@ img.logo{
 }
 
 #video .pavideo{
-	background: url(../../_images/pa05.png) 50% 0 no-repeat fixed;
+	background: url(../../_styles/assets/images/pa05.png) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -599,7 +599,7 @@ img.logo{
 }
 
 #awesome-o{
-	background: url(../../_images/fabric_plaid.png); /*fabric-texture*/
+	background: url(../../_styles/assets/images/bg06.png); /*fabric-texture*/
 	height: 1300px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -609,7 +609,7 @@ img.logo{
 }
 
 #awesome-o .panieuws{
-	background: url(../../_images/pa06.png) 50% 0 fixed; /*newspapers*/
+	background: url(../../_styles/assets/images/pa06.png) 50% 0 fixed; /*newspapers*/
 	background-repeat: no-repeat;
 	height: 1300px;
 	margin: 0 auto;
