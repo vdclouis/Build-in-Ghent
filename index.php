@@ -322,7 +322,7 @@
 	<!--custom made effects-->
 		<script type="text/javascript" src="_js/effects.js" ></script>
 	<!--php form-->
-<!--		<script src="_js/contactformplugins.js"></script>
+		<!--<script src="_js/contactformplugins.js"></script>
 		<script src="_js/contactformscript.js"></script>-->
 	</body>
 </html>

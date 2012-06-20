@@ -1,2 +1,0 @@
-return false, bij onclick function?
-php contact form?
