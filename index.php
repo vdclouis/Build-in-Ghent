@@ -21,9 +21,9 @@
 		<div id="mainmenu">
 			<nav id="chooseLang">
 				<ul>
-					<li id="nl"><a onclick="setLanguageFromLink(this);" href="index.html" class="nl">nederlands</a></li>
-					<li id="en"><a onclick="setLanguageFromLink(this);" href="index.html" class="en">english</a></li>
-					<li id="fr"><a onclick="setLanguageFromLink(this);" href="index.html" class="fr">français</a></li>
+					<li id="nl"><a onclick="setLanguageFromLink(this);" href="index.php" class="nl">nederlands</a></li>
+					<li id="en"><a onclick="setLanguageFromLink(this);" href="index.php" class="en">english</a></li>
+					<li id="fr"><a onclick="setLanguageFromLink(this);" href="index.php" class="fr">français</a></li>
 				</ul>
 			</nav>
 			<nav id="menu">
@@ -70,7 +70,7 @@
 							<div class="text"></div>
 						</div>
 						<div class="scrollarrow"></div>
-						<img src="_images/bg02a.png" alt="gerechtsgebouw" />
+						<img src="_styles/assets/images/bg02a.png" alt="gerechtsgebouw" />
 					</div>
 					<div class="gebouwen" id="parkeergebouw">	
 						<div class="tekst" id="tekstparkeergebouw">
@@ -78,7 +78,7 @@
 							<div class="text"></div>
 						</div>
 						<div class="scrollarrow"></div>
-						<img src="_images/bg02b.png" alt="parkeergebouw" />
+						<img src="_styles/assets/images/bg02b.png" alt="parkeergebouw" />
 					</div>
 					<div id="gebouwennav">
 						<div class="bullet leftbullet">
@@ -90,14 +90,14 @@
 					</div>
 				</section>
 				<section id="architect">
-					<img src="_images/bg02a.png" alt="gerechtsgebouw" />
+					<img src="_styles/assets/images/bg02a.png" alt="gerechtsgebouw" />
 					<div class="tekst">
 						<div class="arch"></div>
 					</div>
 					<div class="scrollarrow"></div>
 				</section>
 				<section id="afdeling">
-					<img src="_images/bg02a.png" alt="gerechtsgebouw" />
+					<img src="_styles/assets/images/bg02a.png" alt="gerechtsgebouw" />
 					<div class="tekst">
 						<div class="afd"></div>
 					</div>
@@ -205,7 +205,6 @@
 					        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
 					    </form>
 					    <?php unset($_SESSION['cf_returndata']); ?>
-
 					</div>
 				</section>
 			</div> <!--.story-->
@@ -214,7 +213,7 @@
 			<div class="story">
 				<img class="logo" src="_images/logo01.png" alt="logo" />
 				<div class="pavideo"></div>
-				<a class="various fancybox.iframe" href="http://player.vimeo.com/video/40165286"><img id="playb" src="_images/play.png" alt="play" /></a>
+				<a class="various fancybox.iframe" href="http://player.vimeo.com/video/40165286"><img id="playb" src="_styles/assets/images/play.png" alt="play" /></a>
 			</div> <!--.story-->
 		</div> <!--#video-->
 		<div id="awesome-o">
@@ -233,13 +232,13 @@
 		</div> <!--#awesome-o-->
 		<div id="contact" class="contactsmall">
 			<div id="contactup">
-				<img src="_images/uparrow.png" alt="arrow" />
+				<img src="_styles/assets/images/uparrow.png" alt="arrow" />
 				<p>contact</p>
 			</div>
 			<div id="contactinfo">
 				<section id="contactmenu">
 					<div id="collapse">
-						<img src="_images/downarrow.png" alt="arrow" />
+						<img src="_styles/assets/images/downarrow.png" alt="arrow" />
 						<p>hide</p>
 					</div>
 					<div id="more">
